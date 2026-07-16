@@ -63,6 +63,7 @@ namespace GUI
             this.loginpanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(40)))));
             this.loginpanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.loginpanel.Controls.Add(this.LTCTYA);
+            this.loginpanel.Controls.Add(this.icon);
             this.loginpanel.Controls.Add(this.welcome);
             this.loginpanel.Controls.Add(this.pIcon);
             this.loginpanel.Controls.Add(this.uIcon);
@@ -73,7 +74,6 @@ namespace GUI
             this.loginpanel.Controls.Add(this.Login_btn);
             this.loginpanel.Controls.Add(this.password);
             this.loginpanel.Controls.Add(this.username);
-            this.loginpanel.Controls.Add(this.icon);
             this.loginpanel.Location = new System.Drawing.Point(441, 0);
             this.loginpanel.Name = "loginpanel";
             this.loginpanel.Size = new System.Drawing.Size(417, 657);
@@ -82,14 +82,14 @@ namespace GUI
             // 
             // LTCTYA
             // 
-            this.LTCTYA.BackColor = System.Drawing.Color.FromArgb(26, 24, 40);
+            this.LTCTYA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(40)))));
             this.LTCTYA.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.LTCTYA.ForeColor = System.Drawing.Color.FromArgb(170, 168, 190);
             this.LTCTYA.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.LTCTYA.ReadOnly = true;
-            this.LTCTYA.Location = new System.Drawing.Point(127, 301);
+            this.LTCTYA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(168)))), ((int)(((byte)(190)))));
+            this.LTCTYA.Location = new System.Drawing.Point(122, 273);
             this.LTCTYA.Name = "LTCTYA";
-            this.LTCTYA.Size = new System.Drawing.Size(166, 20);
+            this.LTCTYA.ReadOnly = true;
+            this.LTCTYA.Size = new System.Drawing.Size(183, 16);
             this.LTCTYA.TabIndex = 11;
             this.LTCTYA.Text = "Login to continue to your account";
             this.LTCTYA.TextChanged += new System.EventHandler(this.LTCTYA_TextChanged);
@@ -98,15 +98,14 @@ namespace GUI
             // 
             this.welcome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(40)))));
             this.welcome.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.welcome.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold);
-            this.welcome.ForeColor = System.Drawing.Color.White;
-            this.welcome.Location = new System.Drawing.Point(123, 254);
+            this.welcome.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcome.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(91)))), ((int)(((byte)(255)))));
+            this.welcome.Location = new System.Drawing.Point(107, 228);
             this.welcome.Name = "welcome";
-            this.welcome.Size = new System.Drawing.Size(187, 32);
+            this.welcome.Size = new System.Drawing.Size(217, 39);
             this.welcome.TabIndex = 10;
             this.welcome.Text = "Welcome Back!";
             this.welcome.TextChanged += new System.EventHandler(this.welcome_TextChanged);
-            this.LTCTYA.ReadOnly = true;
             // 
             // pIcon
             // 
@@ -134,12 +133,13 @@ namespace GUI
             this.forgot_pass.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.forgot_pass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.forgot_pass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(124)))), ((int)(((byte)(255)))));
-            this.forgot_pass.Location = new System.Drawing.Point(242, 450);
+            this.forgot_pass.Location = new System.Drawing.Point(217, 438);
             this.forgot_pass.Name = "forgot_pass";
-            this.forgot_pass.Size = new System.Drawing.Size(98, 26);
+            this.forgot_pass.Size = new System.Drawing.Size(123, 26);
             this.forgot_pass.TabIndex = 7;
             this.forgot_pass.Text = "Forgot Password";
             this.forgot_pass.UseVisualStyleBackColor = false;
+            this.forgot_pass.Click += new System.EventHandler(this.forgot_pass_Click);
             // 
             // rememberme
             // 
@@ -147,7 +147,7 @@ namespace GUI
             this.rememberme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(40)))));
             this.rememberme.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.rememberme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(188)))), ((int)(((byte)(205)))));
-            this.rememberme.Location = new System.Drawing.Point(77, 450);
+            this.rememberme.Location = new System.Drawing.Point(107, 443);
             this.rememberme.Name = "rememberme";
             this.rememberme.Size = new System.Drawing.Size(104, 19);
             this.rememberme.TabIndex = 6;
@@ -163,7 +163,7 @@ namespace GUI
             this.signup_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.signup_btn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.signup_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(139)))), ((int)(((byte)(124)))), ((int)(((byte)(255)))));
-            this.signup_btn.Location = new System.Drawing.Point(242, 540);
+            this.signup_btn.Location = new System.Drawing.Point(220, 546);
             this.signup_btn.Name = "signup_btn";
             this.signup_btn.Size = new System.Drawing.Size(73, 29);
             this.signup_btn.TabIndex = 5;
@@ -178,7 +178,7 @@ namespace GUI
             this.account_question.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.account_question.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.account_question.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(170)))), ((int)(((byte)(168)))), ((int)(((byte)(190)))));
-            this.account_question.Location = new System.Drawing.Point(107, 540);
+            this.account_question.Location = new System.Drawing.Point(107, 553);
             this.account_question.Name = "account_question";
             this.account_question.ReadOnly = true;
             this.account_question.Size = new System.Drawing.Size(117, 16);
@@ -211,7 +211,6 @@ namespace GUI
             this.password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(188)))), ((int)(((byte)(205)))));
             this.password.Location = new System.Drawing.Point(107, 396);
             this.password.Name = "password";
-            this.password.ReadOnly = true;
             this.password.Size = new System.Drawing.Size(233, 36);
             this.password.TabIndex = 2;
             this.password.Text = "Password";
@@ -235,9 +234,9 @@ namespace GUI
             this.icon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(24)))), ((int)(((byte)(40)))));
             this.icon.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.User_Icon;
             this.icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.icon.Location = new System.Drawing.Point(123, 73);
+            this.icon.Location = new System.Drawing.Point(122, 61);
             this.icon.Name = "icon";
-            this.icon.Size = new System.Drawing.Size(170, 161);
+            this.icon.Size = new System.Drawing.Size(183, 161);
             this.icon.TabIndex = 0;
             this.icon.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 

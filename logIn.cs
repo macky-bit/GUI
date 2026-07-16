@@ -76,5 +76,10 @@ namespace GUI
         {
 
         }
+
+        private void forgot_pass_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
