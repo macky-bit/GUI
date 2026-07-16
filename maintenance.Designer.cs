@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class register
+    partial class logIn
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // register
+            // logIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "register";
+            this.Name = "logIn";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.register_Load);
+            this.Load += new System.EventHandler(this.logIn_Load);
             this.ResumeLayout(false);
 
         }

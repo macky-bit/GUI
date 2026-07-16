@@ -8,16 +8,71 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace GUI
 {
-    public partial class logIn : Form
+    public partial class Dashboard : Form
     {
-        public logIn()
+        public Dashboard()
         {
             InitializeComponent();
         }
 
-        private void logIn_Load(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void signup_btn_MouseClick(object sender, MouseEventArgs e)
+        {
+
+        }
+
+        private void LTCTYA_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void welcome_TextChanged(object sender, EventArgs e)
         {
 
         }

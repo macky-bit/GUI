@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class register : Form
+    public partial class logIn : Form
     {
-        public register()
+        public logIn()
         {
             InitializeComponent();
         }
 
-        private void register_Load(object sender, EventArgs e)
+        private void logIn_Load(object sender, EventArgs e)
         {
 
         }
