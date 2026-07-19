@@ -63,9 +63,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Copy_of_Password_eye_Icon {
+        internal static System.Drawing.Bitmap dmmsu_logo__1_ {
             get {
-                object obj = ResourceManager.GetObject("Copy of Password eye Icon", resourceCulture);
+                object obj = ResourceManager.GetObject("dmmsu_logo (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dots {
+        internal static System.Drawing.Bitmap dmmsu1 {
             get {
-                object obj = ResourceManager.GetObject("dots", resourceCulture);
+                object obj = ResourceManager.GetObject("dmmsu1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,29 +83,9 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap dotss {
+        internal static System.Drawing.Bitmap transparent_bg {
             get {
-                object obj = ResourceManager.GetObject("dotss", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Password_eye_Icon {
-            get {
-                object obj = ResourceManager.GetObject("Password eye Icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Password_Icon {
-            get {
-                object obj = ResourceManager.GetObject("Password Icon", resourceCulture);
+                object obj = ResourceManager.GetObject("transparent_bg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

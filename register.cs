@@ -66,5 +66,20 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void title_pan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void moto_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dmmsu_logo_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
