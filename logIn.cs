@@ -96,5 +96,15 @@ namespace GUI
         {
 
         }
+
+        private void password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Title_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
