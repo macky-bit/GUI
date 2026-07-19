@@ -81,5 +81,20 @@ namespace GUI
         {
 
         }
+
+        private void textBox1_TextChanged_3(object sender, EventArgs e)
+        {
+
+        }
+
+        private void signup_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dots_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
