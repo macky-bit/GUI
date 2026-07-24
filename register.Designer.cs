@@ -29,9 +29,7 @@
         private void InitializeComponent()
         {
             this.title_pan = new System.Windows.Forms.Panel();
-            this.dmmsu_logo = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.moto = new System.Windows.Forms.TextBox();
+            this.logo = new System.Windows.Forms.Panel();
             this.loginpanel = new System.Windows.Forms.Panel();
             this.login = new System.Windows.Forms.Panel();
             this.cancel_btn = new System.Windows.Forms.Button();
@@ -48,6 +46,7 @@
             this.register_question = new System.Windows.Forms.TextBox();
             this.createaccbaba = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.Title = new System.Windows.Forms.Panel();
             this.title_pan.SuspendLayout();
             this.loginpanel.SuspendLayout();
             this.login.SuspendLayout();
@@ -58,9 +57,8 @@
             this.title_pan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
             this.title_pan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.dmmsu1;
             this.title_pan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.title_pan.Controls.Add(this.dmmsu_logo);
-            this.title_pan.Controls.Add(this.textBox3);
-            this.title_pan.Controls.Add(this.moto);
+            this.title_pan.Controls.Add(this.Title);
+            this.title_pan.Controls.Add(this.logo);
             this.title_pan.Controls.Add(this.loginpanel);
             this.title_pan.Location = new System.Drawing.Point(1, -1);
             this.title_pan.Name = "title_pan";
@@ -68,49 +66,21 @@
             this.title_pan.TabIndex = 2;
             this.title_pan.Paint += new System.Windows.Forms.PaintEventHandler(this.title_pan_Paint);
             // 
-            // dmmsu_logo
+            // logo
             // 
-            this.dmmsu_logo.BackColor = System.Drawing.Color.Transparent;
-            this.dmmsu_logo.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.dmmsu_logo__1_;
-            this.dmmsu_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.dmmsu_logo.Location = new System.Drawing.Point(134, 104);
-            this.dmmsu_logo.Name = "dmmsu_logo";
-            this.dmmsu_logo.Size = new System.Drawing.Size(198, 198);
-            this.dmmsu_logo.TabIndex = 17;
-            this.dmmsu_logo.Paint += new System.Windows.Forms.PaintEventHandler(this.dmmsu_logo_Paint);
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI Black", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(225)))), ((int)(((byte)(177)))));
-            this.textBox3.Location = new System.Drawing.Point(94, 583);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(273, 40);
-            this.textBox3.TabIndex = 16;
-            this.textBox3.Text = "Collage shit";
-            this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // moto
-            // 
-            this.moto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
-            this.moto.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.moto.Font = new System.Drawing.Font("Segoe UI Black", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.moto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(225)))), ((int)(((byte)(177)))));
-            this.moto.Location = new System.Drawing.Point(94, 520);
-            this.moto.Name = "moto";
-            this.moto.Size = new System.Drawing.Size(273, 40);
-            this.moto.TabIndex = 15;
-            this.moto.Text = "Collage shit";
-            this.moto.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.moto.TextChanged += new System.EventHandler(this.moto_TextChanged);
+            this.logo.BackColor = System.Drawing.Color.Transparent;
+            this.logo.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.dmmsu_logo__1_;
+            this.logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.logo.Location = new System.Drawing.Point(104, 73);
+            this.logo.Margin = new System.Windows.Forms.Padding(2);
+            this.logo.Name = "logo";
+            this.logo.Size = new System.Drawing.Size(262, 246);
+            this.logo.TabIndex = 18;
             // 
             // loginpanel
             // 
             this.loginpanel.BackColor = System.Drawing.Color.Transparent;
-            this.loginpanel.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.transparent_bg;
-            this.loginpanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.loginpanel.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._123;
             this.loginpanel.Controls.Add(this.login);
             this.loginpanel.Controls.Add(this.flowLayoutPanel1);
             this.loginpanel.Location = new System.Drawing.Point(468, 0);
@@ -322,6 +292,15 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(368, 596);
             this.flowLayoutPanel1.TabIndex = 19;
             // 
+            // Title
+            // 
+            this.Title.BackColor = System.Drawing.Color.Transparent;
+            this.Title.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._2;
+            this.Title.Location = new System.Drawing.Point(59, 326);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(403, 51);
+            this.Title.TabIndex = 20;
+            // 
             // register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -332,7 +311,6 @@
             this.Name = "register";
             this.Text = "Form1";
             this.title_pan.ResumeLayout(false);
-            this.title_pan.PerformLayout();
             this.loginpanel.ResumeLayout(false);
             this.login.ResumeLayout(false);
             this.login.PerformLayout();
@@ -359,8 +337,7 @@
         private System.Windows.Forms.Button cancel_btn;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox moto;
-        private System.Windows.Forms.Panel dmmsu_logo;
+        private System.Windows.Forms.Panel logo;
+        private System.Windows.Forms.Panel Title;
     }
 }
