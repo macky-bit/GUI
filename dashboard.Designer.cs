@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class dashboard
+    partial class shwpanBtn
     {
         /// <summary>
         /// Required designer variable.
@@ -28,68 +28,262 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.navbar = new System.Windows.Forms.Panel();
+            this.components = new System.ComponentModel.Container();
+            this.sidebar = new System.Windows.Forms.Panel();
             this.slidebar = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnpan = new System.Windows.Forms.Panel();
-            this.shwpanBtn = new System.Windows.Forms.Button();
-            this.btnpan.SuspendLayout();
+            this.btnpan1 = new System.Windows.Forms.Panel();
+            this.dashboardbtn = new System.Windows.Forms.Button();
+            this.btnpan2 = new System.Windows.Forms.Panel();
+            this.myReqbtn = new System.Windows.Forms.Button();
+            this.btnpan3 = new System.Windows.Forms.Panel();
+            this.newReqbtn = new System.Windows.Forms.Button();
+            this.btnpan4 = new System.Windows.Forms.Panel();
+            this.profilebtn = new System.Windows.Forms.Button();
+            this.btnpan5 = new System.Windows.Forms.Panel();
+            this.logoutbtn = new System.Windows.Forms.Button();
+            this.sidebarTransition = new System.Windows.Forms.Timer(this.components);
+            this.sidepanbtn = new System.Windows.Forms.Panel();
+            this.sidebarbtn = new System.Windows.Forms.Button();
+            this.btnHam = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.sidebar.SuspendLayout();
+            this.slidebar.SuspendLayout();
+            this.btnpan1.SuspendLayout();
+            this.btnpan2.SuspendLayout();
+            this.btnpan3.SuspendLayout();
+            this.btnpan4.SuspendLayout();
+            this.btnpan5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnHam)).BeginInit();
             this.SuspendLayout();
             // 
-            // navbar
+            // sidebar
             // 
-            this.navbar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.navbar.Location = new System.Drawing.Point(0, 0);
-            this.navbar.Name = "navbar";
-            this.navbar.Size = new System.Drawing.Size(962, 72);
-            this.navbar.TabIndex = 0;
+            this.sidebar.Controls.Add(this.btnHam);
+            this.sidebar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.sidebar.Location = new System.Drawing.Point(0, 0);
+            this.sidebar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sidebar.Name = "sidebar";
+            this.sidebar.Size = new System.Drawing.Size(1283, 89);
+            this.sidebar.TabIndex = 0;
             // 
             // slidebar
             // 
-            this.slidebar.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.slidebar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
+            this.slidebar.Controls.Add(this.flowLayoutPanel1);
+            this.slidebar.Controls.Add(this.btnpan1);
+            this.slidebar.Controls.Add(this.btnpan2);
+            this.slidebar.Controls.Add(this.btnpan3);
+            this.slidebar.Controls.Add(this.btnpan4);
+            this.slidebar.Controls.Add(this.btnpan5);
             this.slidebar.Dock = System.Windows.Forms.DockStyle.Left;
-            this.slidebar.Location = new System.Drawing.Point(0, 72);
+            this.slidebar.Location = new System.Drawing.Point(0, 89);
+            this.slidebar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.slidebar.Name = "slidebar";
-            this.slidebar.Size = new System.Drawing.Size(205, 621);
+            this.slidebar.Padding = new System.Windows.Forms.Padding(0, 30, 0, 0);
+            this.slidebar.Size = new System.Drawing.Size(273, 764);
             this.slidebar.TabIndex = 1;
             // 
-            // btnpan
+            // btnpan1
             // 
-            this.btnpan.Controls.Add(this.shwpanBtn);
-            this.btnpan.Location = new System.Drawing.Point(352, 160);
-            this.btnpan.Name = "btnpan";
-            this.btnpan.Size = new System.Drawing.Size(97, 37);
-            this.btnpan.TabIndex = 2;
-            this.btnpan.Paint += new System.Windows.Forms.PaintEventHandler(this.btnpan_Paint);
+            this.btnpan1.Controls.Add(this.dashboardbtn);
+            this.btnpan1.Location = new System.Drawing.Point(4, 225);
+            this.btnpan1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnpan1.Name = "btnpan1";
+            this.btnpan1.Size = new System.Drawing.Size(269, 59);
+            this.btnpan1.TabIndex = 2;
+            this.btnpan1.Paint += new System.Windows.Forms.PaintEventHandler(this.btnpan_Paint);
+            // 
+            // dashboardbtn
+            // 
+            this.dashboardbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(109)))), ((int)(((byte)(41)))));
+            this.dashboardbtn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashboardbtn.ForeColor = System.Drawing.Color.Transparent;
+            this.dashboardbtn.Location = new System.Drawing.Point(-16, -13);
+            this.dashboardbtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dashboardbtn.Name = "dashboardbtn";
+            this.dashboardbtn.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.dashboardbtn.Size = new System.Drawing.Size(295, 85);
+            this.dashboardbtn.TabIndex = 3;
+            this.dashboardbtn.Text = "                    Dashboard";
+            this.dashboardbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.dashboardbtn.UseVisualStyleBackColor = false;
+            // 
+            // btnpan2
+            // 
+            this.btnpan2.Controls.Add(this.myReqbtn);
+            this.btnpan2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpan2.Location = new System.Drawing.Point(4, 292);
+            this.btnpan2.Margin = new System.Windows.Forms.Padding(4);
+            this.btnpan2.Name = "btnpan2";
+            this.btnpan2.Size = new System.Drawing.Size(269, 59);
+            this.btnpan2.TabIndex = 4;
+            // 
+            // myReqbtn
+            // 
+            this.myReqbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(109)))), ((int)(((byte)(41)))));
+            this.myReqbtn.ForeColor = System.Drawing.Color.Transparent;
+            this.myReqbtn.Location = new System.Drawing.Point(-16, -13);
+            this.myReqbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.myReqbtn.Name = "myReqbtn";
+            this.myReqbtn.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.myReqbtn.Size = new System.Drawing.Size(295, 85);
+            this.myReqbtn.TabIndex = 3;
+            this.myReqbtn.Text = "                    My Request";
+            this.myReqbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.myReqbtn.UseVisualStyleBackColor = false;
+            // 
+            // btnpan3
+            // 
+            this.btnpan3.Controls.Add(this.newReqbtn);
+            this.btnpan3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpan3.Location = new System.Drawing.Point(4, 359);
+            this.btnpan3.Margin = new System.Windows.Forms.Padding(4);
+            this.btnpan3.Name = "btnpan3";
+            this.btnpan3.Size = new System.Drawing.Size(269, 59);
+            this.btnpan3.TabIndex = 5;
+            // 
+            // newReqbtn
+            // 
+            this.newReqbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(109)))), ((int)(((byte)(41)))));
+            this.newReqbtn.ForeColor = System.Drawing.Color.Transparent;
+            this.newReqbtn.Location = new System.Drawing.Point(-16, -13);
+            this.newReqbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.newReqbtn.Name = "newReqbtn";
+            this.newReqbtn.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.newReqbtn.Size = new System.Drawing.Size(295, 85);
+            this.newReqbtn.TabIndex = 3;
+            this.newReqbtn.Text = "                    New Request";
+            this.newReqbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.newReqbtn.UseVisualStyleBackColor = false;
+            // 
+            // btnpan4
+            // 
+            this.btnpan4.Controls.Add(this.profilebtn);
+            this.btnpan4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpan4.Location = new System.Drawing.Point(4, 426);
+            this.btnpan4.Margin = new System.Windows.Forms.Padding(4);
+            this.btnpan4.Name = "btnpan4";
+            this.btnpan4.Size = new System.Drawing.Size(269, 59);
+            this.btnpan4.TabIndex = 5;
+            // 
+            // profilebtn
+            // 
+            this.profilebtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(109)))), ((int)(((byte)(41)))));
+            this.profilebtn.ForeColor = System.Drawing.Color.Transparent;
+            this.profilebtn.Location = new System.Drawing.Point(-16, -13);
+            this.profilebtn.Margin = new System.Windows.Forms.Padding(4);
+            this.profilebtn.Name = "profilebtn";
+            this.profilebtn.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.profilebtn.Size = new System.Drawing.Size(295, 85);
+            this.profilebtn.TabIndex = 3;
+            this.profilebtn.Text = "                    Profile";
+            this.profilebtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.profilebtn.UseVisualStyleBackColor = false;
+            // 
+            // btnpan5
+            // 
+            this.btnpan5.Controls.Add(this.logoutbtn);
+            this.btnpan5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnpan5.Location = new System.Drawing.Point(4, 493);
+            this.btnpan5.Margin = new System.Windows.Forms.Padding(4);
+            this.btnpan5.Name = "btnpan5";
+            this.btnpan5.Size = new System.Drawing.Size(269, 59);
+            this.btnpan5.TabIndex = 5;
+            // 
+            // logoutbtn
+            // 
+            this.logoutbtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(109)))), ((int)(((byte)(41)))));
+            this.logoutbtn.ForeColor = System.Drawing.Color.Transparent;
+            this.logoutbtn.Location = new System.Drawing.Point(-16, -13);
+            this.logoutbtn.Margin = new System.Windows.Forms.Padding(4);
+            this.logoutbtn.Name = "logoutbtn";
+            this.logoutbtn.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.logoutbtn.Size = new System.Drawing.Size(295, 85);
+            this.logoutbtn.TabIndex = 3;
+            this.logoutbtn.Text = "                    Logout";
+            this.logoutbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.logoutbtn.UseVisualStyleBackColor = false;
+            // 
+            // sidebarTransition
+            // 
+            this.sidebarTransition.Interval = 10;
+            this.sidebarTransition.Tick += new System.EventHandler(this.sidebarTransition_Tick);
+            // 
+            // sidepanbtn
+            // 
+            this.sidepanbtn.Location = new System.Drawing.Point(369, 202);
+            this.sidepanbtn.Name = "sidepanbtn";
+            this.sidepanbtn.Size = new System.Drawing.Size(0, 0);
+            this.sidepanbtn.TabIndex = 6;
+            // 
+            // sidebarbtn
+            // 
+            this.sidebarbtn.Location = new System.Drawing.Point(359, 138);
+            this.sidebarbtn.Name = "sidebarbtn";
+            this.sidebarbtn.Size = new System.Drawing.Size(0, 0);
+            this.sidebarbtn.TabIndex = 7;
+            this.sidebarbtn.Text = "button1";
+            this.sidebarbtn.UseVisualStyleBackColor = true;
+            // 
+            // btnHam
+            // 
+            this.btnHam.Location = new System.Drawing.Point(12, 7);
+            this.btnHam.Name = "btnHam";
+            this.btnHam.Size = new System.Drawing.Size(75, 75);
+            this.btnHam.TabIndex = 8;
+            this.btnHam.TabStop = false;
+            this.btnHam.Click += new System.EventHandler(this.btnHam_Click);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(109)))), ((int)(((byte)(41)))));
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(3, 33);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(270, 185);
+            this.flowLayoutPanel1.TabIndex = 8;
             // 
             // shwpanBtn
             // 
-            this.shwpanBtn.Location = new System.Drawing.Point(-27, 0);
-            this.shwpanBtn.Name = "shwpanBtn";
-            this.shwpanBtn.Size = new System.Drawing.Size(152, 37);
-            this.shwpanBtn.TabIndex = 3;
-            this.shwpanBtn.Text = "button1";
-            this.shwpanBtn.UseVisualStyleBackColor = true;
-            // 
-            // dashboard
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(962, 693);
-            this.Controls.Add(this.btnpan);
+            this.ClientSize = new System.Drawing.Size(1283, 853);
+            this.Controls.Add(this.sidepanbtn);
+            this.Controls.Add(this.sidebarbtn);
             this.Controls.Add(this.slidebar);
-            this.Controls.Add(this.navbar);
-            this.Name = "dashboard";
-            this.Text = "dashboard";
-            this.btnpan.ResumeLayout(false);
+            this.Controls.Add(this.sidebar);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "shwpanBtn";
+            this.Load += new System.EventHandler(this.shwpanBtn_Load);
+            this.sidebar.ResumeLayout(false);
+            this.slidebar.ResumeLayout(false);
+            this.btnpan1.ResumeLayout(false);
+            this.btnpan2.ResumeLayout(false);
+            this.btnpan3.ResumeLayout(false);
+            this.btnpan4.ResumeLayout(false);
+            this.btnpan5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.btnHam)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel navbar;
+        private System.Windows.Forms.Panel sidebar;
         private System.Windows.Forms.FlowLayoutPanel slidebar;
-        private System.Windows.Forms.Panel btnpan;
-        private System.Windows.Forms.Button shwpanBtn;
+        private System.Windows.Forms.Panel btnpan1;
+        private System.Windows.Forms.Button dashboardbtn;
+        private System.Windows.Forms.Panel btnpan2;
+        private System.Windows.Forms.Button myReqbtn;
+        private System.Windows.Forms.Panel btnpan3;
+        private System.Windows.Forms.Button newReqbtn;
+        private System.Windows.Forms.Panel btnpan4;
+        private System.Windows.Forms.Button profilebtn;
+        private System.Windows.Forms.Panel btnpan5;
+        private System.Windows.Forms.Button logoutbtn;
+        private System.Windows.Forms.Panel sidepanbtn;
+        private System.Windows.Forms.Button sidebarbtn;
+        private System.Windows.Forms.Timer sidebarTransition;
+        private System.Windows.Forms.PictureBox btnHam;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
     }
 }
