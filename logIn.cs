@@ -12,7 +12,7 @@ namespace GUI
 {
     public partial class login : Form
     {
-        public Dashboard()
+        public logIn()
         {
             InitializeComponent();
         }
