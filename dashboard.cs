@@ -16,5 +16,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void btnpan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
