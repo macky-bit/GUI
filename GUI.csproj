@@ -151,5 +151,26 @@
   <ItemGroup>
     <None Include="Resources\2.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\request_computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\request_file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\request_flag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\request_options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\request_location.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\request_information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\request_decription.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
