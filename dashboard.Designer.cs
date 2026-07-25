@@ -46,26 +46,23 @@
             this.sidebarTransition = new System.Windows.Forms.Timer(this.components);
             this.sidepanbtn = new System.Windows.Forms.Panel();
             this.sidebarbtn = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
             this.can = new System.Windows.Forms.Button();
             this.canTxt = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.com = new System.Windows.Forms.Button();
             this.Comtxt = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.inProg = new System.Windows.Forms.Button();
             this.inProgTxt = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.myReqPan = new System.Windows.Forms.Panel();
             this.viewReq = new System.Windows.Forms.Button();
             this.myReqTxt = new System.Windows.Forms.TextBox();
             this.myReqIcon = new System.Windows.Forms.Panel();
+            this.basePan = new System.Windows.Forms.Panel();
             this.sidebar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnHam)).BeginInit();
             this.slidebar.SuspendLayout();
@@ -74,11 +71,11 @@
             this.btnpan3.SuspendLayout();
             this.btnpan4.SuspendLayout();
             this.btnpan5.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
             this.myReqPan.SuspendLayout();
+            this.basePan.SuspendLayout();
             this.SuspendLayout();
             // 
             // sidebar
@@ -93,7 +90,7 @@
             // btnHam
             // 
             this.btnHam.Location = new System.Drawing.Point(9, 6);
-            this.btnHam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHam.Margin = new System.Windows.Forms.Padding(2);
             this.btnHam.Name = "btnHam";
             this.btnHam.Size = new System.Drawing.Size(56, 61);
             this.btnHam.TabIndex = 8;
@@ -119,7 +116,7 @@
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(122)))), ((int)(((byte)(58)))));
             this.flowLayoutPanel1.Location = new System.Drawing.Point(2, 26);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(202, 150);
             this.flowLayoutPanel1.TabIndex = 8;
@@ -245,7 +242,7 @@
             // sidepanbtn
             // 
             this.sidepanbtn.Location = new System.Drawing.Point(277, 164);
-            this.sidepanbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.sidepanbtn.Margin = new System.Windows.Forms.Padding(2);
             this.sidepanbtn.Name = "sidepanbtn";
             this.sidepanbtn.Size = new System.Drawing.Size(0, 0);
             this.sidepanbtn.TabIndex = 6;
@@ -253,35 +250,20 @@
             // sidebarbtn
             // 
             this.sidebarbtn.Location = new System.Drawing.Point(269, 112);
-            this.sidebarbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.sidebarbtn.Margin = new System.Windows.Forms.Padding(2);
             this.sidebarbtn.Name = "sidebarbtn";
             this.sidebarbtn.Size = new System.Drawing.Size(0, 0);
             this.sidebarbtn.TabIndex = 7;
             this.sidebarbtn.Text = "button1";
             this.sidebarbtn.UseVisualStyleBackColor = true;
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.panel6);
-            this.panel1.Controls.Add(this.flowLayoutPanel3);
-            this.panel1.Controls.Add(this.panel4);
-            this.panel1.Controls.Add(this.flowLayoutPanel2);
-            this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.flowLayoutPanel5);
-            this.panel1.Controls.Add(this.myReqPan);
-            this.panel1.Location = new System.Drawing.Point(220, 99);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(727, 150);
-            this.panel1.TabIndex = 8;
-            // 
             // panel6
             // 
             this.panel6.Controls.Add(this.can);
             this.panel6.Controls.Add(this.canTxt);
             this.panel6.Controls.Add(this.panel7);
-            this.panel6.Location = new System.Drawing.Point(547, 2);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Location = new System.Drawing.Point(549, 11);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(178, 145);
             this.panel6.TabIndex = 12;
@@ -290,7 +272,7 @@
             // 
             this.can.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.can.Location = new System.Drawing.Point(8, 80);
-            this.can.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.can.Margin = new System.Windows.Forms.Padding(2);
             this.can.Name = "can";
             this.can.Size = new System.Drawing.Size(167, 54);
             this.can.TabIndex = 10;
@@ -315,26 +297,18 @@
             // panel7
             // 
             this.panel7.Location = new System.Drawing.Point(8, 10);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(60, 65);
             this.panel7.TabIndex = 10;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(182, 2);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(0, 0);
-            this.flowLayoutPanel3.TabIndex = 12;
             // 
             // panel4
             // 
             this.panel4.Controls.Add(this.com);
             this.panel4.Controls.Add(this.Comtxt);
             this.panel4.Controls.Add(this.panel5);
-            this.panel4.Location = new System.Drawing.Point(367, 2);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Location = new System.Drawing.Point(369, 11);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(178, 145);
             this.panel4.TabIndex = 12;
@@ -343,7 +317,7 @@
             // 
             this.com.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.com.Location = new System.Drawing.Point(8, 80);
-            this.com.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.com.Margin = new System.Windows.Forms.Padding(2);
             this.com.Name = "com";
             this.com.Size = new System.Drawing.Size(167, 54);
             this.com.TabIndex = 10;
@@ -368,26 +342,18 @@
             // panel5
             // 
             this.panel5.Location = new System.Drawing.Point(8, 10);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(60, 65);
             this.panel5.TabIndex = 10;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(364, 2);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(0, 0);
-            this.flowLayoutPanel2.TabIndex = 12;
             // 
             // panel2
             // 
             this.panel2.Controls.Add(this.inProg);
             this.panel2.Controls.Add(this.inProgTxt);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Location = new System.Drawing.Point(184, 2);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(186, 11);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(178, 145);
             this.panel2.TabIndex = 11;
@@ -396,7 +362,7 @@
             // 
             this.inProg.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inProg.Location = new System.Drawing.Point(8, 80);
-            this.inProg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.inProg.Margin = new System.Windows.Forms.Padding(2);
             this.inProg.Name = "inProg";
             this.inProg.Size = new System.Drawing.Size(167, 54);
             this.inProg.TabIndex = 10;
@@ -421,26 +387,18 @@
             // panel3
             // 
             this.panel3.Location = new System.Drawing.Point(8, 10);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(60, 65);
             this.panel3.TabIndex = 10;
-            // 
-            // flowLayoutPanel5
-            // 
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(547, 2);
-            this.flowLayoutPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(0, 0);
-            this.flowLayoutPanel5.TabIndex = 11;
             // 
             // myReqPan
             // 
             this.myReqPan.Controls.Add(this.viewReq);
             this.myReqPan.Controls.Add(this.myReqTxt);
             this.myReqPan.Controls.Add(this.myReqIcon);
-            this.myReqPan.Location = new System.Drawing.Point(2, 2);
-            this.myReqPan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.myReqPan.Location = new System.Drawing.Point(4, 11);
+            this.myReqPan.Margin = new System.Windows.Forms.Padding(2);
             this.myReqPan.Name = "myReqPan";
             this.myReqPan.Size = new System.Drawing.Size(178, 145);
             this.myReqPan.TabIndex = 9;
@@ -449,7 +407,7 @@
             // 
             this.viewReq.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewReq.Location = new System.Drawing.Point(8, 80);
-            this.viewReq.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.viewReq.Margin = new System.Windows.Forms.Padding(2);
             this.viewReq.Name = "viewReq";
             this.viewReq.Size = new System.Drawing.Size(167, 54);
             this.viewReq.TabIndex = 10;
@@ -474,10 +432,21 @@
             // myReqIcon
             // 
             this.myReqIcon.Location = new System.Drawing.Point(8, 10);
-            this.myReqIcon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.myReqIcon.Margin = new System.Windows.Forms.Padding(2);
             this.myReqIcon.Name = "myReqIcon";
             this.myReqIcon.Size = new System.Drawing.Size(60, 65);
             this.myReqIcon.TabIndex = 10;
+            // 
+            // basePan
+            // 
+            this.basePan.Controls.Add(this.panel6);
+            this.basePan.Controls.Add(this.panel2);
+            this.basePan.Controls.Add(this.myReqPan);
+            this.basePan.Controls.Add(this.panel4);
+            this.basePan.Location = new System.Drawing.Point(206, 74);
+            this.basePan.Name = "basePan";
+            this.basePan.Size = new System.Drawing.Size(753, 621);
+            this.basePan.TabIndex = 9;
             // 
             // shwpanBtn
             // 
@@ -485,11 +454,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(962, 693);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.sidepanbtn);
             this.Controls.Add(this.sidebarbtn);
             this.Controls.Add(this.slidebar);
             this.Controls.Add(this.sidebar);
+            this.Controls.Add(this.basePan);
             this.Name = "shwpanBtn";
             this.Load += new System.EventHandler(this.shwpanBtn_Load);
             this.sidebar.ResumeLayout(false);
@@ -500,7 +469,6 @@
             this.btnpan3.ResumeLayout(false);
             this.btnpan4.ResumeLayout(false);
             this.btnpan5.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -509,6 +477,7 @@
             this.panel2.PerformLayout();
             this.myReqPan.ResumeLayout(false);
             this.myReqPan.PerformLayout();
+            this.basePan.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -532,10 +501,6 @@
         private System.Windows.Forms.Timer sidebarTransition;
         private System.Windows.Forms.PictureBox btnHam;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Panel myReqPan;
         private System.Windows.Forms.Panel myReqIcon;
         private System.Windows.Forms.TextBox myReqTxt;
@@ -552,5 +517,6 @@
         private System.Windows.Forms.Button can;
         private System.Windows.Forms.TextBox canTxt;
         private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel basePan;
     }
 }
