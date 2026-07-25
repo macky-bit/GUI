@@ -27,43 +27,14 @@ namespace WindowsFormsApp1
 
         }
 
-        bool sidebarExpand = true;
         private void sidebarTransition_Tick(object sender, EventArgs e)
         {
-            if (sidebarExpand)
-            {
-                sidebar.Width -= 5;
-                if(sidebar.Width <= 10) {
-                    sidebarExpand = false;
-                    sidebarTransition.Stop();
 
-                    btnpan1.Width = sidebar.Width;
-                    btnpan2.Width = sidebar.Width;
-                    btnpan3.Width = sidebar.Width;
-                    btnpan4.Width = sidebar.Width;
-                    btnpan5.Width = sidebar.Width;
-                }
-            }
-            else
-            {
-                sidebar.Width += 5;
-                    if (sidebar.Width >= 273)
-                    {
-                        sidebarExpand = true;
-                        sidebarTransition.Stop();
-
-                    btnpan1.Width = sidebar.Width;
-                    btnpan2.Width = sidebar.Width;
-                    btnpan3.Width = sidebar.Width;
-                    btnpan4.Width = sidebar.Width;
-                    btnpan5.Width = sidebar.Width;
-                }
-                }
         }
 
         private void btnHam_Click(object sender, EventArgs e)
         {
-            sidebarTransition.Start();
+
         }
 
         private void shwpanBtn_Load(object sender, EventArgs e)
@@ -77,6 +48,36 @@ namespace WindowsFormsApp1
         }
 
         private void logoutbtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void basePan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void slidebar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newReqLabel_Click(object sender, EventArgs e)
         {
 
         }
