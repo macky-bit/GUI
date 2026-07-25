@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp1;
 
 namespace GUI
 {
@@ -44,7 +45,9 @@ namespace GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            shwpanBtn dash = new shwpanBtn();
+            dash.Show();
+            this.Hide();
         }
 
         private void textBox1_TextChanged_2(object sender, EventArgs e)
@@ -89,7 +92,9 @@ namespace GUI
 
         private void signup_btn_Click(object sender, EventArgs e)
         {
-
+            register regis = new register();
+            regis.Show();
+            this.Hide();
         }
 
         private void dots_Paint(object sender, PaintEventArgs e)
@@ -103,6 +108,11 @@ namespace GUI
         }
 
         private void Title_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void user_TextChanged(object sender, EventArgs e)
         {
 
         }

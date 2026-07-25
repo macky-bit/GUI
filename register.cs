@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -80,6 +81,13 @@ namespace WindowsFormsApp1
         private void dmmsu_logo_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void login_btn_Click(object sender, EventArgs e)
+        {
+            Dashboard login = new Dashboard();
+            login.Show();
+            this.Hide();
         }
     }
 }

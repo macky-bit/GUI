@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.title_pan = new System.Windows.Forms.Panel();
+            this.Title = new System.Windows.Forms.Panel();
             this.logo = new System.Windows.Forms.Panel();
             this.loginpanel = new System.Windows.Forms.Panel();
             this.login = new System.Windows.Forms.Panel();
@@ -46,7 +47,6 @@
             this.register_question = new System.Windows.Forms.TextBox();
             this.createaccbaba = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.Title = new System.Windows.Forms.Panel();
             this.title_pan.SuspendLayout();
             this.loginpanel.SuspendLayout();
             this.login.SuspendLayout();
@@ -65,6 +65,15 @@
             this.title_pan.Size = new System.Drawing.Size(964, 696);
             this.title_pan.TabIndex = 2;
             this.title_pan.Paint += new System.Windows.Forms.PaintEventHandler(this.title_pan_Paint);
+            // 
+            // Title
+            // 
+            this.Title.BackColor = System.Drawing.Color.Transparent;
+            this.Title.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._2;
+            this.Title.Location = new System.Drawing.Point(59, 326);
+            this.Title.Name = "Title";
+            this.Title.Size = new System.Drawing.Size(403, 51);
+            this.Title.TabIndex = 20;
             // 
             // logo
             // 
@@ -252,8 +261,9 @@
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(59, 29);
             this.login_btn.TabIndex = 5;
-            this.login_btn.Text = "Sign Up";
+            this.login_btn.Text = "Login";
             this.login_btn.UseVisualStyleBackColor = false;
+            this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
             // register_question
             // 
@@ -291,15 +301,6 @@
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(368, 596);
             this.flowLayoutPanel1.TabIndex = 19;
-            // 
-            // Title
-            // 
-            this.Title.BackColor = System.Drawing.Color.Transparent;
-            this.Title.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._2;
-            this.Title.Location = new System.Drawing.Point(59, 326);
-            this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(403, 51);
-            this.Title.TabIndex = 20;
             // 
             // register
             // 

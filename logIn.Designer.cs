@@ -151,6 +151,7 @@ namespace GUI
             this.user.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.user.Name = "user";
             this.user.ReadOnly = true;
+            this.user.TextChanged += new System.EventHandler(this.user_TextChanged);
             // 
             // Login_btn
             // 
