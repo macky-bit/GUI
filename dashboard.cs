@@ -70,5 +70,15 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void dashboardbtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void logoutbtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
