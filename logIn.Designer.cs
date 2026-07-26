@@ -48,6 +48,7 @@ namespace GUI
             this.account_question = new System.Windows.Forms.TextBox();
             this.forgot_pass = new System.Windows.Forms.Button();
             this.LTCTYA = new System.Windows.Forms.TextBox();
+            this.statusLabel = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.title_pan.SuspendLayout();
             this.loginpanel.SuspendLayout();
@@ -103,6 +104,7 @@ namespace GUI
             this.login.Controls.Add(this.account_question);
             this.login.Controls.Add(this.forgot_pass);
             this.login.Controls.Add(this.LTCTYA);
+            this.login.Controls.Add(this.statusLabel);
             resources.ApplyResources(this.login, "login");
             this.login.Name = "login";
             // 
@@ -129,7 +131,8 @@ namespace GUI
             this.username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
             this.username.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.username, "username");
-            this.username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(188)))), ((int)(((byte)(205)))));
+            this.username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            this.username.MaxLength = 30;
             this.username.Name = "username";
             this.username.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
@@ -138,7 +141,8 @@ namespace GUI
             this.password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
             this.password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.password, "password");
-            this.password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(190)))), ((int)(((byte)(188)))), ((int)(((byte)(205)))));
+            this.password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            this.password.MaxLength = 60;
             this.password.Name = "password";
             this.password.UseSystemPasswordChar = true;
             this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
@@ -158,7 +162,7 @@ namespace GUI
             this.Login_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
             this.Login_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Login_btn.FlatAppearance.BorderSize = 0;
-            this.Login_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(108)))), ((int)(((byte)(255)))));
+            this.Login_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(70)))), ((int)(((byte)(28)))));
             resources.ApplyResources(this.Login_btn, "Login_btn");
             this.Login_btn.ForeColor = System.Drawing.Color.White;
             this.Login_btn.Name = "Login_btn";
@@ -225,9 +229,20 @@ namespace GUI
             this.LTCTYA.Name = "LTCTYA";
             this.LTCTYA.ReadOnly = true;
             this.LTCTYA.TextChanged += new System.EventHandler(this.LTCTYA_TextChanged);
-            // 
+            //
+            // statusLabel
+            //
+            this.statusLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.statusLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statusLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(38)))), ((int)(((byte)(30)))));
+            this.statusLabel.Location = new System.Drawing.Point(35, 381);
+            this.statusLabel.Name = "statusLabel";
+            this.statusLabel.Size = new System.Drawing.Size(293, 26);
+            this.statusLabel.TabIndex = 12;
+            this.statusLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            //
             // flowLayoutPanel1
-            // 
+            //
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.transparent_bg;
             resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
@@ -268,6 +283,7 @@ namespace GUI
         private System.Windows.Forms.Panel logo;
         private System.Windows.Forms.Panel login;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label statusLabel;
         private System.Windows.Forms.Panel Title;
     }
 }
