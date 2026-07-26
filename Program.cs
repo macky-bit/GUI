@@ -26,7 +26,29 @@ namespace WindowsFormsApp1
             AppDomain.CurrentDomain.UnhandledException += (s, e) => ReportFault(e.ExceptionObject as Exception);
             Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
 
+            if (!PrepareDatabase()) return;
+
             Application.Run(new Dashboard());
+        }
+
+        /// <summary>
+        /// Creates the MySQL schema on first launch. Returns false when the server
+        /// cannot be reached, so the app exits with an explanation instead of
+        /// failing on the first query.
+        /// </summary>
+        private static bool PrepareDatabase()
+        {
+            try
+            {
+                Database.EnsureCreated();
+                return true;
+            }
+            catch (DatabaseUnavailableException error)
+            {
+                MessageBox.Show(error.Message, "Database Unavailable",
+                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
         }
 
         private static void ReportFault(Exception error)
