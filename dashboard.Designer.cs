@@ -40,12 +40,16 @@
             this.dashBLabel = new System.Windows.Forms.Label();
             this.sideIcon = new System.Windows.Forms.FlowLayoutPanel();
             this.btnpan4 = new System.Windows.Forms.Panel();
+            this.panel18 = new System.Windows.Forms.Panel();
             this.profilebtn = new System.Windows.Forms.Button();
             this.btnpan1 = new System.Windows.Forms.Panel();
+            this.panel17 = new System.Windows.Forms.Panel();
             this.dashboardbtn = new System.Windows.Forms.Button();
             this.btnpan2 = new System.Windows.Forms.Panel();
+            this.panel16 = new System.Windows.Forms.Panel();
             this.myReqbtn = new System.Windows.Forms.Button();
             this.btnpan3 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
             this.newReqbtn = new System.Windows.Forms.Button();
             this.sidepanbtn = new System.Windows.Forms.Panel();
             this.sidebarbtn = new System.Windows.Forms.Button();
@@ -123,6 +127,7 @@
             this.sidebarPan = new System.Windows.Forms.Panel();
             this.menuContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.menu = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.reqButton = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.logoutbtn = new System.Windows.Forms.Button();
@@ -130,6 +135,8 @@
             this.dropDownReq = new System.Windows.Forms.Timer(this.components);
             this.object_830ef522_f534_4582_8cba_d6be5cb6261a = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel19 = new System.Windows.Forms.Panel();
             this.topbar.SuspendLayout();
             this.panel1.SuspendLayout();
             this.btnpan4.SuspendLayout();
@@ -238,6 +245,7 @@
             // 
             // btnpan4
             // 
+            this.btnpan4.Controls.Add(this.panel18);
             this.btnpan4.Controls.Add(this.profilebtn);
             this.btnpan4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpan4.Location = new System.Drawing.Point(16, 580);
@@ -245,6 +253,15 @@
             this.btnpan4.Name = "btnpan4";
             this.btnpan4.Size = new System.Drawing.Size(243, 59);
             this.btnpan4.TabIndex = 5;
+            // 
+            // panel18
+            // 
+            this.panel18.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._14;
+            this.panel18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel18.Location = new System.Drawing.Point(5, 4);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(48, 52);
+            this.panel18.TabIndex = 17;
             // 
             // profilebtn
             // 
@@ -261,13 +278,14 @@
             this.profilebtn.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
             this.profilebtn.Size = new System.Drawing.Size(272, 85);
             this.profilebtn.TabIndex = 3;
-            this.profilebtn.Text = "Profile";
+            this.profilebtn.Text = "        Profile";
             this.profilebtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.profilebtn.UseVisualStyleBackColor = false;
             this.profilebtn.Click += new System.EventHandler(this.profilebtn_Click);
             // 
             // btnpan1
             // 
+            this.btnpan1.Controls.Add(this.panel17);
             this.btnpan1.Controls.Add(this.dashboardbtn);
             this.btnpan1.Location = new System.Drawing.Point(17, 226);
             this.btnpan1.Margin = new System.Windows.Forms.Padding(4);
@@ -275,6 +293,15 @@
             this.btnpan1.Size = new System.Drawing.Size(243, 59);
             this.btnpan1.TabIndex = 2;
             this.btnpan1.Paint += new System.Windows.Forms.PaintEventHandler(this.btnpan_Paint);
+            // 
+            // panel17
+            // 
+            this.panel17.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._5;
+            this.panel17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel17.Location = new System.Drawing.Point(4, 4);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(48, 52);
+            this.panel17.TabIndex = 17;
             // 
             // dashboardbtn
             // 
@@ -290,13 +317,14 @@
             this.dashboardbtn.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
             this.dashboardbtn.Size = new System.Drawing.Size(272, 85);
             this.dashboardbtn.TabIndex = 3;
-            this.dashboardbtn.Text = "Dashboard";
+            this.dashboardbtn.Text = "        Dashboard";
             this.dashboardbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.dashboardbtn.UseVisualStyleBackColor = false;
             this.dashboardbtn.Click += new System.EventHandler(this.dashboardbtn_Click);
             // 
             // btnpan2
             // 
+            this.btnpan2.Controls.Add(this.panel16);
             this.btnpan2.Controls.Add(this.myReqbtn);
             this.btnpan2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpan2.Location = new System.Drawing.Point(0, 118);
@@ -305,6 +333,15 @@
             this.btnpan2.Size = new System.Drawing.Size(243, 59);
             this.btnpan2.TabIndex = 4;
             this.btnpan2.Paint += new System.Windows.Forms.PaintEventHandler(this.btnpan2_Paint);
+            // 
+            // panel16
+            // 
+            this.panel16.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._4;
+            this.panel16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel16.Location = new System.Drawing.Point(4, 6);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(48, 52);
+            this.panel16.TabIndex = 17;
             // 
             // myReqbtn
             // 
@@ -321,13 +358,14 @@
             this.myReqbtn.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
             this.myReqbtn.Size = new System.Drawing.Size(272, 85);
             this.myReqbtn.TabIndex = 3;
-            this.myReqbtn.Text = "My Requests";
+            this.myReqbtn.Text = "        My Requests";
             this.myReqbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.myReqbtn.UseVisualStyleBackColor = false;
             this.myReqbtn.Click += new System.EventHandler(this.myReqbtn_Click);
             // 
             // btnpan3
             // 
+            this.btnpan3.Controls.Add(this.panel13);
             this.btnpan3.Controls.Add(this.newReqbtn);
             this.btnpan3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnpan3.Location = new System.Drawing.Point(0, 59);
@@ -336,6 +374,15 @@
             this.btnpan3.Size = new System.Drawing.Size(244, 59);
             this.btnpan3.TabIndex = 5;
             this.btnpan3.Paint += new System.Windows.Forms.PaintEventHandler(this.btnpan3_Paint);
+            // 
+            // panel13
+            // 
+            this.panel13.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._21;
+            this.panel13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel13.Location = new System.Drawing.Point(4, 8);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(48, 52);
+            this.panel13.TabIndex = 16;
             // 
             // newReqbtn
             // 
@@ -352,7 +399,7 @@
             this.newReqbtn.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
             this.newReqbtn.Size = new System.Drawing.Size(273, 85);
             this.newReqbtn.TabIndex = 3;
-            this.newReqbtn.Text = "New Request";
+            this.newReqbtn.Text = "        New Request";
             this.newReqbtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.newReqbtn.UseVisualStyleBackColor = false;
             this.newReqbtn.Click += new System.EventHandler(this.newReqbtn_Click);
@@ -1235,13 +1282,14 @@
             this.menuContainer.Controls.Add(this.menu);
             this.menuContainer.Controls.Add(this.btnpan3);
             this.menuContainer.Controls.Add(this.btnpan2);
-            this.menuContainer.Location = new System.Drawing.Point(16, 304);
+            this.menuContainer.Location = new System.Drawing.Point(17, 333);
             this.menuContainer.Name = "menuContainer";
             this.menuContainer.Size = new System.Drawing.Size(244, 59);
             this.menuContainer.TabIndex = 14;
             // 
             // menu
             // 
+            this.menu.Controls.Add(this.panel4);
             this.menu.Controls.Add(this.reqButton);
             this.menu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menu.Location = new System.Drawing.Point(0, 0);
@@ -1250,6 +1298,15 @@
             this.menu.Size = new System.Drawing.Size(244, 59);
             this.menu.TabIndex = 15;
             this.menu.Paint += new System.Windows.Forms.PaintEventHandler(this.reqBtn_Paint);
+            // 
+            // panel4
+            // 
+            this.panel4.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._14;
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel4.Location = new System.Drawing.Point(4, 5);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(48, 52);
+            this.panel4.TabIndex = 15;
             // 
             // reqButton
             // 
@@ -1266,7 +1323,7 @@
             this.reqButton.Padding = new System.Windows.Forms.Padding(40, 0, 0, 0);
             this.reqButton.Size = new System.Drawing.Size(273, 85);
             this.reqButton.TabIndex = 3;
-            this.reqButton.Text = "Request";
+            this.reqButton.Text = "        Request";
             this.reqButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.reqButton.UseVisualStyleBackColor = false;
             this.reqButton.Click += new System.EventHandler(this.reqButton_Click);
@@ -1329,6 +1386,22 @@
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(200, 100);
             this.flowLayoutPanel3.TabIndex = 14;
+            // 
+            // flowLayoutPanel5
+            // 
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(88, 56);
+            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(200, 100);
+            this.flowLayoutPanel5.TabIndex = 0;
+            // 
+            // panel19
+            // 
+            this.panel19.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._14;
+            this.panel19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel19.Location = new System.Drawing.Point(8, 8);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(48, 52);
+            this.panel19.TabIndex = 18;
             // 
             // shwpanBtn
             // 
@@ -1492,5 +1565,12 @@
         private System.Windows.Forms.Timer dropDownReq;
         private System.Windows.Forms.FlowLayoutPanel object_830ef522_f534_4582_8cba_d6be5cb6261a;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
+        private System.Windows.Forms.Panel panel18;
+        private System.Windows.Forms.Panel panel17;
+        private System.Windows.Forms.Panel panel16;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel19;
     }
 }
