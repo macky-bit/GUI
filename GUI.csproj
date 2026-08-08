@@ -40,12 +40,53 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+  </ItemGroup>
+  <!-- MySQL Connector/NET and its dependencies, resolved into lib\ -->
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto">
+      <HintPath>lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>lib\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4">
+      <HintPath>lib\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams">
+      <HintPath>lib\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash">
+      <HintPath>lib\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>lib\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipelines">
+      <HintPath>lib\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>lib\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>lib\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>lib\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>lib\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="dashboard.cs">
@@ -77,6 +118,7 @@
     <Compile Include="logIn.Designer.cs">
       <DependentUpon>logIn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Database.cs" />
     <Compile Include="MaintenanceStore.cs" />
     <Compile Include="myRequests.cs">
       <SubType>Form</SubType>
@@ -134,6 +176,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="database\schema.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\User Icon.png" />
