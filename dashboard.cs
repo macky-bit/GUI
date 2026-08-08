@@ -247,24 +247,28 @@ namespace WindowsFormsApp1
         bool menuExpand = false;
         private void dropDownReq_Tick(object sender, EventArgs e)
         {
-            if (menuExpand == false)
+            if (!menuExpand)
             {
                 menuContainer.Height += 10;
                 if (menuContainer.Height >= 177)
                 {
+                    menuContainer.Height = 177; // clamp, avoid overshoot
                     dropDownReq.Stop();
                     menuExpand = true;
                 }
-                else
+            }
+            else
+            {
+                menuContainer.Height -= 10;
+                if (menuContainer.Height <= 59)
                 {
-                    menuContainer.Height -= 10;
-                    if (menuContainer.Height <= 59)
-                        dropDownReq.Stop();
+                    menuContainer.Height = 59; // clamp
+                    dropDownReq.Stop();
                     menuExpand = false;
                 }
             }
         }
-private void reqButton_Click(object sender, EventArgs e)
+        private void reqButton_Click(object sender, EventArgs e)
         {
             dropDownReq.Start();
         }

@@ -186,7 +186,7 @@
             this.studentLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.studentLabel.Location = new System.Drawing.Point(848, 47);
             this.studentLabel.Name = "studentLabel";
-            this.studentLabel.Size = new System.Drawing.Size(56, 17);
+            this.studentLabel.Size = new System.Drawing.Size(48, 13);
             this.studentLabel.TabIndex = 16;
             this.studentLabel.Text = "Student";
             // 
@@ -196,7 +196,7 @@
             this.studentName.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentName.Location = new System.Drawing.Point(847, 25);
             this.studentName.Name = "studentName";
-            this.studentName.Size = new System.Drawing.Size(129, 23);
+            this.studentName.Size = new System.Drawing.Size(107, 19);
             this.studentName.TabIndex = 15;
             this.studentName.Text = "Juan Dela Cruz";
             // 
@@ -228,7 +228,7 @@
             this.dashBLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dashBLabel.Location = new System.Drawing.Point(24, 26);
             this.dashBLabel.Name = "dashBLabel";
-            this.dashBLabel.Size = new System.Drawing.Size(156, 38);
+            this.dashBLabel.Size = new System.Drawing.Size(120, 30);
             this.dashBLabel.TabIndex = 0;
             this.dashBLabel.Text = "Dashboard";
             // 
@@ -454,7 +454,7 @@
             this.canTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(38)))), ((int)(((byte)(30)))));
             this.canTxt.Location = new System.Drawing.Point(97, 69);
             this.canTxt.Name = "canTxt";
-            this.canTxt.Size = new System.Drawing.Size(87, 23);
+            this.canTxt.Size = new System.Drawing.Size(74, 19);
             this.canTxt.TabIndex = 11;
             this.canTxt.Text = "Cancelled";
             this.canTxt.Click += new System.EventHandler(this.label2_Click);
@@ -518,7 +518,7 @@
             this.Comtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.Comtxt.Location = new System.Drawing.Point(96, 69);
             this.Comtxt.Name = "Comtxt";
-            this.Comtxt.Size = new System.Drawing.Size(99, 23);
+            this.Comtxt.Size = new System.Drawing.Size(83, 19);
             this.Comtxt.TabIndex = 13;
             this.Comtxt.Text = "Completed";
             // 
@@ -581,7 +581,7 @@
             this.inProgTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(176)))), ((int)(((byte)(101)))), ((int)(((byte)(0)))));
             this.inProgTxt.Location = new System.Drawing.Point(97, 69);
             this.inProgTxt.Name = "inProgTxt";
-            this.inProgTxt.Size = new System.Drawing.Size(98, 23);
+            this.inProgTxt.Size = new System.Drawing.Size(84, 19);
             this.inProgTxt.TabIndex = 12;
             this.inProgTxt.Text = "In Progress";
             // 
@@ -645,7 +645,7 @@
             this.myReqTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
             this.myReqTxt.Location = new System.Drawing.Point(97, 69);
             this.myReqTxt.Name = "myReqTxt";
-            this.myReqTxt.Size = new System.Drawing.Size(111, 23);
+            this.myReqTxt.Size = new System.Drawing.Size(93, 19);
             this.myReqTxt.TabIndex = 0;
             this.myReqTxt.Text = "My Requests";
             // 
@@ -725,7 +725,7 @@
             this.lastUpdateLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.lastUpdateLabel.Location = new System.Drawing.Point(53, 81);
             this.lastUpdateLabel.Name = "lastUpdateLabel";
-            this.lastUpdateLabel.Size = new System.Drawing.Size(198, 20);
+            this.lastUpdateLabel.Size = new System.Drawing.Size(159, 15);
             this.lastUpdateLabel.TabIndex = 23;
             this.lastUpdateLabel.Text = "Last updated: DAte 23, 0222";
             // 
@@ -736,7 +736,7 @@
             this.allSystemOpLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(83)))), ((int)(((byte)(14)))));
             this.allSystemOpLabel.Location = new System.Drawing.Point(51, 47);
             this.allSystemOpLabel.Name = "allSystemOpLabel";
-            this.allSystemOpLabel.Size = new System.Drawing.Size(170, 20);
+            this.allSystemOpLabel.Size = new System.Drawing.Size(133, 15);
             this.allSystemOpLabel.TabIndex = 20;
             this.allSystemOpLabel.Text = "All Systems Operational";
             // 
@@ -764,7 +764,7 @@
             this.systemLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.systemLabel.Location = new System.Drawing.Point(52, 7);
             this.systemLabel.Name = "systemLabel";
-            this.systemLabel.Size = new System.Drawing.Size(145, 28);
+            this.systemLabel.Size = new System.Drawing.Size(116, 21);
             this.systemLabel.TabIndex = 17;
             this.systemLabel.Text = "System Status";
             // 
@@ -800,7 +800,7 @@
             this.schedMainBotLabel.Location = new System.Drawing.Point(13, 53);
             this.schedMainBotLabel.MaximumSize = new System.Drawing.Size(272, 0);
             this.schedMainBotLabel.Name = "schedMainBotLabel";
-            this.schedMainBotLabel.Size = new System.Drawing.Size(267, 40);
+            this.schedMainBotLabel.Size = new System.Drawing.Size(264, 30);
             this.schedMainBotLabel.TabIndex = 17;
             this.schedMainBotLabel.Text = "Electrical system maintenance will be on July 28, 2024. Please save your work.";
             // 
@@ -810,7 +810,7 @@
             this.schedMainLabel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.schedMainLabel.Location = new System.Drawing.Point(60, 27);
             this.schedMainLabel.Name = "schedMainLabel";
-            this.schedMainLabel.Size = new System.Drawing.Size(200, 23);
+            this.schedMainLabel.Size = new System.Drawing.Size(167, 19);
             this.schedMainLabel.TabIndex = 16;
             this.schedMainLabel.Text = "Scheduled Maintenance";
             // 
@@ -843,7 +843,7 @@
             this.reminderBotLabel.Location = new System.Drawing.Point(13, 53);
             this.reminderBotLabel.MaximumSize = new System.Drawing.Size(272, 0);
             this.reminderBotLabel.Name = "reminderBotLabel";
-            this.reminderBotLabel.Size = new System.Drawing.Size(259, 60);
+            this.reminderBotLabel.Size = new System.Drawing.Size(264, 30);
             this.reminderBotLabel.TabIndex = 16;
             this.reminderBotLabel.Text = "Please report facility issues so we can maintain a safe and conducive environment" +
     " for learning";
@@ -854,7 +854,7 @@
             this.reminderLabel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reminderLabel.Location = new System.Drawing.Point(62, 27);
             this.reminderLabel.Name = "reminderLabel";
-            this.reminderLabel.Size = new System.Drawing.Size(94, 23);
+            this.reminderLabel.Size = new System.Drawing.Size(79, 19);
             this.reminderLabel.TabIndex = 13;
             this.reminderLabel.Text = "Reminder!";
             // 
@@ -884,7 +884,7 @@
             this.announLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.announLabel.Location = new System.Drawing.Point(54, 12);
             this.announLabel.Name = "announLabel";
-            this.announLabel.Size = new System.Drawing.Size(165, 28);
+            this.announLabel.Size = new System.Drawing.Size(135, 21);
             this.announLabel.TabIndex = 15;
             this.announLabel.Text = "Announcements";
             // 
@@ -935,7 +935,7 @@
             this.newReqBotLabel.Location = new System.Drawing.Point(11, 72);
             this.newReqBotLabel.MaximumSize = new System.Drawing.Size(185, 0);
             this.newReqBotLabel.Name = "newReqBotLabel";
-            this.newReqBotLabel.Size = new System.Drawing.Size(147, 40);
+            this.newReqBotLabel.Size = new System.Drawing.Size(154, 30);
             this.newReqBotLabel.TabIndex = 19;
             this.newReqBotLabel.Text = "Submit a new maintenance request";
             this.newReqBotLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -947,7 +947,7 @@
             this.newReqLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
             this.newReqLabel.Location = new System.Drawing.Point(78, 32);
             this.newReqLabel.Name = "newReqLabel";
-            this.newReqLabel.Size = new System.Drawing.Size(112, 23);
+            this.newReqLabel.Size = new System.Drawing.Size(92, 19);
             this.newReqLabel.TabIndex = 18;
             this.newReqLabel.Text = "New Request";
             this.newReqLabel.Click += new System.EventHandler(this.newReqLabel_Click);
@@ -981,7 +981,7 @@
             this.viewHisBotLabel.Location = new System.Drawing.Point(11, 72);
             this.viewHisBotLabel.MaximumSize = new System.Drawing.Size(185, 0);
             this.viewHisBotLabel.Name = "viewHisBotLabel";
-            this.viewHisBotLabel.Size = new System.Drawing.Size(172, 20);
+            this.viewHisBotLabel.Size = new System.Drawing.Size(139, 15);
             this.viewHisBotLabel.TabIndex = 19;
             this.viewHisBotLabel.Text = "Check your past requests";
             this.viewHisBotLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -993,7 +993,7 @@
             this.viewHisLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
             this.viewHisLabel.Location = new System.Drawing.Point(78, 32);
             this.viewHisLabel.Name = "viewHisLabel";
-            this.viewHisLabel.Size = new System.Drawing.Size(108, 23);
+            this.viewHisLabel.Size = new System.Drawing.Size(90, 19);
             this.viewHisLabel.TabIndex = 18;
             this.viewHisLabel.Text = "View History";
             // 
@@ -1026,7 +1026,7 @@
             this.conAdBotPan.Location = new System.Drawing.Point(11, 72);
             this.conAdBotPan.MaximumSize = new System.Drawing.Size(185, 0);
             this.conAdBotPan.Name = "conAdBotPan";
-            this.conAdBotPan.Size = new System.Drawing.Size(105, 40);
+            this.conAdBotPan.Size = new System.Drawing.Size(160, 15);
             this.conAdBotPan.TabIndex = 19;
             this.conAdBotPan.Text = "Get help from administration";
             this.conAdBotPan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -1038,7 +1038,7 @@
             this.conAdPan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(27)))), ((int)(((byte)(154)))));
             this.conAdPan.Location = new System.Drawing.Point(74, 32);
             this.conAdPan.Name = "conAdPan";
-            this.conAdPan.Size = new System.Drawing.Size(125, 23);
+            this.conAdPan.Size = new System.Drawing.Size(103, 19);
             this.conAdPan.TabIndex = 18;
             this.conAdPan.Text = "Contact Admin";
             // 
@@ -1068,7 +1068,7 @@
             this.quickAcLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quickAcLabel.Location = new System.Drawing.Point(53, 9);
             this.quickAcLabel.Name = "quickAcLabel";
-            this.quickAcLabel.Size = new System.Drawing.Size(143, 28);
+            this.quickAcLabel.Size = new System.Drawing.Size(115, 21);
             this.quickAcLabel.TabIndex = 19;
             this.quickAcLabel.Text = "Quick Actions";
             // 
@@ -1212,7 +1212,7 @@
             this.viewAll.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(122)))), ((int)(((byte)(58)))));
             this.viewAll.Location = new System.Drawing.Point(541, 19);
             this.viewAll.Name = "viewAll";
-            this.viewAll.Size = new System.Drawing.Size(71, 23);
+            this.viewAll.Size = new System.Drawing.Size(61, 19);
             this.viewAll.TabIndex = 1;
             this.viewAll.TabStop = true;
             this.viewAll.Text = "View All";
@@ -1224,7 +1224,7 @@
             this.recReqLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.recReqLabel.Location = new System.Drawing.Point(53, 10);
             this.recReqLabel.Name = "recReqLabel";
-            this.recReqLabel.Size = new System.Drawing.Size(168, 28);
+            this.recReqLabel.Size = new System.Drawing.Size(134, 21);
             this.recReqLabel.TabIndex = 0;
             this.recReqLabel.Text = "Recent Requests";
             // 
@@ -1235,7 +1235,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Location = new System.Drawing.Point(840, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 20);
+            this.label1.Size = new System.Drawing.Size(86, 15);
             this.label1.TabIndex = 18;
             this.label1.Text = "DAte, 21, 2024";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -1247,7 +1247,7 @@
             this.welcomeBabaLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.welcomeBabaLabel.Location = new System.Drawing.Point(28, 38);
             this.welcomeBabaLabel.Name = "welcomeBabaLabel";
-            this.welcomeBabaLabel.Size = new System.Drawing.Size(345, 20);
+            this.welcomeBabaLabel.Size = new System.Drawing.Size(265, 15);
             this.welcomeBabaLabel.TabIndex = 17;
             this.welcomeBabaLabel.Text = "Here\'s an overview of your maintenance requests";
             // 
@@ -1257,7 +1257,7 @@
             this.welcomeLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.welcomeLabel.Location = new System.Drawing.Point(24, 7);
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(225, 31);
+            this.welcomeLabel.Size = new System.Drawing.Size(188, 25);
             this.welcomeLabel.TabIndex = 17;
             this.welcomeLabel.Text = "Welcome back Juan!";
             // 
@@ -1282,7 +1282,7 @@
             this.menuContainer.Controls.Add(this.menu);
             this.menuContainer.Controls.Add(this.btnpan3);
             this.menuContainer.Controls.Add(this.btnpan2);
-            this.menuContainer.Location = new System.Drawing.Point(17, 333);
+            this.menuContainer.Location = new System.Drawing.Point(17, 295);
             this.menuContainer.Name = "menuContainer";
             this.menuContainer.Size = new System.Drawing.Size(244, 59);
             this.menuContainer.TabIndex = 14;
