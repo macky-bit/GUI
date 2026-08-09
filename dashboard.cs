@@ -287,5 +287,10 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void recentReq_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
