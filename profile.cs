@@ -95,5 +95,30 @@ namespace WindowsFormsApp1
             if (parts.Length == 1) return parts[0].Substring(0, 1).ToUpper();
             return (parts[0].Substring(0, 1) + parts[parts.Length - 1].Substring(0, 1)).ToUpper();
         }
+
+        private void usernameValue_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void usernameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void memberSinceLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void memberSinceValue_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void statusLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

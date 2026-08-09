@@ -148,6 +148,9 @@
       <DependentUpon>logIn.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="myRequests.resx">
+      <DependentUpon>myRequests.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="profile.resx">
       <DependentUpon>profile.cs</DependentUpon>
     </EmbeddedResource>
@@ -160,6 +163,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="request.resx">
       <DependentUpon>request.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="resetPassword.resx">
+      <DependentUpon>resetPassword.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
