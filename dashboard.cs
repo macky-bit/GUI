@@ -243,5 +243,54 @@ namespace WindowsFormsApp1
         private void myReqPan_Paint(object sender, PaintEventArgs e) { }
 
         #endregion
+
+        bool menuExpand = false;
+        private void dropDownReq_Tick(object sender, EventArgs e)
+        {
+            if (!menuExpand)
+            {
+                menuContainer.Height += 10;
+                if (menuContainer.Height >= 177)
+                {
+                    menuContainer.Height = 177; // clamp, avoid overshoot
+                    dropDownReq.Stop();
+                    menuExpand = true;
+                }
+            }
+            else
+            {
+                menuContainer.Height -= 10;
+                if (menuContainer.Height <= 59)
+                {
+                    menuContainer.Height = 59; // clamp
+                    dropDownReq.Stop();
+                    menuExpand = false;
+                }
+            }
+        }
+        private void reqButton_Click(object sender, EventArgs e)
+        {
+            dropDownReq.Start();
+        }
+
+        private void reqBtn_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnpan3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnpan2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void recentReq_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
