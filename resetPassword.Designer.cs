@@ -41,9 +41,8 @@ namespace WindowsFormsApp1
             this.headerPan.Controls.Add(this.subheadingLabel);
             this.headerPan.Dock = System.Windows.Forms.DockStyle.Top;
             this.headerPan.Location = new System.Drawing.Point(0, 0);
-            this.headerPan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.headerPan.Name = "headerPan";
-            this.headerPan.Size = new System.Drawing.Size(567, 100);
+            this.headerPan.Size = new System.Drawing.Size(977, 81);
             this.headerPan.TabIndex = 0;
             // 
             // headingLabel
@@ -51,10 +50,9 @@ namespace WindowsFormsApp1
             this.headingLabel.AutoSize = true;
             this.headingLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 14.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headingLabel.ForeColor = System.Drawing.Color.White;
-            this.headingLabel.Location = new System.Drawing.Point(32, 20);
-            this.headingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.headingLabel.Location = new System.Drawing.Point(24, 16);
             this.headingLabel.Name = "headingLabel";
-            this.headingLabel.Size = new System.Drawing.Size(181, 32);
+            this.headingLabel.Size = new System.Drawing.Size(142, 25);
             this.headingLabel.TabIndex = 0;
             this.headingLabel.Text = "Reset Password";
             // 
@@ -63,10 +61,9 @@ namespace WindowsFormsApp1
             this.subheadingLabel.AutoSize = true;
             this.subheadingLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subheadingLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(224)))), ((int)(((byte)(198)))));
-            this.subheadingLabel.Location = new System.Drawing.Point(35, 55);
-            this.subheadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.subheadingLabel.Location = new System.Drawing.Point(26, 45);
             this.subheadingLabel.Name = "subheadingLabel";
-            this.subheadingLabel.Size = new System.Drawing.Size(374, 20);
+            this.subheadingLabel.Size = new System.Drawing.Size(303, 15);
             this.subheadingLabel.TabIndex = 1;
             this.subheadingLabel.Text = "Confirm your current password, then choose a new one.";
             // 
@@ -75,10 +72,9 @@ namespace WindowsFormsApp1
             this.usernameLabel.AutoSize = true;
             this.usernameLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.usernameLabel.Location = new System.Drawing.Point(35, 118);
-            this.usernameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.usernameLabel.Location = new System.Drawing.Point(26, 96);
             this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(87, 23);
+            this.usernameLabel.Size = new System.Drawing.Size(69, 17);
             this.usernameLabel.TabIndex = 1;
             this.usernameLabel.Text = "Username";
             // 
@@ -87,11 +83,10 @@ namespace WindowsFormsApp1
             this.usernameField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.usernameField.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.usernameField.Location = new System.Drawing.Point(35, 143);
-            this.usernameField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.usernameField.Location = new System.Drawing.Point(26, 116);
             this.usernameField.MaxLength = 30;
             this.usernameField.Name = "usernameField";
-            this.usernameField.Size = new System.Drawing.Size(490, 30);
+            this.usernameField.Size = new System.Drawing.Size(368, 26);
             this.usernameField.TabIndex = 0;
             // 
             // currentLabel
@@ -99,10 +94,9 @@ namespace WindowsFormsApp1
             this.currentLabel.AutoSize = true;
             this.currentLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.currentLabel.Location = new System.Drawing.Point(35, 190);
-            this.currentLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.currentLabel.Location = new System.Drawing.Point(26, 154);
             this.currentLabel.Name = "currentLabel";
-            this.currentLabel.Size = new System.Drawing.Size(145, 23);
+            this.currentLabel.Size = new System.Drawing.Size(116, 17);
             this.currentLabel.TabIndex = 3;
             this.currentLabel.Text = "Current Password";
             // 
@@ -111,11 +105,10 @@ namespace WindowsFormsApp1
             this.currentField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.currentField.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.currentField.Location = new System.Drawing.Point(35, 214);
-            this.currentField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.currentField.Location = new System.Drawing.Point(26, 174);
             this.currentField.MaxLength = 60;
             this.currentField.Name = "currentField";
-            this.currentField.Size = new System.Drawing.Size(490, 30);
+            this.currentField.Size = new System.Drawing.Size(368, 26);
             this.currentField.TabIndex = 1;
             this.currentField.UseSystemPasswordChar = true;
             // 
@@ -124,10 +117,9 @@ namespace WindowsFormsApp1
             this.newLabel.AutoSize = true;
             this.newLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.newLabel.Location = new System.Drawing.Point(35, 261);
-            this.newLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.newLabel.Location = new System.Drawing.Point(26, 212);
             this.newLabel.Name = "newLabel";
-            this.newLabel.Size = new System.Drawing.Size(122, 23);
+            this.newLabel.Size = new System.Drawing.Size(97, 17);
             this.newLabel.TabIndex = 5;
             this.newLabel.Text = "New Password";
             // 
@@ -136,11 +128,10 @@ namespace WindowsFormsApp1
             this.newField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.newField.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.newField.Location = new System.Drawing.Point(35, 286);
-            this.newField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.newField.Location = new System.Drawing.Point(26, 232);
             this.newField.MaxLength = 60;
             this.newField.Name = "newField";
-            this.newField.Size = new System.Drawing.Size(490, 30);
+            this.newField.Size = new System.Drawing.Size(368, 26);
             this.newField.TabIndex = 2;
             this.newField.UseSystemPasswordChar = true;
             // 
@@ -149,10 +140,9 @@ namespace WindowsFormsApp1
             this.confirmLabel.AutoSize = true;
             this.confirmLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.confirmLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.confirmLabel.Location = new System.Drawing.Point(35, 332);
-            this.confirmLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.confirmLabel.Location = new System.Drawing.Point(26, 270);
             this.confirmLabel.Name = "confirmLabel";
-            this.confirmLabel.Size = new System.Drawing.Size(189, 23);
+            this.confirmLabel.Size = new System.Drawing.Size(149, 17);
             this.confirmLabel.TabIndex = 7;
             this.confirmLabel.Text = "Confirm New Password";
             // 
@@ -161,11 +151,10 @@ namespace WindowsFormsApp1
             this.confirmField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.confirmField.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.confirmField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.confirmField.Location = new System.Drawing.Point(35, 357);
-            this.confirmField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.confirmField.Location = new System.Drawing.Point(26, 290);
             this.confirmField.MaxLength = 60;
             this.confirmField.Name = "confirmField";
-            this.confirmField.Size = new System.Drawing.Size(490, 30);
+            this.confirmField.Size = new System.Drawing.Size(368, 26);
             this.confirmField.TabIndex = 3;
             this.confirmField.UseSystemPasswordChar = true;
             // 
@@ -173,10 +162,9 @@ namespace WindowsFormsApp1
             // 
             this.statusLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statusLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(38)))), ((int)(((byte)(30)))));
-            this.statusLabel.Location = new System.Drawing.Point(35, 400);
-            this.statusLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.statusLabel.Location = new System.Drawing.Point(26, 325);
             this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(491, 39);
+            this.statusLabel.Size = new System.Drawing.Size(368, 32);
             this.statusLabel.TabIndex = 9;
             // 
             // saveBtn
@@ -188,10 +176,9 @@ namespace WindowsFormsApp1
             this.saveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.saveBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveBtn.ForeColor = System.Drawing.Color.White;
-            this.saveBtn.Location = new System.Drawing.Point(317, 446);
-            this.saveBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.saveBtn.Location = new System.Drawing.Point(238, 362);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(208, 47);
+            this.saveBtn.Size = new System.Drawing.Size(156, 38);
             this.saveBtn.TabIndex = 4;
             this.saveBtn.Text = "Update Password";
             this.saveBtn.UseVisualStyleBackColor = false;
@@ -205,10 +192,9 @@ namespace WindowsFormsApp1
             this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelBtn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.cancelBtn.Location = new System.Drawing.Point(187, 446);
-            this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cancelBtn.Location = new System.Drawing.Point(140, 362);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(123, 47);
+            this.cancelBtn.Size = new System.Drawing.Size(92, 38);
             this.cancelBtn.TabIndex = 5;
             this.cancelBtn.Text = "Cancel";
             this.cancelBtn.UseVisualStyleBackColor = false;
@@ -216,10 +202,10 @@ namespace WindowsFormsApp1
             // 
             // resetPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(567, 548);
+            this.ClientSize = new System.Drawing.Size(977, 803);
             this.Controls.Add(this.cancelBtn);
             this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.statusLabel);
@@ -232,8 +218,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.usernameField);
             this.Controls.Add(this.usernameLabel);
             this.Controls.Add(this.headerPan);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "resetPassword";

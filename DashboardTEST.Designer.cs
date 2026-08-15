@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
             this.basePan = new System.Windows.Forms.Panel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.myReqPan = new System.Windows.Forms.Panel();
@@ -102,6 +102,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.welcomeBabaLabel = new System.Windows.Forms.Label();
             this.welcomeLabel = new System.Windows.Forms.Label();
+            this.topbar = new System.Windows.Forms.Panel();
+            this.studentLabel = new System.Windows.Forms.Label();
+            this.studentName = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.avatarInitials = new System.Windows.Forms.Label();
+            this.dashBLabel = new System.Windows.Forms.Label();
             this.basePan.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.myReqPan.SuspendLayout();
@@ -119,6 +125,8 @@
             this.panel14.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.recentReq)).BeginInit();
+            this.topbar.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // basePan
@@ -132,10 +140,10 @@
             this.basePan.Controls.Add(this.label1);
             this.basePan.Controls.Add(this.welcomeBabaLabel);
             this.basePan.Controls.Add(this.welcomeLabel);
-            this.basePan.Location = new System.Drawing.Point(-1, 1);
+            this.basePan.Location = new System.Drawing.Point(0, 91);
             this.basePan.Margin = new System.Windows.Forms.Padding(4);
             this.basePan.Name = "basePan";
-            this.basePan.Size = new System.Drawing.Size(994, 749);
+            this.basePan.Size = new System.Drawing.Size(994, 748);
             this.basePan.TabIndex = 10;
             // 
             // flowLayoutPanel4
@@ -807,21 +815,21 @@
             this.recentReq.AllowUserToAddRows = false;
             this.recentReq.AllowUserToDeleteRows = false;
             this.recentReq.AllowUserToResizeRows = false;
-            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(250)))), ((int)(((byte)(248)))));
-            this.recentReq.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle25;
+            dataGridViewCellStyle49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(250)))), ((int)(((byte)(248)))));
+            this.recentReq.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
             this.recentReq.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.recentReq.BackgroundColor = System.Drawing.Color.White;
             this.recentReq.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.recentReq.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.recentReq.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle26.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.recentReq.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle26;
+            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle50.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.recentReq.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
             this.recentReq.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.recentReq.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.requestIdColumn,
@@ -830,14 +838,14 @@
             this.statusColumn,
             this.priorityColumn,
             this.dateColumn});
-            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle27.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle27.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(245)))), ((int)(((byte)(233)))));
-            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
-            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.recentReq.DefaultCellStyle = dataGridViewCellStyle27;
+            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle51.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle51.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(245)))), ((int)(((byte)(233)))));
+            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.recentReq.DefaultCellStyle = dataGridViewCellStyle51;
             this.recentReq.EnableHeadersVisualStyles = false;
             this.recentReq.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))));
             this.recentReq.Location = new System.Drawing.Point(3, 54);
@@ -954,12 +962,80 @@
             this.welcomeLabel.TabIndex = 17;
             this.welcomeLabel.Text = "Welcome back Juan!";
             // 
+            // topbar
+            // 
+            this.topbar.BackColor = System.Drawing.Color.White;
+            this.topbar.Controls.Add(this.studentLabel);
+            this.topbar.Controls.Add(this.studentName);
+            this.topbar.Controls.Add(this.panel1);
+            this.topbar.Controls.Add(this.dashBLabel);
+            this.topbar.Location = new System.Drawing.Point(0, 2);
+            this.topbar.Margin = new System.Windows.Forms.Padding(4);
+            this.topbar.Name = "topbar";
+            this.topbar.Size = new System.Drawing.Size(994, 89);
+            this.topbar.TabIndex = 11;
+            // 
+            // studentLabel
+            // 
+            this.studentLabel.AutoSize = true;
+            this.studentLabel.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.studentLabel.Location = new System.Drawing.Point(848, 47);
+            this.studentLabel.Name = "studentLabel";
+            this.studentLabel.Size = new System.Drawing.Size(48, 13);
+            this.studentLabel.TabIndex = 16;
+            this.studentLabel.Text = "Student";
+            // 
+            // studentName
+            // 
+            this.studentName.AutoSize = true;
+            this.studentName.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.studentName.Location = new System.Drawing.Point(847, 25);
+            this.studentName.Name = "studentName";
+            this.studentName.Size = new System.Drawing.Size(107, 19);
+            this.studentName.TabIndex = 15;
+            this.studentName.Text = "Juan Dela Cruz";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
+            this.panel1.Controls.Add(this.avatarInitials);
+            this.panel1.Location = new System.Drawing.Point(791, 26);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(38, 38);
+            this.panel1.TabIndex = 13;
+            // 
+            // avatarInitials
+            // 
+            this.avatarInitials.BackColor = System.Drawing.Color.Transparent;
+            this.avatarInitials.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.avatarInitials.Font = new System.Drawing.Font("Segoe UI Semibold", 11.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.avatarInitials.ForeColor = System.Drawing.Color.White;
+            this.avatarInitials.Location = new System.Drawing.Point(0, 0);
+            this.avatarInitials.Name = "avatarInitials";
+            this.avatarInitials.Size = new System.Drawing.Size(38, 38);
+            this.avatarInitials.TabIndex = 0;
+            this.avatarInitials.Text = "JD";
+            this.avatarInitials.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dashBLabel
+            // 
+            this.dashBLabel.AutoSize = true;
+            this.dashBLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dashBLabel.Location = new System.Drawing.Point(24, 26);
+            this.dashBLabel.Name = "dashBLabel";
+            this.dashBLabel.Size = new System.Drawing.Size(120, 30);
+            this.dashBLabel.TabIndex = 0;
+            this.dashBLabel.Text = "Dashboard";
+            // 
             // DashboardTEST
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(993, 750);
+            this.ClientSize = new System.Drawing.Size(993, 842);
+            this.Controls.Add(this.topbar);
             this.Controls.Add(this.basePan);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DashboardTEST";
             this.Text = "DashboardTEST";
             this.basePan.ResumeLayout(false);
@@ -993,6 +1069,9 @@
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.recentReq)).EndInit();
+            this.topbar.ResumeLayout(false);
+            this.topbar.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1070,5 +1149,11 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label welcomeBabaLabel;
         private System.Windows.Forms.Label welcomeLabel;
+        private System.Windows.Forms.Panel topbar;
+        private System.Windows.Forms.Label studentLabel;
+        private System.Windows.Forms.Label studentName;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label avatarInitials;
+        private System.Windows.Forms.Label dashBLabel;
     }
 }

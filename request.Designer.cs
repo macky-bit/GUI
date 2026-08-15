@@ -32,32 +32,32 @@ namespace WindowsFormsApp1
             this.NmaintenanceReq = new System.Windows.Forms.Label();
             this.backBtn = new System.Windows.Forms.Button();
             this.cardPan = new System.Windows.Forms.Panel();
+            this.Formpic = new System.Windows.Forms.PictureBox();
             this.reqInfo = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.rLoc = new System.Windows.Forms.Label();
             this.RoomBox = new System.Windows.Forms.ComboBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.FaciEquip = new System.Windows.Forms.ComboBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.ProbCat = new System.Windows.Forms.ComboBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.prioLev = new System.Windows.Forms.Label();
             this.prioBox = new System.Windows.Forms.ComboBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.messaGe = new System.Windows.Forms.TextBox();
             this.charCountLabel = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.attachBtn = new System.Windows.Forms.Button();
             this.clearAttachment = new System.Windows.Forms.Button();
             this.attachmentLabel = new System.Windows.Forms.Label();
             this.Submit_req = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
-            this.Formpic = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.navPan.SuspendLayout();
             this.cardPan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Formpic)).BeginInit();
@@ -71,13 +71,13 @@ namespace WindowsFormsApp1
             // 
             // navPan
             // 
-            this.navPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(83)))), ((int)(((byte)(14)))));
+            this.navPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.navPan.Controls.Add(this.NmaintenanceReq);
             this.navPan.Controls.Add(this.backBtn);
             this.navPan.Dock = System.Windows.Forms.DockStyle.Top;
             this.navPan.Location = new System.Drawing.Point(0, 0);
             this.navPan.Name = "navPan";
-            this.navPan.Size = new System.Drawing.Size(984, 64);
+            this.navPan.Size = new System.Drawing.Size(977, 64);
             this.navPan.TabIndex = 0;
             // 
             // NmaintenanceReq
@@ -138,10 +138,21 @@ namespace WindowsFormsApp1
             this.cardPan.Controls.Add(this.attachmentLabel);
             this.cardPan.Controls.Add(this.Submit_req);
             this.cardPan.Controls.Add(this.cancelBtn);
-            this.cardPan.Location = new System.Drawing.Point(24, 88);
+            this.cardPan.Location = new System.Drawing.Point(0, 66);
             this.cardPan.Name = "cardPan";
-            this.cardPan.Size = new System.Drawing.Size(672, 578);
+            this.cardPan.Size = new System.Drawing.Size(993, 842);
             this.cardPan.TabIndex = 1;
+            // 
+            // Formpic
+            // 
+            this.Formpic.BackColor = System.Drawing.Color.Transparent;
+            this.Formpic.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_information;
+            this.Formpic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Formpic.Location = new System.Drawing.Point(24, 18);
+            this.Formpic.Name = "Formpic";
+            this.Formpic.Size = new System.Drawing.Size(44, 40);
+            this.Formpic.TabIndex = 0;
+            this.Formpic.TabStop = false;
             // 
             // reqInfo
             // 
@@ -167,6 +178,17 @@ namespace WindowsFormsApp1
             this.label4.TabIndex = 2;
             this.label4.Text = "Please provide the details of the maintenance issue.";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_location;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(26, 92);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // rLoc
             // 
             this.rLoc.AutoSize = true;
@@ -184,10 +206,21 @@ namespace WindowsFormsApp1
             this.RoomBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RoomBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoomBox.FormattingEnabled = true;
-            this.RoomBox.Location = new System.Drawing.Point(238, 92);
+            this.RoomBox.Location = new System.Drawing.Point(342, 92);
             this.RoomBox.Name = "RoomBox";
-            this.RoomBox.Size = new System.Drawing.Size(404, 27);
+            this.RoomBox.Size = new System.Drawing.Size(569, 27);
             this.RoomBox.TabIndex = 0;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_computer;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(26, 148);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -206,10 +239,21 @@ namespace WindowsFormsApp1
             this.FaciEquip.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FaciEquip.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FaciEquip.FormattingEnabled = true;
-            this.FaciEquip.Location = new System.Drawing.Point(238, 148);
+            this.FaciEquip.Location = new System.Drawing.Point(342, 148);
             this.FaciEquip.Name = "FaciEquip";
-            this.FaciEquip.Size = new System.Drawing.Size(404, 27);
+            this.FaciEquip.Size = new System.Drawing.Size(569, 27);
             this.FaciEquip.TabIndex = 1;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_options;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Location = new System.Drawing.Point(26, 204);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox4.TabIndex = 7;
+            this.pictureBox4.TabStop = false;
             // 
             // label2
             // 
@@ -228,10 +272,21 @@ namespace WindowsFormsApp1
             this.ProbCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ProbCat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProbCat.FormattingEnabled = true;
-            this.ProbCat.Location = new System.Drawing.Point(238, 204);
+            this.ProbCat.Location = new System.Drawing.Point(342, 204);
             this.ProbCat.Name = "ProbCat";
-            this.ProbCat.Size = new System.Drawing.Size(404, 27);
+            this.ProbCat.Size = new System.Drawing.Size(569, 27);
             this.ProbCat.TabIndex = 2;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_flag;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Location = new System.Drawing.Point(26, 260);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
             // 
             // prioLev
             // 
@@ -250,10 +305,21 @@ namespace WindowsFormsApp1
             this.prioBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.prioBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.prioBox.FormattingEnabled = true;
-            this.prioBox.Location = new System.Drawing.Point(238, 260);
+            this.prioBox.Location = new System.Drawing.Point(342, 260);
             this.prioBox.Name = "prioBox";
-            this.prioBox.Size = new System.Drawing.Size(404, 27);
+            this.prioBox.Size = new System.Drawing.Size(569, 27);
             this.prioBox.TabIndex = 3;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_decription;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox5.Location = new System.Drawing.Point(26, 316);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox5.TabIndex = 11;
+            this.pictureBox5.TabStop = false;
             // 
             // label5
             // 
@@ -271,12 +337,12 @@ namespace WindowsFormsApp1
             this.messaGe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.messaGe.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.messaGe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.messaGe.Location = new System.Drawing.Point(238, 316);
+            this.messaGe.Location = new System.Drawing.Point(342, 316);
             this.messaGe.MaxLength = 400;
             this.messaGe.Multiline = true;
             this.messaGe.Name = "messaGe";
             this.messaGe.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.messaGe.Size = new System.Drawing.Size(404, 92);
+            this.messaGe.Size = new System.Drawing.Size(569, 60);
             this.messaGe.TabIndex = 4;
             this.messaGe.TextChanged += new System.EventHandler(this.messaGe_TextChanged);
             // 
@@ -291,6 +357,17 @@ namespace WindowsFormsApp1
             this.charCountLabel.Text = "400 characters left";
             this.charCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_file;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox6.Location = new System.Drawing.Point(26, 438);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(32, 28);
+            this.pictureBox6.TabIndex = 14;
+            this.pictureBox6.TabStop = false;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -304,7 +381,7 @@ namespace WindowsFormsApp1
             // 
             // attachBtn
             // 
-            this.attachBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(122)))), ((int)(((byte)(58)))));
+            this.attachBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.attachBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.attachBtn.FlatAppearance.BorderSize = 0;
             this.attachBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(83)))), ((int)(((byte)(14)))));
@@ -347,7 +424,7 @@ namespace WindowsFormsApp1
             // 
             // Submit_req
             // 
-            this.Submit_req.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(83)))), ((int)(((byte)(14)))));
+            this.Submit_req.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.Submit_req.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Submit_req.FlatAppearance.BorderSize = 0;
             this.Submit_req.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(122)))), ((int)(((byte)(58)))));
@@ -378,92 +455,15 @@ namespace WindowsFormsApp1
             this.cancelBtn.UseVisualStyleBackColor = false;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
-            // Formpic
-            // 
-            this.Formpic.BackColor = System.Drawing.Color.Transparent;
-            this.Formpic.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_information;
-            this.Formpic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Formpic.Location = new System.Drawing.Point(24, 18);
-            this.Formpic.Name = "Formpic";
-            this.Formpic.Size = new System.Drawing.Size(44, 40);
-            this.Formpic.TabIndex = 0;
-            this.Formpic.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_location;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 92);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_computer;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(26, 148);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_options;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(26, 204);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox4.TabIndex = 7;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_flag;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(26, 260);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_decription;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox5.Location = new System.Drawing.Point(26, 316);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_file;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox6.Location = new System.Drawing.Point(26, 438);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox6.TabIndex = 14;
-            this.pictureBox6.TabStop = false;
-            // 
             // request
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(243)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(984, 725);
+            this.ClientSize = new System.Drawing.Size(977, 803);
             this.Controls.Add(this.cardPan);
             this.Controls.Add(this.navPan);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "request";

@@ -5,7 +5,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    /// <summary>Shell only: sidebar + topbar. Dashboard content lives in DashboardTEST, loaded as an MDI child.</summary>
+    /// <summary>Shell only: sidebar + topbar. All content forms load as MDI children.</summary>
     public partial class shwpanBtn : Form
     {
         public shwpanBtn()
@@ -15,43 +15,46 @@ namespace WindowsFormsApp1
 
         private void shwpanBtn_Load(object sender, EventArgs e)
         {
-            UiTheme.MakeCircular(panel1); // bulletPan no longer exists on this form — panel1 is the avatar circle
-
-            ShowSignedInUser();
             OpenDashboardChild();
         }
 
-        private void ShowSignedInUser()
-        {
-            string fullName = AppSession.DisplayName;
-            studentName.Text = fullName;
-            studentLabel.Text = AppSession.IsSignedIn ? AppSession.CurrentUser.Role : "Guest";
-            avatarInitials.Text = InitialsOf(fullName);
-        }
-
-        private static string InitialsOf(string fullName)
-        {
-            var parts = fullName.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-            if (parts.Length == 0) return "?";
-            if (parts.Length == 1) return parts[0].Substring(0, 1).ToUpper();
-            return (parts[0].Substring(0, 1) + parts[parts.Length - 1].Substring(0, 1)).ToUpper();
-        }
-
         #region MDI content
-
-        // TODO: rename DashboardTEST here if your relocated content form has a different class name
-        private void OpenDashboardChild()
+        private T OpenMdiChild<T>(Func<T> factory) where T : Form
         {
-            var existing = MdiChildren.OfType<DashboardTEST>().FirstOrDefault();
-            if (existing != null)
+            foreach (var mdiChild in MdiChildren)
             {
-                existing.Activate();
-                return;
+                if (!(mdiChild is T))
+                {
+                    mdiChild.Hide();
+                }
             }
 
-            var child = new DashboardTEST();
+            var existing = MdiChildren.OfType<T>().FirstOrDefault();
+            if (existing != null)
+            {
+                existing.Show();
+                existing.Activate();
+                PinToTopLeft(existing);
+                return existing;
+            }
+
+            var child = factory();
             child.MdiParent = this;
             child.Show();
+            PinToTopLeft(child);
+            return child;
+        }
+
+
+        private static void PinToTopLeft(Form mdiChild)
+        {
+            mdiChild.Location = new System.Drawing.Point(0, 0);
+        }
+
+    
+        private void OpenDashboardChild()
+        {
+            OpenMdiChild(() => new DashboardTEST());
         }
 
         #endregion
@@ -75,27 +78,17 @@ namespace WindowsFormsApp1
 
         private void profilebtn_Click(object sender, EventArgs e)
         {
-            using (var page = new profile())
-            {
-                page.ShowDialog(this);
-            }
-            ShowSignedInUser();
+            OpenMdiChild(() => new profile());
         }
 
         private void OpenNewRequest()
         {
-            using (var form = new request())
-            {
-                form.ShowDialog(this);
-            }
+            OpenMdiChild(() => new request());
         }
 
         private void OpenMyRequests(string statusFilter)
         {
-            using (var form = new myRequests(statusFilter))
-            {
-                form.ShowDialog(this);
-            }
+            OpenMdiChild(() => new myRequests(statusFilter));
         }
 
         #endregion

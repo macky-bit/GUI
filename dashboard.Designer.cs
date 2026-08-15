@@ -57,12 +57,6 @@
             this.panel22 = new System.Windows.Forms.Panel();
             this.panel23 = new System.Windows.Forms.Panel();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.dashBLabel = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.avatarInitials = new System.Windows.Forms.Label();
-            this.studentName = new System.Windows.Forms.Label();
-            this.studentLabel = new System.Windows.Forms.Label();
-            this.topbar = new System.Windows.Forms.Panel();
             this.btnpan4.SuspendLayout();
             this.btnpan1.SuspendLayout();
             this.btnpan2.SuspendLayout();
@@ -70,8 +64,6 @@
             this.menuContainer.SuspendLayout();
             this.menu.SuspendLayout();
             this.sidebarPan.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.topbar.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnpan4
@@ -344,7 +336,7 @@
             this.sidebarPan.ForeColor = System.Drawing.Color.Coral;
             this.sidebarPan.Location = new System.Drawing.Point(0, 0);
             this.sidebarPan.Name = "sidebarPan";
-            this.sidebarPan.Size = new System.Drawing.Size(273, 853);
+            this.sidebarPan.Size = new System.Drawing.Size(273, 846);
             this.sidebarPan.TabIndex = 14;
             // 
             // sideIcon
@@ -399,79 +391,12 @@
             this.panel19.Size = new System.Drawing.Size(48, 52);
             this.panel19.TabIndex = 18;
             // 
-            // dashBLabel
-            // 
-            this.dashBLabel.AutoSize = true;
-            this.dashBLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashBLabel.Location = new System.Drawing.Point(24, 26);
-            this.dashBLabel.Name = "dashBLabel";
-            this.dashBLabel.Size = new System.Drawing.Size(120, 30);
-            this.dashBLabel.TabIndex = 0;
-            this.dashBLabel.Text = "Dashboard";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
-            this.panel1.Controls.Add(this.avatarInitials);
-            this.panel1.Location = new System.Drawing.Point(791, 26);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(38, 38);
-            this.panel1.TabIndex = 13;
-            // 
-            // avatarInitials
-            // 
-            this.avatarInitials.BackColor = System.Drawing.Color.Transparent;
-            this.avatarInitials.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.avatarInitials.Font = new System.Drawing.Font("Segoe UI Semibold", 11.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.avatarInitials.ForeColor = System.Drawing.Color.White;
-            this.avatarInitials.Location = new System.Drawing.Point(0, 0);
-            this.avatarInitials.Name = "avatarInitials";
-            this.avatarInitials.Size = new System.Drawing.Size(38, 38);
-            this.avatarInitials.TabIndex = 0;
-            this.avatarInitials.Text = "JD";
-            this.avatarInitials.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // studentName
-            // 
-            this.studentName.AutoSize = true;
-            this.studentName.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studentName.Location = new System.Drawing.Point(847, 25);
-            this.studentName.Name = "studentName";
-            this.studentName.Size = new System.Drawing.Size(107, 19);
-            this.studentName.TabIndex = 15;
-            this.studentName.Text = "Juan Dela Cruz";
-            // 
-            // studentLabel
-            // 
-            this.studentLabel.AutoSize = true;
-            this.studentLabel.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studentLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.studentLabel.Location = new System.Drawing.Point(848, 47);
-            this.studentLabel.Name = "studentLabel";
-            this.studentLabel.Size = new System.Drawing.Size(48, 13);
-            this.studentLabel.TabIndex = 16;
-            this.studentLabel.Text = "Student";
-            // 
-            // topbar
-            // 
-            this.topbar.BackColor = System.Drawing.Color.White;
-            this.topbar.Controls.Add(this.studentLabel);
-            this.topbar.Controls.Add(this.studentName);
-            this.topbar.Controls.Add(this.panel1);
-            this.topbar.Controls.Add(this.dashBLabel);
-            this.topbar.Location = new System.Drawing.Point(273, 0);
-            this.topbar.Margin = new System.Windows.Forms.Padding(4);
-            this.topbar.Name = "topbar";
-            this.topbar.Size = new System.Drawing.Size(1018, 89);
-            this.topbar.TabIndex = 0;
-            // 
             // shwpanBtn
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1291, 853);
+            this.ClientSize = new System.Drawing.Size(1272, 846);
             this.Controls.Add(this.sidebarPan);
-            this.Controls.Add(this.topbar);
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "shwpanBtn";
@@ -485,9 +410,6 @@
             this.menuContainer.ResumeLayout(false);
             this.menu.ResumeLayout(false);
             this.sidebarPan.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.topbar.ResumeLayout(false);
-            this.topbar.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -521,11 +443,5 @@
         private System.Windows.Forms.Panel panel21;
         private System.Windows.Forms.Panel panel22;
         private System.Windows.Forms.Panel panel23;
-        private System.Windows.Forms.Label dashBLabel;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label avatarInitials;
-        private System.Windows.Forms.Label studentName;
-        private System.Windows.Forms.Label studentLabel;
-        private System.Windows.Forms.Panel topbar;
     }
 }

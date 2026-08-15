@@ -17,9 +17,8 @@ namespace WindowsFormsApp1
 
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle headerStyle = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle cellStyle = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle alternateStyle = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.navPan = new System.Windows.Forms.Panel();
             this.headingLabel = new System.Windows.Forms.Label();
             this.subheadingLabel = new System.Windows.Forms.Label();
@@ -48,15 +47,15 @@ namespace WindowsFormsApp1
             this.SuspendLayout();
             // 
             // navPan
-            //
-            this.navPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(83)))), ((int)(((byte)(14)))));
+            // 
+            this.navPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.navPan.Controls.Add(this.headingLabel);
             this.navPan.Controls.Add(this.subheadingLabel);
             this.navPan.Dock = System.Windows.Forms.DockStyle.Top;
             this.navPan.Location = new System.Drawing.Point(0, 0);
             this.navPan.Margin = new System.Windows.Forms.Padding(4);
             this.navPan.Name = "navPan";
-            this.navPan.Size = new System.Drawing.Size(940, 80);
+            this.navPan.Size = new System.Drawing.Size(993, 80);
             this.navPan.TabIndex = 0;
             // 
             // headingLabel
@@ -68,7 +67,7 @@ namespace WindowsFormsApp1
             this.headingLabel.Location = new System.Drawing.Point(37, 20);
             this.headingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.headingLabel.Name = "headingLabel";
-            this.headingLabel.Size = new System.Drawing.Size(148, 28);
+            this.headingLabel.Size = new System.Drawing.Size(139, 30);
             this.headingLabel.TabIndex = 0;
             this.headingLabel.Text = "My Requests";
             // 
@@ -81,7 +80,7 @@ namespace WindowsFormsApp1
             this.subheadingLabel.Location = new System.Drawing.Point(40, 59);
             this.subheadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.subheadingLabel.Name = "subheadingLabel";
-            this.subheadingLabel.Size = new System.Drawing.Size(340, 17);
+            this.subheadingLabel.Size = new System.Drawing.Size(325, 17);
             this.subheadingLabel.TabIndex = 1;
             this.subheadingLabel.Text = "Every maintenance request you have filed, newest first.";
             // 
@@ -109,7 +108,7 @@ namespace WindowsFormsApp1
             this.filterLabel.Location = new System.Drawing.Point(27, 25);
             this.filterLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.filterLabel.Name = "filterLabel";
-            this.filterLabel.Size = new System.Drawing.Size(57, 23);
+            this.filterLabel.Size = new System.Drawing.Size(46, 17);
             this.filterLabel.TabIndex = 0;
             this.filterLabel.Text = "Status";
             // 
@@ -124,7 +123,7 @@ namespace WindowsFormsApp1
             this.statusFilter.Location = new System.Drawing.Point(27, 49);
             this.statusFilter.Margin = new System.Windows.Forms.Padding(4);
             this.statusFilter.Name = "statusFilter";
-            this.statusFilter.Size = new System.Drawing.Size(260, 31);
+            this.statusFilter.Size = new System.Drawing.Size(260, 27);
             this.statusFilter.TabIndex = 0;
             this.statusFilter.SelectedIndexChanged += new System.EventHandler(this.statusFilter_SelectedIndexChanged);
             // 
@@ -136,7 +135,7 @@ namespace WindowsFormsApp1
             this.searchLabel.Location = new System.Drawing.Point(315, 25);
             this.searchLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.searchLabel.Name = "searchLabel";
-            this.searchLabel.Size = new System.Drawing.Size(50, 17);
+            this.searchLabel.Size = new System.Drawing.Size(48, 17);
             this.searchLabel.TabIndex = 2;
             this.searchLabel.Text = "Search";
             // 
@@ -149,7 +148,7 @@ namespace WindowsFormsApp1
             this.searchField.Margin = new System.Windows.Forms.Padding(4);
             this.searchField.MaxLength = 60;
             this.searchField.Name = "searchField";
-            this.searchField.Size = new System.Drawing.Size(340, 27);
+            this.searchField.Size = new System.Drawing.Size(340, 26);
             this.searchField.TabIndex = 1;
             this.searchField.TextChanged += new System.EventHandler(this.searchField_TextChanged);
             // 
@@ -164,12 +163,21 @@ namespace WindowsFormsApp1
             this.countLabel.TabIndex = 4;
             this.countLabel.Text = "0 requests";
             this.countLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            //
+            // 
+            // emptyLabel
+            // 
+            this.emptyLabel.Location = new System.Drawing.Point(0, 0);
+            this.emptyLabel.Name = "emptyLabel";
+            this.emptyLabel.Size = new System.Drawing.Size(100, 23);
+            this.emptyLabel.TabIndex = 5;
+            // 
             // requestGrid
             // 
             this.requestGrid.AllowUserToAddRows = false;
             this.requestGrid.AllowUserToDeleteRows = false;
             this.requestGrid.AllowUserToResizeRows = false;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(250)))), ((int)(((byte)(248)))));
+            this.requestGrid.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.requestGrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.requestGrid.BackgroundColor = System.Drawing.Color.White;
             this.requestGrid.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -184,15 +192,14 @@ namespace WindowsFormsApp1
             this.priorityColumn,
             this.statusColumn,
             this.dateColumn});
-            cellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            cellStyle.BackColor = System.Drawing.Color.White;
-            cellStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            cellStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            cellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(245)))), ((int)(((byte)(233)))));
-            cellStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
-            this.requestGrid.DefaultCellStyle = cellStyle;
-            alternateStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(250)))), ((int)(((byte)(248)))));
-            this.requestGrid.AlternatingRowsDefaultCellStyle = alternateStyle;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(245)))), ((int)(((byte)(233)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.requestGrid.DefaultCellStyle = dataGridViewCellStyle4;
             this.requestGrid.EnableHeadersVisualStyles = false;
             this.requestGrid.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))));
             this.requestGrid.Location = new System.Drawing.Point(9, 103);
@@ -299,7 +306,7 @@ namespace WindowsFormsApp1
             this.cancelRequestBtn.Click += new System.EventHandler(this.cancelRequestBtn_Click);
             // 
             // newRequestBtn
-            //
+            // 
             this.newRequestBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(83)))), ((int)(((byte)(14)))));
             this.newRequestBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.newRequestBtn.FlatAppearance.BorderSize = 0;
@@ -334,11 +341,11 @@ namespace WindowsFormsApp1
             this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
             // 
             // myRequests
-            //
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(243)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(940, 606);
+            this.ClientSize = new System.Drawing.Size(993, 842);
             this.Controls.Add(this.closeBtn);
             this.Controls.Add(this.newRequestBtn);
             this.Controls.Add(this.cancelRequestBtn);
