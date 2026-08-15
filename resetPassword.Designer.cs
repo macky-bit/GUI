@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
             this.headerPan.Controls.Add(this.subheadingLabel);
             this.headerPan.Dock = System.Windows.Forms.DockStyle.Top;
             this.headerPan.Location = new System.Drawing.Point(0, 0);
-            this.headerPan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.headerPan.Margin = new System.Windows.Forms.Padding(4);
             this.headerPan.Name = "headerPan";
             this.headerPan.Size = new System.Drawing.Size(567, 100);
             this.headerPan.TabIndex = 0;
@@ -88,7 +88,7 @@ namespace WindowsFormsApp1
             this.usernameField.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.usernameField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
             this.usernameField.Location = new System.Drawing.Point(35, 143);
-            this.usernameField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.usernameField.Margin = new System.Windows.Forms.Padding(4);
             this.usernameField.MaxLength = 30;
             this.usernameField.Name = "usernameField";
             this.usernameField.Size = new System.Drawing.Size(490, 30);
@@ -112,7 +112,7 @@ namespace WindowsFormsApp1
             this.currentField.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
             this.currentField.Location = new System.Drawing.Point(35, 214);
-            this.currentField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.currentField.Margin = new System.Windows.Forms.Padding(4);
             this.currentField.MaxLength = 60;
             this.currentField.Name = "currentField";
             this.currentField.Size = new System.Drawing.Size(490, 30);
@@ -137,7 +137,7 @@ namespace WindowsFormsApp1
             this.newField.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
             this.newField.Location = new System.Drawing.Point(35, 286);
-            this.newField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.newField.Margin = new System.Windows.Forms.Padding(4);
             this.newField.MaxLength = 60;
             this.newField.Name = "newField";
             this.newField.Size = new System.Drawing.Size(490, 30);
@@ -162,7 +162,7 @@ namespace WindowsFormsApp1
             this.confirmField.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.confirmField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
             this.confirmField.Location = new System.Drawing.Point(35, 357);
-            this.confirmField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.confirmField.Margin = new System.Windows.Forms.Padding(4);
             this.confirmField.MaxLength = 60;
             this.confirmField.Name = "confirmField";
             this.confirmField.Size = new System.Drawing.Size(490, 30);
@@ -189,7 +189,7 @@ namespace WindowsFormsApp1
             this.saveBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveBtn.ForeColor = System.Drawing.Color.White;
             this.saveBtn.Location = new System.Drawing.Point(317, 446);
-            this.saveBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.saveBtn.Margin = new System.Windows.Forms.Padding(4);
             this.saveBtn.Name = "saveBtn";
             this.saveBtn.Size = new System.Drawing.Size(208, 47);
             this.saveBtn.TabIndex = 4;
@@ -206,7 +206,7 @@ namespace WindowsFormsApp1
             this.cancelBtn.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
             this.cancelBtn.Location = new System.Drawing.Point(187, 446);
-            this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cancelBtn.Margin = new System.Windows.Forms.Padding(4);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(123, 47);
             this.cancelBtn.TabIndex = 5;
@@ -233,7 +233,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.usernameLabel);
             this.Controls.Add(this.headerPan);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "resetPassword";
