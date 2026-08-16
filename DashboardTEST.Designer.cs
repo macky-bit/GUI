@@ -28,35 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.basePan = new System.Windows.Forms.Panel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.myReqPan = new System.Windows.Forms.Panel();
             this.panel24 = new System.Windows.Forms.Panel();
             this.myReqCount = new System.Windows.Forms.Label();
             this.myReqTxt = new System.Windows.Forms.Label();
-            this.viewReq = new System.Windows.Forms.Button();
-            this.myReqIcon = new System.Windows.Forms.Panel();
             this.canPan = new System.Windows.Forms.Panel();
             this.panel25 = new System.Windows.Forms.Panel();
             this.canCount = new System.Windows.Forms.Label();
             this.canTxt = new System.Windows.Forms.Label();
-            this.can = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
             this.inProgPan = new System.Windows.Forms.Panel();
             this.panel26 = new System.Windows.Forms.Panel();
             this.inProgCount = new System.Windows.Forms.Label();
             this.inProgTxt = new System.Windows.Forms.Label();
-            this.inProg = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.comPan = new System.Windows.Forms.Panel();
             this.panel27 = new System.Windows.Forms.Panel();
             this.comCount = new System.Windows.Forms.Label();
             this.Comtxt = new System.Windows.Forms.Label();
-            this.com = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
             this.lastUpdateLabel = new System.Windows.Forms.Label();
             this.allSystemOpLabel = new System.Windows.Forms.Label();
@@ -66,11 +58,9 @@
             this.announPan2 = new System.Windows.Forms.Panel();
             this.schedMainBotLabel = new System.Windows.Forms.Label();
             this.schedMainLabel = new System.Windows.Forms.Label();
-            this.announIcon2 = new System.Windows.Forms.Panel();
             this.announPan1 = new System.Windows.Forms.Panel();
             this.reminderBotLabel = new System.Windows.Forms.Label();
             this.reminderLabel = new System.Windows.Forms.Label();
-            this.announIcon1 = new System.Windows.Forms.Panel();
             this.announLabel = new System.Windows.Forms.Label();
             this.contAdmnPan = new System.Windows.Forms.FlowLayoutPanel();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -78,15 +68,12 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.newReqBotLabel = new System.Windows.Forms.Label();
             this.newReqLabel = new System.Windows.Forms.Label();
-            this.newReqPan = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.viewHisBotLabel = new System.Windows.Forms.Label();
             this.viewHisLabel = new System.Windows.Forms.Label();
-            this.viewHisPan = new System.Windows.Forms.Panel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.conAdBotPan = new System.Windows.Forms.Label();
             this.conAdPan = new System.Windows.Forms.Label();
-            this.panel15 = new System.Windows.Forms.Panel();
             this.quickAcLabel = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.emptyGridLabel = new System.Windows.Forms.Label();
@@ -108,6 +95,19 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.avatarInitials = new System.Windows.Forms.Label();
             this.dashBLabel = new System.Windows.Forms.Label();
+            this.txtCancelled = new System.Windows.Forms.MaskedTextBox();
+            this.txtInProg = new System.Windows.Forms.MaskedTextBox();
+            this.txtCompleted = new System.Windows.Forms.MaskedTextBox();
+            this.txtMyReq = new System.Windows.Forms.MaskedTextBox();
+            this.myReqIcon = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.announIcon2 = new System.Windows.Forms.Panel();
+            this.announIcon1 = new System.Windows.Forms.Panel();
+            this.newReqPan = new System.Windows.Forms.Panel();
+            this.viewHisPan = new System.Windows.Forms.Panel();
+            this.panel15 = new System.Windows.Forms.Panel();
             this.basePan.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.myReqPan.SuspendLayout();
@@ -131,7 +131,7 @@
             // 
             // basePan
             // 
-            this.basePan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(243)))), ((int)(((byte)(240)))));
+            this.basePan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.basePan.Controls.Add(this.flowLayoutPanel4);
             this.basePan.Controls.Add(this.panel11);
             this.basePan.Controls.Add(this.panel10);
@@ -140,10 +140,10 @@
             this.basePan.Controls.Add(this.label1);
             this.basePan.Controls.Add(this.welcomeBabaLabel);
             this.basePan.Controls.Add(this.welcomeLabel);
-            this.basePan.Location = new System.Drawing.Point(0, 91);
-            this.basePan.Margin = new System.Windows.Forms.Padding(4);
+            this.basePan.Location = new System.Drawing.Point(0, 112);
+            this.basePan.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.basePan.Name = "basePan";
-            this.basePan.Size = new System.Drawing.Size(994, 748);
+            this.basePan.Size = new System.Drawing.Size(1325, 921);
             this.basePan.TabIndex = 10;
             // 
             // flowLayoutPanel4
@@ -152,31 +152,33 @@
             this.flowLayoutPanel4.Controls.Add(this.canPan);
             this.flowLayoutPanel4.Controls.Add(this.inProgPan);
             this.flowLayoutPanel4.Controls.Add(this.comPan);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(12, 61);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(16, 75);
+            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(972, 188);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(1296, 231);
             this.flowLayoutPanel4.TabIndex = 0;
             // 
             // myReqPan
             // 
             this.myReqPan.BackColor = System.Drawing.Color.White;
+            this.myReqPan.Controls.Add(this.txtMyReq);
             this.myReqPan.Controls.Add(this.panel24);
             this.myReqPan.Controls.Add(this.myReqCount);
             this.myReqPan.Controls.Add(this.myReqTxt);
-            this.myReqPan.Controls.Add(this.viewReq);
             this.myReqPan.Controls.Add(this.myReqIcon);
-            this.myReqPan.Location = new System.Drawing.Point(3, 2);
-            this.myReqPan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.myReqPan.Location = new System.Drawing.Point(4, 2);
+            this.myReqPan.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.myReqPan.Name = "myReqPan";
-            this.myReqPan.Size = new System.Drawing.Size(237, 178);
+            this.myReqPan.Size = new System.Drawing.Size(316, 219);
             this.myReqPan.TabIndex = 9;
             // 
             // panel24
             // 
             this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(28)))), ((int)(((byte)(46)))));
-            this.panel24.Location = new System.Drawing.Point(-11, 168);
+            this.panel24.Location = new System.Drawing.Point(-15, 207);
+            this.panel24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel24.Name = "panel24";
-            this.panel24.Size = new System.Drawing.Size(251, 10);
+            this.panel24.Size = new System.Drawing.Size(335, 12);
             this.panel24.TabIndex = 19;
             // 
             // myReqCount
@@ -184,9 +186,10 @@
             this.myReqCount.BackColor = System.Drawing.Color.Transparent;
             this.myReqCount.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.myReqCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(28)))), ((int)(((byte)(46)))));
-            this.myReqCount.Location = new System.Drawing.Point(94, 20);
+            this.myReqCount.Location = new System.Drawing.Point(125, 25);
+            this.myReqCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.myReqCount.Name = "myReqCount";
-            this.myReqCount.Size = new System.Drawing.Size(133, 46);
+            this.myReqCount.Size = new System.Drawing.Size(177, 57);
             this.myReqCount.TabIndex = 12;
             this.myReqCount.Text = "0";
             this.myReqCount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -196,60 +199,34 @@
             this.myReqTxt.AutoSize = true;
             this.myReqTxt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.myReqTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(28)))), ((int)(((byte)(46)))));
-            this.myReqTxt.Location = new System.Drawing.Point(97, 69);
+            this.myReqTxt.Location = new System.Drawing.Point(129, 85);
+            this.myReqTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.myReqTxt.Name = "myReqTxt";
-            this.myReqTxt.Size = new System.Drawing.Size(93, 19);
+            this.myReqTxt.Size = new System.Drawing.Size(111, 23);
             this.myReqTxt.TabIndex = 0;
             this.myReqTxt.Text = "My Requests";
-            // 
-            // viewReq
-            // 
-            this.viewReq.BackColor = System.Drawing.Color.White;
-            this.viewReq.FlatAppearance.BorderSize = 0;
-            this.viewReq.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.viewReq.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.viewReq.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.viewReq.Location = new System.Drawing.Point(11, 98);
-            this.viewReq.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.viewReq.Name = "viewReq";
-            this.viewReq.Size = new System.Drawing.Size(223, 66);
-            this.viewReq.TabIndex = 10;
-            this.viewReq.Text = "View all your maintenance requests";
-            this.viewReq.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.viewReq.UseVisualStyleBackColor = false;
-            this.viewReq.Click += new System.EventHandler(this.viewReq_Click);
-            // 
-            // myReqIcon
-            // 
-            this.myReqIcon.BackColor = System.Drawing.Color.Transparent;
-            this.myReqIcon.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon1;
-            this.myReqIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.myReqIcon.Location = new System.Drawing.Point(11, 12);
-            this.myReqIcon.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.myReqIcon.Name = "myReqIcon";
-            this.myReqIcon.Size = new System.Drawing.Size(80, 80);
-            this.myReqIcon.TabIndex = 10;
             // 
             // canPan
             // 
             this.canPan.BackColor = System.Drawing.Color.White;
+            this.canPan.Controls.Add(this.txtCancelled);
             this.canPan.Controls.Add(this.panel25);
             this.canPan.Controls.Add(this.canCount);
             this.canPan.Controls.Add(this.canTxt);
-            this.canPan.Controls.Add(this.can);
             this.canPan.Controls.Add(this.panel7);
-            this.canPan.Location = new System.Drawing.Point(246, 2);
-            this.canPan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.canPan.Location = new System.Drawing.Point(328, 2);
+            this.canPan.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.canPan.Name = "canPan";
-            this.canPan.Size = new System.Drawing.Size(237, 178);
+            this.canPan.Size = new System.Drawing.Size(316, 219);
             this.canPan.TabIndex = 12;
             // 
             // panel25
             // 
             this.panel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(106)))), ((int)(((byte)(25)))));
-            this.panel25.Location = new System.Drawing.Point(0, 168);
+            this.panel25.Location = new System.Drawing.Point(0, 207);
+            this.panel25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel25.Name = "panel25";
-            this.panel25.Size = new System.Drawing.Size(258, 10);
+            this.panel25.Size = new System.Drawing.Size(344, 12);
             this.panel25.TabIndex = 20;
             // 
             // canCount
@@ -257,9 +234,10 @@
             this.canCount.BackColor = System.Drawing.Color.Transparent;
             this.canCount.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.canCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(106)))), ((int)(((byte)(25)))));
-            this.canCount.Location = new System.Drawing.Point(94, 20);
+            this.canCount.Location = new System.Drawing.Point(125, 25);
+            this.canCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.canCount.Name = "canCount";
-            this.canCount.Size = new System.Drawing.Size(133, 46);
+            this.canCount.Size = new System.Drawing.Size(177, 57);
             this.canCount.TabIndex = 13;
             this.canCount.Text = "0";
             this.canCount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -269,59 +247,34 @@
             this.canTxt.AutoSize = true;
             this.canTxt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.canTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(106)))), ((int)(((byte)(25)))));
-            this.canTxt.Location = new System.Drawing.Point(97, 69);
+            this.canTxt.Location = new System.Drawing.Point(129, 85);
+            this.canTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.canTxt.Name = "canTxt";
-            this.canTxt.Size = new System.Drawing.Size(74, 19);
+            this.canTxt.Size = new System.Drawing.Size(87, 23);
             this.canTxt.TabIndex = 11;
             this.canTxt.Text = "Cancelled";
-            // 
-            // can
-            // 
-            this.can.BackColor = System.Drawing.Color.White;
-            this.can.FlatAppearance.BorderSize = 0;
-            this.can.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.can.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.can.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.can.Location = new System.Drawing.Point(11, 98);
-            this.can.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.can.Name = "can";
-            this.can.Size = new System.Drawing.Size(223, 66);
-            this.can.TabIndex = 10;
-            this.can.Text = "Requests that were cancelled";
-            this.can.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.can.UseVisualStyleBackColor = false;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Transparent;
-            this.panel7.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon2;
-            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel7.Location = new System.Drawing.Point(11, 12);
-            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(80, 80);
-            this.panel7.TabIndex = 10;
             // 
             // inProgPan
             // 
             this.inProgPan.BackColor = System.Drawing.Color.White;
+            this.inProgPan.Controls.Add(this.txtInProg);
             this.inProgPan.Controls.Add(this.panel26);
             this.inProgPan.Controls.Add(this.inProgCount);
             this.inProgPan.Controls.Add(this.inProgTxt);
-            this.inProgPan.Controls.Add(this.inProg);
             this.inProgPan.Controls.Add(this.panel3);
-            this.inProgPan.Location = new System.Drawing.Point(489, 2);
-            this.inProgPan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.inProgPan.Location = new System.Drawing.Point(652, 2);
+            this.inProgPan.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.inProgPan.Name = "inProgPan";
-            this.inProgPan.Size = new System.Drawing.Size(237, 178);
+            this.inProgPan.Size = new System.Drawing.Size(316, 219);
             this.inProgPan.TabIndex = 11;
             // 
             // panel26
             // 
             this.panel26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(73)))), ((int)(((byte)(79)))));
-            this.panel26.Location = new System.Drawing.Point(-3, 168);
+            this.panel26.Location = new System.Drawing.Point(-4, 207);
+            this.panel26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel26.Name = "panel26";
-            this.panel26.Size = new System.Drawing.Size(258, 10);
+            this.panel26.Size = new System.Drawing.Size(344, 12);
             this.panel26.TabIndex = 21;
             // 
             // inProgCount
@@ -329,9 +282,10 @@
             this.inProgCount.BackColor = System.Drawing.Color.Transparent;
             this.inProgCount.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inProgCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(73)))), ((int)(((byte)(79)))));
-            this.inProgCount.Location = new System.Drawing.Point(94, 20);
+            this.inProgCount.Location = new System.Drawing.Point(125, 25);
+            this.inProgCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.inProgCount.Name = "inProgCount";
-            this.inProgCount.Size = new System.Drawing.Size(133, 46);
+            this.inProgCount.Size = new System.Drawing.Size(177, 57);
             this.inProgCount.TabIndex = 13;
             this.inProgCount.Text = "0";
             this.inProgCount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -341,60 +295,35 @@
             this.inProgTxt.AutoSize = true;
             this.inProgTxt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.inProgTxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(73)))), ((int)(((byte)(79)))));
-            this.inProgTxt.Location = new System.Drawing.Point(97, 69);
+            this.inProgTxt.Location = new System.Drawing.Point(129, 85);
+            this.inProgTxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.inProgTxt.Name = "inProgTxt";
-            this.inProgTxt.Size = new System.Drawing.Size(84, 19);
+            this.inProgTxt.Size = new System.Drawing.Size(98, 23);
             this.inProgTxt.TabIndex = 12;
             this.inProgTxt.Text = "In Progress";
             this.inProgTxt.Click += new System.EventHandler(this.inProgTxt_Click);
             // 
-            // inProg
-            // 
-            this.inProg.BackColor = System.Drawing.Color.White;
-            this.inProg.FlatAppearance.BorderSize = 0;
-            this.inProg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.inProg.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.inProg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.inProg.Location = new System.Drawing.Point(11, 98);
-            this.inProg.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.inProg.Name = "inProg";
-            this.inProg.Size = new System.Drawing.Size(223, 66);
-            this.inProg.TabIndex = 10;
-            this.inProg.Text = "Requests currently being worked on";
-            this.inProg.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.inProg.UseVisualStyleBackColor = false;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon3;
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel3.Location = new System.Drawing.Point(11, 12);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(80, 80);
-            this.panel3.TabIndex = 10;
-            // 
             // comPan
             // 
             this.comPan.BackColor = System.Drawing.Color.White;
+            this.comPan.Controls.Add(this.txtCompleted);
             this.comPan.Controls.Add(this.panel27);
             this.comPan.Controls.Add(this.comCount);
             this.comPan.Controls.Add(this.Comtxt);
-            this.comPan.Controls.Add(this.com);
             this.comPan.Controls.Add(this.panel5);
-            this.comPan.Location = new System.Drawing.Point(732, 2);
-            this.comPan.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.comPan.Location = new System.Drawing.Point(976, 2);
+            this.comPan.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.comPan.Name = "comPan";
-            this.comPan.Size = new System.Drawing.Size(237, 178);
+            this.comPan.Size = new System.Drawing.Size(316, 219);
             this.comPan.TabIndex = 12;
             // 
             // panel27
             // 
             this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(169)))), ((int)(((byte)(34)))));
-            this.panel27.Location = new System.Drawing.Point(-1, 168);
+            this.panel27.Location = new System.Drawing.Point(-1, 207);
+            this.panel27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel27.Name = "panel27";
-            this.panel27.Size = new System.Drawing.Size(258, 10);
+            this.panel27.Size = new System.Drawing.Size(344, 12);
             this.panel27.TabIndex = 22;
             // 
             // comCount
@@ -402,9 +331,10 @@
             this.comCount.BackColor = System.Drawing.Color.Transparent;
             this.comCount.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comCount.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(169)))), ((int)(((byte)(34)))));
-            this.comCount.Location = new System.Drawing.Point(94, 20);
+            this.comCount.Location = new System.Drawing.Point(125, 25);
+            this.comCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.comCount.Name = "comCount";
-            this.comCount.Size = new System.Drawing.Size(133, 46);
+            this.comCount.Size = new System.Drawing.Size(177, 57);
             this.comCount.TabIndex = 14;
             this.comCount.Text = "0";
             this.comCount.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -415,40 +345,12 @@
             this.Comtxt.AutoSize = true;
             this.Comtxt.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Comtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(169)))), ((int)(((byte)(34)))));
-            this.Comtxt.Location = new System.Drawing.Point(96, 69);
+            this.Comtxt.Location = new System.Drawing.Point(128, 85);
+            this.Comtxt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Comtxt.Name = "Comtxt";
-            this.Comtxt.Size = new System.Drawing.Size(83, 19);
+            this.Comtxt.Size = new System.Drawing.Size(99, 23);
             this.Comtxt.TabIndex = 13;
             this.Comtxt.Text = "Completed";
-            // 
-            // com
-            // 
-            this.com.BackColor = System.Drawing.Color.White;
-            this.com.FlatAppearance.BorderSize = 0;
-            this.com.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.com.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.com.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.com.Location = new System.Drawing.Point(11, 98);
-            this.com.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.com.Name = "com";
-            this.com.Size = new System.Drawing.Size(223, 66);
-            this.com.TabIndex = 10;
-            this.com.Text = "Requests that have been completed";
-            this.com.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.com.UseVisualStyleBackColor = false;
-            this.com.Click += new System.EventHandler(this.com_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon4;
-            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel5.Location = new System.Drawing.Point(11, 12);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(80, 80);
-            this.panel5.TabIndex = 10;
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // panel11
             // 
@@ -457,9 +359,10 @@
             this.panel11.Controls.Add(this.allSystemOpLabel);
             this.panel11.Controls.Add(this.bulletPan);
             this.panel11.Controls.Add(this.systemLabel);
-            this.panel11.Location = new System.Drawing.Point(667, 603);
+            this.panel11.Location = new System.Drawing.Point(889, 742);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(317, 142);
+            this.panel11.Size = new System.Drawing.Size(423, 175);
             this.panel11.TabIndex = 22;
             // 
             // lastUpdateLabel
@@ -467,38 +370,42 @@
             this.lastUpdateLabel.AutoSize = true;
             this.lastUpdateLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lastUpdateLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.lastUpdateLabel.Location = new System.Drawing.Point(53, 81);
+            this.lastUpdateLabel.Location = new System.Drawing.Point(71, 100);
+            this.lastUpdateLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lastUpdateLabel.Name = "lastUpdateLabel";
-            this.lastUpdateLabel.Size = new System.Drawing.Size(159, 15);
+            this.lastUpdateLabel.Size = new System.Drawing.Size(196, 20);
             this.lastUpdateLabel.TabIndex = 23;
-            this.lastUpdateLabel.Text = "Last updated: DAte 23, 0222";
+            this.lastUpdateLabel.Text = "Last updated: Date 23, 0222";
             // 
             // allSystemOpLabel
             // 
             this.allSystemOpLabel.AutoSize = true;
             this.allSystemOpLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.allSystemOpLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(83)))), ((int)(((byte)(14)))));
-            this.allSystemOpLabel.Location = new System.Drawing.Point(51, 47);
+            this.allSystemOpLabel.Location = new System.Drawing.Point(68, 58);
+            this.allSystemOpLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.allSystemOpLabel.Name = "allSystemOpLabel";
-            this.allSystemOpLabel.Size = new System.Drawing.Size(133, 15);
+            this.allSystemOpLabel.Size = new System.Drawing.Size(170, 20);
             this.allSystemOpLabel.TabIndex = 20;
             this.allSystemOpLabel.Text = "All Systems Operational";
             // 
             // bulletPan
             // 
             this.bulletPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
-            this.bulletPan.Location = new System.Drawing.Point(35, 49);
+            this.bulletPan.Location = new System.Drawing.Point(47, 60);
+            this.bulletPan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bulletPan.Name = "bulletPan";
-            this.bulletPan.Size = new System.Drawing.Size(15, 15);
+            this.bulletPan.Size = new System.Drawing.Size(20, 18);
             this.bulletPan.TabIndex = 19;
             // 
             // systemLabel
             // 
             this.systemLabel.AutoSize = true;
             this.systemLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.systemLabel.Location = new System.Drawing.Point(8, 7);
+            this.systemLabel.Location = new System.Drawing.Point(11, 9);
+            this.systemLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.systemLabel.Name = "systemLabel";
-            this.systemLabel.Size = new System.Drawing.Size(116, 21);
+            this.systemLabel.Size = new System.Drawing.Size(145, 28);
             this.systemLabel.TabIndex = 17;
             this.systemLabel.Text = "System Status";
             // 
@@ -509,9 +416,10 @@
             this.panel10.Controls.Add(this.announPan1);
             this.panel10.Controls.Add(this.announLabel);
             this.panel10.Controls.Add(this.contAdmnPan);
-            this.panel10.Location = new System.Drawing.Point(667, 263);
+            this.panel10.Location = new System.Drawing.Point(889, 324);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(317, 331);
+            this.panel10.Size = new System.Drawing.Size(423, 407);
             this.panel10.TabIndex = 21;
             // 
             // announPan2
@@ -520,9 +428,10 @@
             this.announPan2.Controls.Add(this.schedMainBotLabel);
             this.announPan2.Controls.Add(this.schedMainLabel);
             this.announPan2.Controls.Add(this.announIcon2);
-            this.announPan2.Location = new System.Drawing.Point(10, 192);
+            this.announPan2.Location = new System.Drawing.Point(13, 236);
+            this.announPan2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.announPan2.Name = "announPan2";
-            this.announPan2.Size = new System.Drawing.Size(297, 124);
+            this.announPan2.Size = new System.Drawing.Size(396, 153);
             this.announPan2.TabIndex = 22;
             // 
             // schedMainBotLabel
@@ -530,10 +439,11 @@
             this.schedMainBotLabel.AutoSize = true;
             this.schedMainBotLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.schedMainBotLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.schedMainBotLabel.Location = new System.Drawing.Point(13, 53);
-            this.schedMainBotLabel.MaximumSize = new System.Drawing.Size(272, 0);
+            this.schedMainBotLabel.Location = new System.Drawing.Point(17, 65);
+            this.schedMainBotLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.schedMainBotLabel.MaximumSize = new System.Drawing.Size(363, 0);
             this.schedMainBotLabel.Name = "schedMainBotLabel";
-            this.schedMainBotLabel.Size = new System.Drawing.Size(264, 30);
+            this.schedMainBotLabel.Size = new System.Drawing.Size(331, 40);
             this.schedMainBotLabel.TabIndex = 17;
             this.schedMainBotLabel.Text = "Electrical system maintenance will be on July 28, 2024. Please save your work.";
             // 
@@ -541,21 +451,12 @@
             // 
             this.schedMainLabel.AutoSize = true;
             this.schedMainLabel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.schedMainLabel.Location = new System.Drawing.Point(60, 27);
+            this.schedMainLabel.Location = new System.Drawing.Point(80, 33);
+            this.schedMainLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.schedMainLabel.Name = "schedMainLabel";
-            this.schedMainLabel.Size = new System.Drawing.Size(167, 19);
+            this.schedMainLabel.Size = new System.Drawing.Size(200, 23);
             this.schedMainLabel.TabIndex = 16;
             this.schedMainLabel.Text = "Scheduled Maintenance";
-            // 
-            // announIcon2
-            // 
-            this.announIcon2.BackColor = System.Drawing.Color.Transparent;
-            this.announIcon2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon7;
-            this.announIcon2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.announIcon2.Location = new System.Drawing.Point(13, 12);
-            this.announIcon2.Name = "announIcon2";
-            this.announIcon2.Size = new System.Drawing.Size(38, 38);
-            this.announIcon2.TabIndex = 15;
             // 
             // announPan1
             // 
@@ -563,9 +464,10 @@
             this.announPan1.Controls.Add(this.reminderBotLabel);
             this.announPan1.Controls.Add(this.reminderLabel);
             this.announPan1.Controls.Add(this.announIcon1);
-            this.announPan1.Location = new System.Drawing.Point(8, 54);
+            this.announPan1.Location = new System.Drawing.Point(11, 66);
+            this.announPan1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.announPan1.Name = "announPan1";
-            this.announPan1.Size = new System.Drawing.Size(299, 124);
+            this.announPan1.Size = new System.Drawing.Size(399, 153);
             this.announPan1.TabIndex = 21;
             this.announPan1.Paint += new System.Windows.Forms.PaintEventHandler(this.announPan1_Paint);
             // 
@@ -574,10 +476,11 @@
             this.reminderBotLabel.AutoSize = true;
             this.reminderBotLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.reminderBotLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.reminderBotLabel.Location = new System.Drawing.Point(13, 53);
-            this.reminderBotLabel.MaximumSize = new System.Drawing.Size(272, 0);
+            this.reminderBotLabel.Location = new System.Drawing.Point(17, 65);
+            this.reminderBotLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.reminderBotLabel.MaximumSize = new System.Drawing.Size(363, 0);
             this.reminderBotLabel.Name = "reminderBotLabel";
-            this.reminderBotLabel.Size = new System.Drawing.Size(264, 30);
+            this.reminderBotLabel.Size = new System.Drawing.Size(360, 40);
             this.reminderBotLabel.TabIndex = 16;
             this.reminderBotLabel.Text = "Please report facility issues so we can maintain a safe and conducive environment" +
     " for learning";
@@ -586,35 +489,28 @@
             // 
             this.reminderLabel.AutoSize = true;
             this.reminderLabel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reminderLabel.Location = new System.Drawing.Point(62, 27);
+            this.reminderLabel.Location = new System.Drawing.Point(83, 33);
+            this.reminderLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.reminderLabel.Name = "reminderLabel";
-            this.reminderLabel.Size = new System.Drawing.Size(79, 19);
+            this.reminderLabel.Size = new System.Drawing.Size(94, 23);
             this.reminderLabel.TabIndex = 13;
             this.reminderLabel.Text = "Reminder!";
-            // 
-            // announIcon1
-            // 
-            this.announIcon1.BackColor = System.Drawing.Color.Transparent;
-            this.announIcon1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon5;
-            this.announIcon1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.announIcon1.Location = new System.Drawing.Point(13, 12);
-            this.announIcon1.Name = "announIcon1";
-            this.announIcon1.Size = new System.Drawing.Size(38, 38);
-            this.announIcon1.TabIndex = 15;
             // 
             // announLabel
             // 
             this.announLabel.AutoSize = true;
             this.announLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.announLabel.Location = new System.Drawing.Point(9, 12);
+            this.announLabel.Location = new System.Drawing.Point(12, 15);
+            this.announLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.announLabel.Name = "announLabel";
-            this.announLabel.Size = new System.Drawing.Size(135, 21);
+            this.announLabel.Size = new System.Drawing.Size(165, 28);
             this.announLabel.TabIndex = 15;
             this.announLabel.Text = "Announcements";
             // 
             // contAdmnPan
             // 
-            this.contAdmnPan.Location = new System.Drawing.Point(35, 197);
+            this.contAdmnPan.Location = new System.Drawing.Point(47, 242);
+            this.contAdmnPan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.contAdmnPan.Name = "contAdmnPan";
             this.contAdmnPan.Size = new System.Drawing.Size(0, 0);
             this.contAdmnPan.TabIndex = 19;
@@ -624,9 +520,10 @@
             this.panel9.BackColor = System.Drawing.Color.White;
             this.panel9.Controls.Add(this.flowLayoutPanel2);
             this.panel9.Controls.Add(this.quickAcLabel);
-            this.panel9.Location = new System.Drawing.Point(12, 542);
+            this.panel9.Location = new System.Drawing.Point(16, 667);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(633, 202);
+            this.panel9.Size = new System.Drawing.Size(844, 249);
             this.panel9.TabIndex = 20;
             // 
             // flowLayoutPanel2
@@ -634,9 +531,10 @@
             this.flowLayoutPanel2.Controls.Add(this.panel6);
             this.flowLayoutPanel2.Controls.Add(this.panel12);
             this.flowLayoutPanel2.Controls.Add(this.panel14);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 49);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(4, 60);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(627, 143);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(836, 176);
             this.flowLayoutPanel2.TabIndex = 21;
             // 
             // panel6
@@ -645,9 +543,10 @@
             this.panel6.Controls.Add(this.newReqBotLabel);
             this.panel6.Controls.Add(this.newReqLabel);
             this.panel6.Controls.Add(this.newReqPan);
-            this.panel6.Location = new System.Drawing.Point(3, 3);
+            this.panel6.Location = new System.Drawing.Point(4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(202, 140);
+            this.panel6.Size = new System.Drawing.Size(269, 172);
             this.panel6.TabIndex = 20;
             // 
             // newReqBotLabel
@@ -655,10 +554,11 @@
             this.newReqBotLabel.AutoSize = true;
             this.newReqBotLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newReqBotLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.newReqBotLabel.Location = new System.Drawing.Point(11, 72);
-            this.newReqBotLabel.MaximumSize = new System.Drawing.Size(185, 0);
+            this.newReqBotLabel.Location = new System.Drawing.Point(15, 89);
+            this.newReqBotLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.newReqBotLabel.MaximumSize = new System.Drawing.Size(247, 0);
             this.newReqBotLabel.Name = "newReqBotLabel";
-            this.newReqBotLabel.Size = new System.Drawing.Size(154, 30);
+            this.newReqBotLabel.Size = new System.Drawing.Size(241, 20);
             this.newReqBotLabel.TabIndex = 19;
             this.newReqBotLabel.Text = "Submit a new maintenance request";
             this.newReqBotLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -668,21 +568,12 @@
             this.newReqLabel.AutoSize = true;
             this.newReqLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.newReqLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
-            this.newReqLabel.Location = new System.Drawing.Point(73, 32);
+            this.newReqLabel.Location = new System.Drawing.Point(97, 39);
+            this.newReqLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.newReqLabel.Name = "newReqLabel";
-            this.newReqLabel.Size = new System.Drawing.Size(92, 19);
+            this.newReqLabel.Size = new System.Drawing.Size(112, 23);
             this.newReqLabel.TabIndex = 18;
             this.newReqLabel.Text = "New Request";
-            // 
-            // newReqPan
-            // 
-            this.newReqPan.BackColor = System.Drawing.Color.Transparent;
-            this.newReqPan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_decription;
-            this.newReqPan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.newReqPan.Location = new System.Drawing.Point(15, 13);
-            this.newReqPan.Name = "newReqPan";
-            this.newReqPan.Size = new System.Drawing.Size(45, 45);
-            this.newReqPan.TabIndex = 17;
             // 
             // panel12
             // 
@@ -690,9 +581,10 @@
             this.panel12.Controls.Add(this.viewHisBotLabel);
             this.panel12.Controls.Add(this.viewHisLabel);
             this.panel12.Controls.Add(this.viewHisPan);
-            this.panel12.Location = new System.Drawing.Point(211, 3);
+            this.panel12.Location = new System.Drawing.Point(281, 4);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(202, 140);
+            this.panel12.Size = new System.Drawing.Size(269, 172);
             this.panel12.TabIndex = 21;
             // 
             // viewHisBotLabel
@@ -700,10 +592,11 @@
             this.viewHisBotLabel.AutoSize = true;
             this.viewHisBotLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewHisBotLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.viewHisBotLabel.Location = new System.Drawing.Point(11, 72);
-            this.viewHisBotLabel.MaximumSize = new System.Drawing.Size(185, 0);
+            this.viewHisBotLabel.Location = new System.Drawing.Point(15, 89);
+            this.viewHisBotLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.viewHisBotLabel.MaximumSize = new System.Drawing.Size(247, 0);
             this.viewHisBotLabel.Name = "viewHisBotLabel";
-            this.viewHisBotLabel.Size = new System.Drawing.Size(139, 15);
+            this.viewHisBotLabel.Size = new System.Drawing.Size(172, 20);
             this.viewHisBotLabel.TabIndex = 19;
             this.viewHisBotLabel.Text = "Check your past requests";
             this.viewHisBotLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -713,21 +606,12 @@
             this.viewHisLabel.AutoSize = true;
             this.viewHisLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewHisLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(101)))), ((int)(((byte)(192)))));
-            this.viewHisLabel.Location = new System.Drawing.Point(74, 32);
+            this.viewHisLabel.Location = new System.Drawing.Point(99, 39);
+            this.viewHisLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.viewHisLabel.Name = "viewHisLabel";
-            this.viewHisLabel.Size = new System.Drawing.Size(90, 19);
+            this.viewHisLabel.Size = new System.Drawing.Size(108, 23);
             this.viewHisLabel.TabIndex = 18;
             this.viewHisLabel.Text = "View History";
-            // 
-            // viewHisPan
-            // 
-            this.viewHisPan.BackColor = System.Drawing.Color.Transparent;
-            this.viewHisPan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon61;
-            this.viewHisPan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.viewHisPan.Location = new System.Drawing.Point(15, 13);
-            this.viewHisPan.Name = "viewHisPan";
-            this.viewHisPan.Size = new System.Drawing.Size(45, 45);
-            this.viewHisPan.TabIndex = 17;
             // 
             // panel14
             // 
@@ -735,9 +619,10 @@
             this.panel14.Controls.Add(this.conAdBotPan);
             this.panel14.Controls.Add(this.conAdPan);
             this.panel14.Controls.Add(this.panel15);
-            this.panel14.Location = new System.Drawing.Point(419, 3);
+            this.panel14.Location = new System.Drawing.Point(558, 4);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(202, 140);
+            this.panel14.Size = new System.Drawing.Size(269, 172);
             this.panel14.TabIndex = 22;
             // 
             // conAdBotPan
@@ -745,10 +630,11 @@
             this.conAdBotPan.AutoSize = true;
             this.conAdBotPan.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conAdBotPan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.conAdBotPan.Location = new System.Drawing.Point(11, 72);
-            this.conAdBotPan.MaximumSize = new System.Drawing.Size(185, 0);
+            this.conAdBotPan.Location = new System.Drawing.Point(15, 89);
+            this.conAdBotPan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.conAdBotPan.MaximumSize = new System.Drawing.Size(247, 0);
             this.conAdBotPan.Name = "conAdBotPan";
-            this.conAdBotPan.Size = new System.Drawing.Size(160, 15);
+            this.conAdBotPan.Size = new System.Drawing.Size(201, 20);
             this.conAdBotPan.TabIndex = 19;
             this.conAdBotPan.Text = "Get help from administration";
             this.conAdBotPan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -758,29 +644,21 @@
             this.conAdPan.AutoSize = true;
             this.conAdPan.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.conAdPan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(27)))), ((int)(((byte)(154)))));
-            this.conAdPan.Location = new System.Drawing.Point(64, 32);
+            this.conAdPan.Location = new System.Drawing.Point(85, 39);
+            this.conAdPan.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.conAdPan.Name = "conAdPan";
-            this.conAdPan.Size = new System.Drawing.Size(103, 19);
+            this.conAdPan.Size = new System.Drawing.Size(125, 23);
             this.conAdPan.TabIndex = 18;
             this.conAdPan.Text = "Contact Admin";
-            // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.Transparent;
-            this.panel15.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_information;
-            this.panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel15.Location = new System.Drawing.Point(15, 13);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(45, 45);
-            this.panel15.TabIndex = 17;
             // 
             // quickAcLabel
             // 
             this.quickAcLabel.AutoSize = true;
             this.quickAcLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quickAcLabel.Location = new System.Drawing.Point(10, 9);
+            this.quickAcLabel.Location = new System.Drawing.Point(13, 11);
+            this.quickAcLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.quickAcLabel.Name = "quickAcLabel";
-            this.quickAcLabel.Size = new System.Drawing.Size(115, 21);
+            this.quickAcLabel.Size = new System.Drawing.Size(143, 28);
             this.quickAcLabel.TabIndex = 19;
             this.quickAcLabel.Text = "Quick Actions";
             // 
@@ -791,9 +669,10 @@
             this.panel8.Controls.Add(this.recentReq);
             this.panel8.Controls.Add(this.viewAll);
             this.panel8.Controls.Add(this.recReqLabel);
-            this.panel8.Location = new System.Drawing.Point(12, 263);
+            this.panel8.Location = new System.Drawing.Point(16, 324);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(633, 260);
+            this.panel8.Size = new System.Drawing.Size(844, 320);
             this.panel8.TabIndex = 19;
             this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             // 
@@ -801,9 +680,10 @@
             // 
             this.emptyGridLabel.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emptyGridLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.emptyGridLabel.Location = new System.Drawing.Point(3, 120);
+            this.emptyGridLabel.Location = new System.Drawing.Point(4, 148);
+            this.emptyGridLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.emptyGridLabel.Name = "emptyGridLabel";
-            this.emptyGridLabel.Size = new System.Drawing.Size(627, 46);
+            this.emptyGridLabel.Size = new System.Drawing.Size(836, 57);
             this.emptyGridLabel.TabIndex = 16;
             this.emptyGridLabel.Text = "You have not filed any maintenance requests yet.\r\nUse New Request to report a fac" +
     "ility issue.";
@@ -815,21 +695,21 @@
             this.recentReq.AllowUserToAddRows = false;
             this.recentReq.AllowUserToDeleteRows = false;
             this.recentReq.AllowUserToResizeRows = false;
-            dataGridViewCellStyle49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(250)))), ((int)(((byte)(248)))));
-            this.recentReq.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle49;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(249)))), ((int)(((byte)(250)))), ((int)(((byte)(248)))));
+            this.recentReq.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.recentReq.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.recentReq.BackgroundColor = System.Drawing.Color.White;
             this.recentReq.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.recentReq.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
             this.recentReq.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle50.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle50.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            dataGridViewCellStyle50.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(244)))));
-            dataGridViewCellStyle50.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            dataGridViewCellStyle50.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.recentReq.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle50;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(247)))), ((int)(((byte)(244)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.recentReq.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.recentReq.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.recentReq.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.requestIdColumn,
@@ -838,17 +718,18 @@
             this.statusColumn,
             this.priorityColumn,
             this.dateColumn});
-            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle51.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle51.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle51.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            dataGridViewCellStyle51.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(245)))), ((int)(((byte)(233)))));
-            dataGridViewCellStyle51.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
-            dataGridViewCellStyle51.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.recentReq.DefaultCellStyle = dataGridViewCellStyle51;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(245)))), ((int)(((byte)(233)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.recentReq.DefaultCellStyle = dataGridViewCellStyle3;
             this.recentReq.EnableHeadersVisualStyles = false;
-            this.recentReq.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(234)))), ((int)(((byte)(230)))));
-            this.recentReq.Location = new System.Drawing.Point(3, 54);
+            this.recentReq.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            this.recentReq.Location = new System.Drawing.Point(4, 66);
+            this.recentReq.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.recentReq.MultiSelect = false;
             this.recentReq.Name = "recentReq";
             this.recentReq.ReadOnly = true;
@@ -856,7 +737,7 @@
             this.recentReq.RowHeadersWidth = 51;
             this.recentReq.RowTemplate.Height = 28;
             this.recentReq.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.recentReq.Size = new System.Drawing.Size(627, 203);
+            this.recentReq.Size = new System.Drawing.Size(836, 250);
             this.recentReq.TabIndex = 15;
             // 
             // requestIdColumn
@@ -911,9 +792,10 @@
             this.viewAll.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.viewAll.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(28)))), ((int)(((byte)(46)))));
             this.viewAll.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(28)))), ((int)(((byte)(46)))));
-            this.viewAll.Location = new System.Drawing.Point(541, 19);
+            this.viewAll.Location = new System.Drawing.Point(721, 23);
+            this.viewAll.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.viewAll.Name = "viewAll";
-            this.viewAll.Size = new System.Drawing.Size(61, 19);
+            this.viewAll.Size = new System.Drawing.Size(71, 23);
             this.viewAll.TabIndex = 1;
             this.viewAll.TabStop = true;
             this.viewAll.Text = "View All";
@@ -924,9 +806,10 @@
             // 
             this.recReqLabel.AutoSize = true;
             this.recReqLabel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.recReqLabel.Location = new System.Drawing.Point(9, 10);
+            this.recReqLabel.Location = new System.Drawing.Point(12, 12);
+            this.recReqLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.recReqLabel.Name = "recReqLabel";
-            this.recReqLabel.Size = new System.Drawing.Size(134, 21);
+            this.recReqLabel.Size = new System.Drawing.Size(168, 28);
             this.recReqLabel.TabIndex = 0;
             this.recReqLabel.Text = "Recent Requests";
             // 
@@ -935,20 +818,22 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.label1.Location = new System.Drawing.Point(840, 23);
+            this.label1.Location = new System.Drawing.Point(1120, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 15);
+            this.label1.Size = new System.Drawing.Size(104, 20);
             this.label1.TabIndex = 18;
-            this.label1.Text = "DAte, 21, 2024";
+            this.label1.Text = "Date, 21, 2024";
             // 
             // welcomeBabaLabel
             // 
             this.welcomeBabaLabel.AutoSize = true;
             this.welcomeBabaLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.welcomeBabaLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.welcomeBabaLabel.Location = new System.Drawing.Point(28, 38);
+            this.welcomeBabaLabel.Location = new System.Drawing.Point(37, 47);
+            this.welcomeBabaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.welcomeBabaLabel.Name = "welcomeBabaLabel";
-            this.welcomeBabaLabel.Size = new System.Drawing.Size(265, 15);
+            this.welcomeBabaLabel.Size = new System.Drawing.Size(345, 20);
             this.welcomeBabaLabel.TabIndex = 17;
             this.welcomeBabaLabel.Text = "Here\'s an overview of your maintenance requests";
             // 
@@ -956,9 +841,10 @@
             // 
             this.welcomeLabel.AutoSize = true;
             this.welcomeLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.welcomeLabel.Location = new System.Drawing.Point(24, 7);
+            this.welcomeLabel.Location = new System.Drawing.Point(32, 9);
+            this.welcomeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(188, 25);
+            this.welcomeLabel.Size = new System.Drawing.Size(225, 31);
             this.welcomeLabel.TabIndex = 17;
             this.welcomeLabel.Text = "Welcome back Juan!";
             // 
@@ -970,9 +856,9 @@
             this.topbar.Controls.Add(this.panel1);
             this.topbar.Controls.Add(this.dashBLabel);
             this.topbar.Location = new System.Drawing.Point(0, 2);
-            this.topbar.Margin = new System.Windows.Forms.Padding(4);
+            this.topbar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.topbar.Name = "topbar";
-            this.topbar.Size = new System.Drawing.Size(994, 89);
+            this.topbar.Size = new System.Drawing.Size(1325, 110);
             this.topbar.TabIndex = 11;
             // 
             // studentLabel
@@ -980,9 +866,10 @@
             this.studentLabel.AutoSize = true;
             this.studentLabel.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentLabel.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.studentLabel.Location = new System.Drawing.Point(848, 47);
+            this.studentLabel.Location = new System.Drawing.Point(1131, 58);
+            this.studentLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.studentLabel.Name = "studentLabel";
-            this.studentLabel.Size = new System.Drawing.Size(48, 13);
+            this.studentLabel.Size = new System.Drawing.Size(56, 17);
             this.studentLabel.TabIndex = 16;
             this.studentLabel.Text = "Student";
             // 
@@ -990,9 +877,10 @@
             // 
             this.studentName.AutoSize = true;
             this.studentName.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.studentName.Location = new System.Drawing.Point(847, 25);
+            this.studentName.Location = new System.Drawing.Point(1129, 31);
+            this.studentName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.studentName.Name = "studentName";
-            this.studentName.Size = new System.Drawing.Size(107, 19);
+            this.studentName.Size = new System.Drawing.Size(129, 23);
             this.studentName.TabIndex = 15;
             this.studentName.Text = "Juan Dela Cruz";
             // 
@@ -1000,9 +888,10 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.panel1.Controls.Add(this.avatarInitials);
-            this.panel1.Location = new System.Drawing.Point(791, 26);
+            this.panel1.Location = new System.Drawing.Point(1055, 32);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(38, 38);
+            this.panel1.Size = new System.Drawing.Size(51, 47);
             this.panel1.TabIndex = 13;
             // 
             // avatarInitials
@@ -1012,8 +901,9 @@
             this.avatarInitials.Font = new System.Drawing.Font("Segoe UI Semibold", 11.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.avatarInitials.ForeColor = System.Drawing.Color.White;
             this.avatarInitials.Location = new System.Drawing.Point(0, 0);
+            this.avatarInitials.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.avatarInitials.Name = "avatarInitials";
-            this.avatarInitials.Size = new System.Drawing.Size(38, 38);
+            this.avatarInitials.Size = new System.Drawing.Size(51, 47);
             this.avatarInitials.TabIndex = 0;
             this.avatarInitials.Text = "JD";
             this.avatarInitials.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1022,20 +912,163 @@
             // 
             this.dashBLabel.AutoSize = true;
             this.dashBLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dashBLabel.Location = new System.Drawing.Point(24, 26);
+            this.dashBLabel.Location = new System.Drawing.Point(32, 32);
+            this.dashBLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.dashBLabel.Name = "dashBLabel";
-            this.dashBLabel.Size = new System.Drawing.Size(120, 30);
+            this.dashBLabel.Size = new System.Drawing.Size(156, 38);
             this.dashBLabel.TabIndex = 0;
             this.dashBLabel.Text = "Dashboard";
             // 
+            // txtCancelled
+            // 
+            this.txtCancelled.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCancelled.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
+            this.txtCancelled.Location = new System.Drawing.Point(15, 148);
+            this.txtCancelled.Name = "txtCancelled";
+            this.txtCancelled.Size = new System.Drawing.Size(258, 27);
+            this.txtCancelled.TabIndex = 21;
+            this.txtCancelled.Text = "Reqeust that were cancelled";
+            this.txtCancelled.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
+            // 
+            // txtInProg
+            // 
+            this.txtInProg.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtInProg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
+            this.txtInProg.Location = new System.Drawing.Point(15, 148);
+            this.txtInProg.Name = "txtInProg";
+            this.txtInProg.Size = new System.Drawing.Size(258, 27);
+            this.txtInProg.TabIndex = 22;
+            this.txtInProg.Text = "Requests currently being worked on";
+            // 
+            // txtCompleted
+            // 
+            this.txtCompleted.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCompleted.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
+            this.txtCompleted.Location = new System.Drawing.Point(15, 148);
+            this.txtCompleted.Name = "txtCompleted";
+            this.txtCompleted.Size = new System.Drawing.Size(258, 27);
+            this.txtCompleted.TabIndex = 23;
+            this.txtCompleted.Text = "Request that have been completed";
+            // 
+            // txtMyReq
+            // 
+            this.txtMyReq.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMyReq.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
+            this.txtMyReq.Location = new System.Drawing.Point(15, 148);
+            this.txtMyReq.Name = "txtMyReq";
+            this.txtMyReq.Size = new System.Drawing.Size(258, 27);
+            this.txtMyReq.TabIndex = 22;
+            this.txtMyReq.Text = "View all you maintenance reqeust";
+            // 
+            // myReqIcon
+            // 
+            this.myReqIcon.BackColor = System.Drawing.Color.Transparent;
+            this.myReqIcon.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon1;
+            this.myReqIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.myReqIcon.Location = new System.Drawing.Point(15, 15);
+            this.myReqIcon.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.myReqIcon.Name = "myReqIcon";
+            this.myReqIcon.Size = new System.Drawing.Size(107, 98);
+            this.myReqIcon.TabIndex = 10;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Transparent;
+            this.panel7.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon2;
+            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel7.Location = new System.Drawing.Point(15, 15);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(107, 98);
+            this.panel7.TabIndex = 10;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon3;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel3.Location = new System.Drawing.Point(15, 15);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(107, 98);
+            this.panel3.TabIndex = 10;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
+            this.panel5.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon4;
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel5.Location = new System.Drawing.Point(15, 15);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(107, 98);
+            this.panel5.TabIndex = 10;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            // 
+            // announIcon2
+            // 
+            this.announIcon2.BackColor = System.Drawing.Color.Transparent;
+            this.announIcon2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon7;
+            this.announIcon2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.announIcon2.Location = new System.Drawing.Point(17, 15);
+            this.announIcon2.Margin = new System.Windows.Forms.Padding(4);
+            this.announIcon2.Name = "announIcon2";
+            this.announIcon2.Size = new System.Drawing.Size(51, 47);
+            this.announIcon2.TabIndex = 15;
+            // 
+            // announIcon1
+            // 
+            this.announIcon1.BackColor = System.Drawing.Color.Transparent;
+            this.announIcon1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon5;
+            this.announIcon1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.announIcon1.Location = new System.Drawing.Point(17, 15);
+            this.announIcon1.Margin = new System.Windows.Forms.Padding(4);
+            this.announIcon1.Name = "announIcon1";
+            this.announIcon1.Size = new System.Drawing.Size(51, 47);
+            this.announIcon1.TabIndex = 15;
+            // 
+            // newReqPan
+            // 
+            this.newReqPan.BackColor = System.Drawing.Color.Transparent;
+            this.newReqPan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_decription;
+            this.newReqPan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.newReqPan.Location = new System.Drawing.Point(20, 16);
+            this.newReqPan.Margin = new System.Windows.Forms.Padding(4);
+            this.newReqPan.Name = "newReqPan";
+            this.newReqPan.Size = new System.Drawing.Size(60, 55);
+            this.newReqPan.TabIndex = 17;
+            // 
+            // viewHisPan
+            // 
+            this.viewHisPan.BackColor = System.Drawing.Color.Transparent;
+            this.viewHisPan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon61;
+            this.viewHisPan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.viewHisPan.Location = new System.Drawing.Point(20, 16);
+            this.viewHisPan.Margin = new System.Windows.Forms.Padding(4);
+            this.viewHisPan.Name = "viewHisPan";
+            this.viewHisPan.Size = new System.Drawing.Size(60, 55);
+            this.viewHisPan.TabIndex = 17;
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.Transparent;
+            this.panel15.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.question_M;
+            this.panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel15.Location = new System.Drawing.Point(20, 16);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(60, 55);
+            this.panel15.TabIndex = 17;
+            // 
             // DashboardTEST
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(993, 842);
+            this.ClientSize = new System.Drawing.Size(1324, 1036);
             this.Controls.Add(this.topbar);
             this.Controls.Add(this.basePan);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "DashboardTEST";
             this.Text = "DashboardTEST";
             this.basePan.ResumeLayout(false);
@@ -1084,25 +1117,21 @@
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Label myReqCount;
         private System.Windows.Forms.Label myReqTxt;
-        private System.Windows.Forms.Button viewReq;
         private System.Windows.Forms.Panel myReqIcon;
         private System.Windows.Forms.Panel canPan;
         private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.Label canCount;
         private System.Windows.Forms.Label canTxt;
-        private System.Windows.Forms.Button can;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Panel inProgPan;
         private System.Windows.Forms.Panel panel26;
         private System.Windows.Forms.Label inProgCount;
         private System.Windows.Forms.Label inProgTxt;
-        private System.Windows.Forms.Button inProg;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel comPan;
         private System.Windows.Forms.Panel panel27;
         private System.Windows.Forms.Label comCount;
         private System.Windows.Forms.Label Comtxt;
-        private System.Windows.Forms.Button com;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label lastUpdateLabel;
@@ -1155,5 +1184,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label avatarInitials;
         private System.Windows.Forms.Label dashBLabel;
+        private System.Windows.Forms.MaskedTextBox txtCancelled;
+        private System.Windows.Forms.MaskedTextBox txtMyReq;
+        private System.Windows.Forms.MaskedTextBox txtInProg;
+        private System.Windows.Forms.MaskedTextBox txtCompleted;
     }
 }

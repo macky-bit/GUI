@@ -32,32 +32,32 @@ namespace WindowsFormsApp1
             this.NmaintenanceReq = new System.Windows.Forms.Label();
             this.backBtn = new System.Windows.Forms.Button();
             this.cardPan = new System.Windows.Forms.Panel();
-            this.Formpic = new System.Windows.Forms.PictureBox();
             this.reqInfo = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.rLoc = new System.Windows.Forms.Label();
             this.RoomBox = new System.Windows.Forms.ComboBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.FaciEquip = new System.Windows.Forms.ComboBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.ProbCat = new System.Windows.Forms.ComboBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.prioLev = new System.Windows.Forms.Label();
             this.prioBox = new System.Windows.Forms.ComboBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             this.messaGe = new System.Windows.Forms.TextBox();
             this.charCountLabel = new System.Windows.Forms.Label();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.attachBtn = new System.Windows.Forms.Button();
             this.clearAttachment = new System.Windows.Forms.Button();
             this.attachmentLabel = new System.Windows.Forms.Label();
             this.Submit_req = new System.Windows.Forms.Button();
             this.cancelBtn = new System.Windows.Forms.Button();
+            this.Formpic = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.navPan.SuspendLayout();
             this.cardPan.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Formpic)).BeginInit();
@@ -76,19 +76,21 @@ namespace WindowsFormsApp1
             this.navPan.Controls.Add(this.backBtn);
             this.navPan.Dock = System.Windows.Forms.DockStyle.Top;
             this.navPan.Location = new System.Drawing.Point(0, 0);
+            this.navPan.Margin = new System.Windows.Forms.Padding(4);
             this.navPan.Name = "navPan";
-            this.navPan.Size = new System.Drawing.Size(977, 64);
+            this.navPan.Size = new System.Drawing.Size(1303, 162);
             this.navPan.TabIndex = 0;
             // 
             // NmaintenanceReq
             // 
             this.NmaintenanceReq.AutoSize = true;
             this.NmaintenanceReq.BackColor = System.Drawing.Color.Transparent;
-            this.NmaintenanceReq.Font = new System.Drawing.Font("Segoe UI Semibold", 14.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NmaintenanceReq.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold);
             this.NmaintenanceReq.ForeColor = System.Drawing.Color.White;
-            this.NmaintenanceReq.Location = new System.Drawing.Point(76, 19);
+            this.NmaintenanceReq.Location = new System.Drawing.Point(107, 56);
+            this.NmaintenanceReq.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.NmaintenanceReq.Name = "NmaintenanceReq";
-            this.NmaintenanceReq.Size = new System.Drawing.Size(241, 25);
+            this.NmaintenanceReq.Size = new System.Drawing.Size(343, 37);
             this.NmaintenanceReq.TabIndex = 0;
             this.NmaintenanceReq.Text = "New Maintenance Request";
             // 
@@ -101,9 +103,10 @@ namespace WindowsFormsApp1
             this.backBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(226)))), ((int)(((byte)(196)))));
-            this.backBtn.Location = new System.Drawing.Point(18, 14);
+            this.backBtn.Location = new System.Drawing.Point(30, 47);
+            this.backBtn.Margin = new System.Windows.Forms.Padding(4);
             this.backBtn.Name = "backBtn";
-            this.backBtn.Size = new System.Drawing.Size(44, 36);
+            this.backBtn.Size = new System.Drawing.Size(60, 55);
             this.backBtn.TabIndex = 9;
             this.backBtn.Text = "<";
             this.backBtn.UseVisualStyleBackColor = false;
@@ -111,7 +114,7 @@ namespace WindowsFormsApp1
             // 
             // cardPan
             // 
-            this.cardPan.BackColor = System.Drawing.Color.White;
+            this.cardPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.cardPan.Controls.Add(this.Formpic);
             this.cardPan.Controls.Add(this.reqInfo);
             this.cardPan.Controls.Add(this.label4);
@@ -138,31 +141,22 @@ namespace WindowsFormsApp1
             this.cardPan.Controls.Add(this.attachmentLabel);
             this.cardPan.Controls.Add(this.Submit_req);
             this.cardPan.Controls.Add(this.cancelBtn);
-            this.cardPan.Location = new System.Drawing.Point(0, 66);
+            this.cardPan.Location = new System.Drawing.Point(0, 69);
+            this.cardPan.Margin = new System.Windows.Forms.Padding(4);
             this.cardPan.Name = "cardPan";
-            this.cardPan.Size = new System.Drawing.Size(993, 842);
+            this.cardPan.Size = new System.Drawing.Size(1324, 1036);
             this.cardPan.TabIndex = 1;
-            // 
-            // Formpic
-            // 
-            this.Formpic.BackColor = System.Drawing.Color.Transparent;
-            this.Formpic.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_information;
-            this.Formpic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Formpic.Location = new System.Drawing.Point(24, 18);
-            this.Formpic.Name = "Formpic";
-            this.Formpic.Size = new System.Drawing.Size(44, 40);
-            this.Formpic.TabIndex = 0;
-            this.Formpic.TabStop = false;
             // 
             // reqInfo
             // 
             this.reqInfo.AutoSize = true;
             this.reqInfo.BackColor = System.Drawing.Color.Transparent;
-            this.reqInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.reqInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
-            this.reqInfo.Location = new System.Drawing.Point(78, 18);
+            this.reqInfo.Font = new System.Drawing.Font("Segoe UI Semibold", 18F, System.Drawing.FontStyle.Bold);
+            this.reqInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
+            this.reqInfo.Location = new System.Drawing.Point(107, 138);
+            this.reqInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.reqInfo.Name = "reqInfo";
-            this.reqInfo.Size = new System.Drawing.Size(188, 25);
+            this.reqInfo.Size = new System.Drawing.Size(300, 41);
             this.reqInfo.TabIndex = 1;
             this.reqInfo.Text = "Request Information";
             // 
@@ -170,179 +164,140 @@ namespace WindowsFormsApp1
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.label4.Location = new System.Drawing.Point(80, 45);
+            this.label4.Location = new System.Drawing.Point(110, 179);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(278, 15);
+            this.label4.Size = new System.Drawing.Size(404, 23);
             this.label4.TabIndex = 2;
             this.label4.Text = "Please provide the details of the maintenance issue.";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_location;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 92);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
             // 
             // rLoc
             // 
             this.rLoc.AutoSize = true;
-            this.rLoc.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rLoc.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
             this.rLoc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.rLoc.Location = new System.Drawing.Point(70, 97);
+            this.rLoc.Location = new System.Drawing.Point(114, 251);
+            this.rLoc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.rLoc.Name = "rLoc";
-            this.rLoc.Size = new System.Drawing.Size(114, 19);
+            this.rLoc.Size = new System.Drawing.Size(177, 30);
             this.rLoc.TabIndex = 4;
             this.rLoc.Text = "Room / Location";
             // 
             // RoomBox
             // 
+            this.RoomBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.RoomBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RoomBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RoomBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RoomBox.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.RoomBox.FormattingEnabled = true;
-            this.RoomBox.Location = new System.Drawing.Point(342, 92);
+            this.RoomBox.Location = new System.Drawing.Point(477, 245);
+            this.RoomBox.Margin = new System.Windows.Forms.Padding(4);
             this.RoomBox.Name = "RoomBox";
-            this.RoomBox.Size = new System.Drawing.Size(569, 27);
+            this.RoomBox.Size = new System.Drawing.Size(757, 38);
             this.RoomBox.TabIndex = 0;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_computer;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(26, 148);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox2.TabIndex = 5;
-            this.pictureBox2.TabStop = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.label1.Location = new System.Drawing.Point(70, 153);
+            this.label1.Location = new System.Drawing.Point(114, 325);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(135, 19);
+            this.label1.Size = new System.Drawing.Size(210, 30);
             this.label1.TabIndex = 6;
             this.label1.Text = "Facility / Equipment";
             // 
             // FaciEquip
             // 
+            this.FaciEquip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.FaciEquip.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.FaciEquip.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FaciEquip.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FaciEquip.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.FaciEquip.FormattingEnabled = true;
-            this.FaciEquip.Location = new System.Drawing.Point(342, 148);
+            this.FaciEquip.Location = new System.Drawing.Point(477, 319);
+            this.FaciEquip.Margin = new System.Windows.Forms.Padding(4);
             this.FaciEquip.Name = "FaciEquip";
-            this.FaciEquip.Size = new System.Drawing.Size(569, 27);
+            this.FaciEquip.Size = new System.Drawing.Size(757, 38);
             this.FaciEquip.TabIndex = 1;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_options;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(26, 204);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox4.TabIndex = 7;
-            this.pictureBox4.TabStop = false;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.label2.Location = new System.Drawing.Point(70, 209);
+            this.label2.Location = new System.Drawing.Point(114, 401);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 19);
+            this.label2.Size = new System.Drawing.Size(194, 30);
             this.label2.TabIndex = 8;
             this.label2.Text = "Problem Category";
             // 
             // ProbCat
             // 
+            this.ProbCat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.ProbCat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ProbCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ProbCat.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProbCat.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.ProbCat.FormattingEnabled = true;
-            this.ProbCat.Location = new System.Drawing.Point(342, 204);
+            this.ProbCat.Location = new System.Drawing.Point(477, 395);
+            this.ProbCat.Margin = new System.Windows.Forms.Padding(4);
             this.ProbCat.Name = "ProbCat";
-            this.ProbCat.Size = new System.Drawing.Size(569, 27);
+            this.ProbCat.Size = new System.Drawing.Size(757, 38);
             this.ProbCat.TabIndex = 2;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_flag;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Location = new System.Drawing.Point(26, 260);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox3.TabIndex = 9;
-            this.pictureBox3.TabStop = false;
             // 
             // prioLev
             // 
             this.prioLev.AutoSize = true;
-            this.prioLev.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prioLev.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
             this.prioLev.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.prioLev.Location = new System.Drawing.Point(70, 265);
+            this.prioLev.Location = new System.Drawing.Point(114, 472);
+            this.prioLev.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.prioLev.Name = "prioLev";
-            this.prioLev.Size = new System.Drawing.Size(91, 19);
+            this.prioLev.Size = new System.Drawing.Size(144, 30);
             this.prioLev.TabIndex = 10;
             this.prioLev.Text = "Priority Level";
             // 
             // prioBox
             // 
+            this.prioBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.prioBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.prioBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.prioBox.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prioBox.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.prioBox.FormattingEnabled = true;
-            this.prioBox.Location = new System.Drawing.Point(342, 260);
+            this.prioBox.Location = new System.Drawing.Point(477, 466);
+            this.prioBox.Margin = new System.Windows.Forms.Padding(4);
             this.prioBox.Name = "prioBox";
-            this.prioBox.Size = new System.Drawing.Size(569, 27);
+            this.prioBox.Size = new System.Drawing.Size(757, 38);
             this.prioBox.TabIndex = 3;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_decription;
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox5.Location = new System.Drawing.Point(26, 316);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox5.TabIndex = 11;
-            this.pictureBox5.TabStop = false;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.label5.Location = new System.Drawing.Point(70, 321);
+            this.label5.Location = new System.Drawing.Point(114, 551);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 19);
+            this.label5.Size = new System.Drawing.Size(127, 30);
             this.label5.TabIndex = 12;
             this.label5.Text = "Description";
             // 
             // messaGe
             // 
+            this.messaGe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.messaGe.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.messaGe.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.messaGe.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.messaGe.Location = new System.Drawing.Point(342, 316);
+            this.messaGe.Location = new System.Drawing.Point(477, 545);
+            this.messaGe.Margin = new System.Windows.Forms.Padding(4);
             this.messaGe.MaxLength = 400;
             this.messaGe.Multiline = true;
             this.messaGe.Name = "messaGe";
             this.messaGe.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.messaGe.Size = new System.Drawing.Size(569, 60);
+            this.messaGe.Size = new System.Drawing.Size(758, 91);
             this.messaGe.TabIndex = 4;
             this.messaGe.TextChanged += new System.EventHandler(this.messaGe_TextChanged);
             // 
@@ -350,33 +305,23 @@ namespace WindowsFormsApp1
             // 
             this.charCountLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.charCountLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(163)))), ((int)(((byte)(166)))));
-            this.charCountLabel.Location = new System.Drawing.Point(792, 379);
+            this.charCountLabel.Location = new System.Drawing.Point(238, 411);
             this.charCountLabel.Name = "charCountLabel";
-            this.charCountLabel.Size = new System.Drawing.Size(103, 26);
+            this.charCountLabel.Size = new System.Drawing.Size(404, 16);
             this.charCountLabel.TabIndex = 13;
             this.charCountLabel.Text = "400 characters left";
             this.charCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.charCountLabel.Click += new System.EventHandler(this.charCountLabel_Click);
             // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_file;
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox6.Location = new System.Drawing.Point(26, 438);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(32, 28);
-            this.pictureBox6.TabIndex = 14;
-            this.pictureBox6.TabStop = false;
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.label6.Location = new System.Drawing.Point(70, 443);
+            this.label6.Location = new System.Drawing.Point(114, 646);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 19);
+            this.label6.Size = new System.Drawing.Size(176, 30);
             this.label6.TabIndex = 15;
             this.label6.Text = "Photo (optional)";
             // 
@@ -389,9 +334,9 @@ namespace WindowsFormsApp1
             this.attachBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.attachBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.attachBtn.ForeColor = System.Drawing.Color.White;
-            this.attachBtn.Location = new System.Drawing.Point(344, 429);
+            this.attachBtn.Location = new System.Drawing.Point(238, 436);
             this.attachBtn.Name = "attachBtn";
-            this.attachBtn.Size = new System.Drawing.Size(116, 33);
+            this.attachBtn.Size = new System.Drawing.Size(180, 41);
             this.attachBtn.TabIndex = 5;
             this.attachBtn.Text = "Choose Photo";
             this.attachBtn.UseVisualStyleBackColor = false;
@@ -405,9 +350,9 @@ namespace WindowsFormsApp1
             this.clearAttachment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.clearAttachment.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearAttachment.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.clearAttachment.Location = new System.Drawing.Point(468, 429);
+            this.clearAttachment.Location = new System.Drawing.Point(362, 436);
             this.clearAttachment.Name = "clearAttachment";
-            this.clearAttachment.Size = new System.Drawing.Size(80, 33);
+            this.clearAttachment.Size = new System.Drawing.Size(120, 41);
             this.clearAttachment.TabIndex = 6;
             this.clearAttachment.Text = "Remove";
             this.clearAttachment.UseVisualStyleBackColor = false;
@@ -417,9 +362,9 @@ namespace WindowsFormsApp1
             // 
             this.attachmentLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.attachmentLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.attachmentLabel.Location = new System.Drawing.Point(344, 466);
+            this.attachmentLabel.Location = new System.Drawing.Point(238, 473);
             this.attachmentLabel.Name = "attachmentLabel";
-            this.attachmentLabel.Size = new System.Drawing.Size(404, 18);
+            this.attachmentLabel.Size = new System.Drawing.Size(366, 22);
             this.attachmentLabel.TabIndex = 16;
             this.attachmentLabel.Text = "No photo attached";
             // 
@@ -432,9 +377,9 @@ namespace WindowsFormsApp1
             this.Submit_req.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Submit_req.Font = new System.Drawing.Font("Segoe UI Semibold", 11.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Submit_req.ForeColor = System.Drawing.Color.White;
-            this.Submit_req.Location = new System.Drawing.Point(488, 540);
+            this.Submit_req.Location = new System.Drawing.Point(238, 510);
             this.Submit_req.Name = "Submit_req";
-            this.Submit_req.Size = new System.Drawing.Size(260, 46);
+            this.Submit_req.Size = new System.Drawing.Size(366, 57);
             this.Submit_req.TabIndex = 7;
             this.Submit_req.Text = "Submit Request";
             this.Submit_req.UseVisualStyleBackColor = false;
@@ -448,23 +393,108 @@ namespace WindowsFormsApp1
             this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelBtn.Font = new System.Drawing.Font("Segoe UI", 11.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.cancelBtn.Location = new System.Drawing.Point(758, 540);
+            this.cancelBtn.Location = new System.Drawing.Point(508, 510);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(134, 46);
+            this.cancelBtn.Size = new System.Drawing.Size(191, 57);
             this.cancelBtn.TabIndex = 8;
             this.cancelBtn.Text = "Cancel";
             this.cancelBtn.UseVisualStyleBackColor = false;
             this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
+            // Formpic
+            // 
+            this.Formpic.BackColor = System.Drawing.Color.Transparent;
+            this.Formpic.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon1;
+            this.Formpic.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Formpic.Location = new System.Drawing.Point(29, 138);
+            this.Formpic.Margin = new System.Windows.Forms.Padding(4);
+            this.Formpic.Name = "Formpic";
+            this.Formpic.Size = new System.Drawing.Size(70, 70);
+            this.Formpic.TabIndex = 0;
+            this.Formpic.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._42;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(56, 245);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._3;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(56, 319);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon7;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Location = new System.Drawing.Point(56, 395);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox4.TabIndex = 7;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon2;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Location = new System.Drawing.Point(56, 466);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._31;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox5.Location = new System.Drawing.Point(56, 545);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox5.TabIndex = 11;
+            this.pictureBox5.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._8;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox6.Location = new System.Drawing.Point(56, 640);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox6.TabIndex = 14;
+            this.pictureBox6.TabStop = false;
+            // 
             // request
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(243)))), ((int)(((byte)(240)))));
-            this.ClientSize = new System.Drawing.Size(977, 803);
-            this.Controls.Add(this.cardPan);
+            this.ClientSize = new System.Drawing.Size(1303, 988);
             this.Controls.Add(this.navPan);
+            this.Controls.Add(this.cardPan);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "request";

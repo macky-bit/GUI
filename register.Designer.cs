@@ -57,13 +57,13 @@ namespace WindowsFormsApp1
             // title_pan
             // 
             this.title_pan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
-            this.title_pan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.dmmsu1;
+            this.title_pan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.bg;
             this.title_pan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.title_pan.Controls.Add(this.Title);
             this.title_pan.Controls.Add(this.logo);
             this.title_pan.Controls.Add(this.loginpanel);
             this.title_pan.Location = new System.Drawing.Point(1, -1);
-            this.title_pan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.title_pan.Margin = new System.Windows.Forms.Padding(4);
             this.title_pan.Name = "title_pan";
             this.title_pan.Size = new System.Drawing.Size(1285, 857);
             this.title_pan.TabIndex = 2;
@@ -71,9 +71,9 @@ namespace WindowsFormsApp1
             // Title
             // 
             this.Title.BackColor = System.Drawing.Color.Transparent;
-            this.Title.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._2;
-            this.Title.Location = new System.Drawing.Point(112, 399);
-            this.Title.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Title.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.TAg;
+            this.Title.Location = new System.Drawing.Point(108, 463);
+            this.Title.Margin = new System.Windows.Forms.Padding(4);
             this.Title.Name = "Title";
             this.Title.Size = new System.Drawing.Size(409, 63);
             this.Title.TabIndex = 20;
@@ -81,9 +81,9 @@ namespace WindowsFormsApp1
             // logo
             // 
             this.logo.BackColor = System.Drawing.Color.Transparent;
-            this.logo.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.dmmsu_logo__1_;
+            this.logo.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.citlogo;
             this.logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.logo.Location = new System.Drawing.Point(139, 90);
+            this.logo.Location = new System.Drawing.Point(139, 137);
             this.logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.logo.Name = "logo";
             this.logo.Size = new System.Drawing.Size(349, 303);
@@ -92,17 +92,17 @@ namespace WindowsFormsApp1
             // loginpanel
             // 
             this.loginpanel.BackColor = System.Drawing.Color.Transparent;
-            this.loginpanel.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._123;
+            this.loginpanel.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.bg_glow;
             this.loginpanel.Controls.Add(this.login);
             this.loginpanel.Location = new System.Drawing.Point(624, 0);
-            this.loginpanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.loginpanel.Margin = new System.Windows.Forms.Padding(4);
             this.loginpanel.Name = "loginpanel";
             this.loginpanel.Size = new System.Drawing.Size(661, 853);
             this.loginpanel.TabIndex = 0;
             // 
             // login
             // 
-            this.login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.login.Controls.Add(this.icon);
             this.login.Controls.Add(this.createacc);
             this.login.Controls.Add(this.createaccbaba);
@@ -131,7 +131,7 @@ namespace WindowsFormsApp1
             this.icon.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.User_Icon;
             this.icon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.icon.Location = new System.Drawing.Point(189, 17);
-            this.icon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.icon.Margin = new System.Windows.Forms.Padding(4);
             this.icon.Name = "icon";
             this.icon.Size = new System.Drawing.Size(96, 79);
             this.icon.TabIndex = 0;
@@ -140,7 +140,7 @@ namespace WindowsFormsApp1
             // 
             this.createacc.BackColor = System.Drawing.Color.Transparent;
             this.createacc.Font = new System.Drawing.Font("Segoe UI Black", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.createacc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
+            this.createacc.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.createacc.Location = new System.Drawing.Point(27, 103);
             this.createacc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.createacc.Name = "createacc";
@@ -182,7 +182,7 @@ namespace WindowsFormsApp1
             this.fullName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fullName.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.fullName.Location = new System.Drawing.Point(47, 226);
-            this.fullName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.fullName.Margin = new System.Windows.Forms.Padding(4);
             this.fullName.MaxLength = 60;
             this.fullName.Name = "fullName";
             this.fullName.Size = new System.Drawing.Size(390, 34);
@@ -208,7 +208,7 @@ namespace WindowsFormsApp1
             this.username.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.username.Location = new System.Drawing.Point(47, 300);
-            this.username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.username.Margin = new System.Windows.Forms.Padding(4);
             this.username.MaxLength = 30;
             this.username.Name = "username";
             this.username.Size = new System.Drawing.Size(390, 34);
@@ -234,7 +234,7 @@ namespace WindowsFormsApp1
             this.password.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.password.Location = new System.Drawing.Point(47, 374);
-            this.password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.password.Margin = new System.Windows.Forms.Padding(4);
             this.password.MaxLength = 60;
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(390, 34);
@@ -261,7 +261,7 @@ namespace WindowsFormsApp1
             this.confirmPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.confirmPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.confirmPassword.Location = new System.Drawing.Point(47, 448);
-            this.confirmPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.confirmPassword.Margin = new System.Windows.Forms.Padding(4);
             this.confirmPassword.MaxLength = 60;
             this.confirmPassword.Name = "confirmPassword";
             this.confirmPassword.Size = new System.Drawing.Size(390, 34);
@@ -281,7 +281,7 @@ namespace WindowsFormsApp1
             // 
             // register_btn
             // 
-            this.register_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
+            this.register_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.register_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.register_btn.FlatAppearance.BorderSize = 0;
             this.register_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(70)))), ((int)(((byte)(28)))));
@@ -289,7 +289,7 @@ namespace WindowsFormsApp1
             this.register_btn.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.register_btn.ForeColor = System.Drawing.Color.White;
             this.register_btn.Location = new System.Drawing.Point(47, 537);
-            this.register_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.register_btn.Margin = new System.Windows.Forms.Padding(4);
             this.register_btn.Name = "register_btn";
             this.register_btn.Size = new System.Drawing.Size(391, 52);
             this.register_btn.TabIndex = 5;
@@ -299,15 +299,15 @@ namespace WindowsFormsApp1
             // 
             // cancel_btn
             // 
-            this.cancel_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.cancel_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.cancel_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cancel_btn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
             this.cancel_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(230)))), ((int)(((byte)(214)))));
             this.cancel_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancel_btn.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cancel_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
+            this.cancel_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.cancel_btn.Location = new System.Drawing.Point(47, 598);
-            this.cancel_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cancel_btn.Margin = new System.Windows.Forms.Padding(4);
             this.cancel_btn.Name = "cancel_btn";
             this.cancel_btn.Size = new System.Drawing.Size(391, 44);
             this.cancel_btn.TabIndex = 6;
@@ -330,15 +330,15 @@ namespace WindowsFormsApp1
             // 
             // login_btn
             // 
-            this.login_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.login_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.login_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.login_btn.FlatAppearance.BorderSize = 0;
             this.login_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(230)))), ((int)(((byte)(214)))));
             this.login_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.login_btn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.login_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
+            this.login_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.login_btn.Location = new System.Drawing.Point(285, 655);
-            this.login_btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.login_btn.Margin = new System.Windows.Forms.Padding(4);
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(79, 36);
             this.login_btn.TabIndex = 8;
