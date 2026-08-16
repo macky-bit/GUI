@@ -140,7 +140,7 @@ namespace WindowsFormsApp1
             this.cardPan.Controls.Add(this.cancelBtn);
             this.cardPan.Location = new System.Drawing.Point(0, 56);
             this.cardPan.Name = "cardPan";
-            this.cardPan.Size = new System.Drawing.Size(993, 842);
+            this.cardPan.Size = new System.Drawing.Size(977, 842);
             this.cardPan.TabIndex = 1;
             // 
             // Formpic
