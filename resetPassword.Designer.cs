@@ -43,9 +43,9 @@ namespace WindowsFormsApp1
             this.headerPan.Controls.Add(this.subheadingLabel);
             this.headerPan.Dock = System.Windows.Forms.DockStyle.Top;
             this.headerPan.Location = new System.Drawing.Point(0, 0);
-            this.headerPan.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.headerPan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.headerPan.Name = "headerPan";
-            this.headerPan.Size = new System.Drawing.Size(1303, 162);
+            this.headerPan.Size = new System.Drawing.Size(977, 132);
             this.headerPan.TabIndex = 0;
             // 
             // headingLabel
@@ -53,10 +53,9 @@ namespace WindowsFormsApp1
             this.headingLabel.AutoSize = true;
             this.headingLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold);
             this.headingLabel.ForeColor = System.Drawing.Color.White;
-            this.headingLabel.Location = new System.Drawing.Point(32, 31);
-            this.headingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.headingLabel.Location = new System.Drawing.Point(24, 25);
             this.headingLabel.Name = "headingLabel";
-            this.headingLabel.Size = new System.Drawing.Size(205, 37);
+            this.headingLabel.Size = new System.Drawing.Size(165, 30);
             this.headingLabel.TabIndex = 0;
             this.headingLabel.Text = "Reset Password";
             // 
@@ -65,10 +64,9 @@ namespace WindowsFormsApp1
             this.subheadingLabel.AutoSize = true;
             this.subheadingLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.subheadingLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(224)))), ((int)(((byte)(198)))));
-            this.subheadingLabel.Location = new System.Drawing.Point(35, 78);
-            this.subheadingLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.subheadingLabel.Location = new System.Drawing.Point(26, 63);
             this.subheadingLabel.Name = "subheadingLabel";
-            this.subheadingLabel.Size = new System.Drawing.Size(374, 20);
+            this.subheadingLabel.Size = new System.Drawing.Size(303, 15);
             this.subheadingLabel.TabIndex = 1;
             this.subheadingLabel.Text = "Confirm your current password, then choose a new one.";
             // 
@@ -77,10 +75,9 @@ namespace WindowsFormsApp1
             this.usernameLabel.AutoSize = true;
             this.usernameLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold);
             this.usernameLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.usernameLabel.Location = new System.Drawing.Point(52, 77);
-            this.usernameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.usernameLabel.Location = new System.Drawing.Point(39, 63);
             this.usernameLabel.Name = "usernameLabel";
-            this.usernameLabel.Size = new System.Drawing.Size(140, 37);
+            this.usernameLabel.Size = new System.Drawing.Size(112, 30);
             this.usernameLabel.TabIndex = 1;
             this.usernameLabel.Text = "Username";
             // 
@@ -89,11 +86,11 @@ namespace WindowsFormsApp1
             this.usernameField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.usernameField.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.usernameField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.usernameField.Location = new System.Drawing.Point(64, 135);
-            this.usernameField.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.usernameField.Location = new System.Drawing.Point(48, 110);
+            this.usernameField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.usernameField.MaxLength = 30;
             this.usernameField.Name = "usernameField";
-            this.usernameField.Size = new System.Drawing.Size(490, 36);
+            this.usernameField.Size = new System.Drawing.Size(368, 31);
             this.usernameField.TabIndex = 0;
             // 
             // currentLabel
@@ -101,10 +98,9 @@ namespace WindowsFormsApp1
             this.currentLabel.AutoSize = true;
             this.currentLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold);
             this.currentLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.currentLabel.Location = new System.Drawing.Point(52, 192);
-            this.currentLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.currentLabel.Location = new System.Drawing.Point(39, 156);
             this.currentLabel.Name = "currentLabel";
-            this.currentLabel.Size = new System.Drawing.Size(232, 37);
+            this.currentLabel.Size = new System.Drawing.Size(187, 30);
             this.currentLabel.TabIndex = 3;
             this.currentLabel.Text = "Current Password";
             // 
@@ -113,11 +109,11 @@ namespace WindowsFormsApp1
             this.currentField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.currentField.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.currentField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.currentField.Location = new System.Drawing.Point(64, 249);
-            this.currentField.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.currentField.Location = new System.Drawing.Point(48, 202);
+            this.currentField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.currentField.MaxLength = 60;
             this.currentField.Name = "currentField";
-            this.currentField.Size = new System.Drawing.Size(490, 36);
+            this.currentField.Size = new System.Drawing.Size(368, 31);
             this.currentField.TabIndex = 1;
             this.currentField.UseSystemPasswordChar = true;
             // 
@@ -126,10 +122,9 @@ namespace WindowsFormsApp1
             this.newLabel.AutoSize = true;
             this.newLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold);
             this.newLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.newLabel.Location = new System.Drawing.Point(52, 306);
-            this.newLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.newLabel.Location = new System.Drawing.Point(39, 249);
             this.newLabel.Name = "newLabel";
-            this.newLabel.Size = new System.Drawing.Size(194, 37);
+            this.newLabel.Size = new System.Drawing.Size(157, 30);
             this.newLabel.TabIndex = 5;
             this.newLabel.Text = "New Password";
             // 
@@ -138,11 +133,11 @@ namespace WindowsFormsApp1
             this.newField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.newField.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.newField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.newField.Location = new System.Drawing.Point(64, 362);
-            this.newField.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.newField.Location = new System.Drawing.Point(48, 294);
+            this.newField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.newField.MaxLength = 60;
             this.newField.Name = "newField";
-            this.newField.Size = new System.Drawing.Size(490, 36);
+            this.newField.Size = new System.Drawing.Size(368, 31);
             this.newField.TabIndex = 2;
             this.newField.UseSystemPasswordChar = true;
             // 
@@ -151,10 +146,9 @@ namespace WindowsFormsApp1
             this.confirmLabel.AutoSize = true;
             this.confirmLabel.Font = new System.Drawing.Font("Segoe UI Semibold", 16F, System.Drawing.FontStyle.Bold);
             this.confirmLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.confirmLabel.Location = new System.Drawing.Point(52, 418);
-            this.confirmLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.confirmLabel.Location = new System.Drawing.Point(39, 340);
             this.confirmLabel.Name = "confirmLabel";
-            this.confirmLabel.Size = new System.Drawing.Size(300, 37);
+            this.confirmLabel.Size = new System.Drawing.Size(244, 30);
             this.confirmLabel.TabIndex = 7;
             this.confirmLabel.Text = "Confirm New Password";
             // 
@@ -163,11 +157,11 @@ namespace WindowsFormsApp1
             this.confirmField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.confirmField.Font = new System.Drawing.Font("Segoe UI", 13F);
             this.confirmField.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.confirmField.Location = new System.Drawing.Point(64, 473);
-            this.confirmField.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.confirmField.Location = new System.Drawing.Point(48, 384);
+            this.confirmField.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.confirmField.MaxLength = 60;
             this.confirmField.Name = "confirmField";
-            this.confirmField.Size = new System.Drawing.Size(490, 36);
+            this.confirmField.Size = new System.Drawing.Size(368, 31);
             this.confirmField.TabIndex = 3;
             this.confirmField.UseSystemPasswordChar = true;
             // 
@@ -180,10 +174,10 @@ namespace WindowsFormsApp1
             this.saveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.saveBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
             this.saveBtn.ForeColor = System.Drawing.Color.White;
-            this.saveBtn.Location = new System.Drawing.Point(417, 554);
-            this.saveBtn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.saveBtn.Location = new System.Drawing.Point(252, 447);
+            this.saveBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(218, 60);
+            this.saveBtn.Size = new System.Drawing.Size(164, 49);
             this.saveBtn.TabIndex = 4;
             this.saveBtn.Text = "Update Password";
             this.saveBtn.UseVisualStyleBackColor = false;
@@ -197,10 +191,10 @@ namespace WindowsFormsApp1
             this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelBtn.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.cancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.cancelBtn.Location = new System.Drawing.Point(243, 554);
-            this.cancelBtn.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.cancelBtn.Location = new System.Drawing.Point(121, 447);
+            this.cancelBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cancelBtn.Name = "cancelBtn";
-            this.cancelBtn.Size = new System.Drawing.Size(133, 60);
+            this.cancelBtn.Size = new System.Drawing.Size(100, 49);
             this.cancelBtn.TabIndex = 5;
             this.cancelBtn.Text = "Cancel";
             this.cancelBtn.UseVisualStyleBackColor = false;
@@ -219,30 +213,32 @@ namespace WindowsFormsApp1
             this.panel1.Controls.Add(this.confirmLabel);
             this.panel1.Controls.Add(this.newLabel);
             this.panel1.Controls.Add(this.newField);
-            this.panel1.Location = new System.Drawing.Point(321, 227);
+            this.panel1.Location = new System.Drawing.Point(0, 126);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(670, 690);
+            this.panel1.Size = new System.Drawing.Size(977, 678);
             this.panel1.TabIndex = 10;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
-            this.panel2.Location = new System.Drawing.Point(321, 223);
+            this.panel2.Location = new System.Drawing.Point(241, 181);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(670, 100);
+            this.panel2.Size = new System.Drawing.Size(502, 81);
             this.panel2.TabIndex = 11;
             // 
             // resetPassword
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1303, 988);
+            this.ClientSize = new System.Drawing.Size(977, 803);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.headerPan);
             this.Controls.Add(this.panel2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "resetPassword";
