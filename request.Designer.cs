@@ -350,12 +350,13 @@ namespace WindowsFormsApp1
             // 
             this.charCountLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.charCountLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(163)))), ((int)(((byte)(166)))));
-            this.charCountLabel.Location = new System.Drawing.Point(238, 411);
+            this.charCountLabel.Location = new System.Drawing.Point(792, 379);
             this.charCountLabel.Name = "charCountLabel";
-            this.charCountLabel.Size = new System.Drawing.Size(404, 16);
+            this.charCountLabel.Size = new System.Drawing.Size(103, 26);
             this.charCountLabel.TabIndex = 13;
             this.charCountLabel.Text = "400 characters left";
             this.charCountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.charCountLabel.Click += new System.EventHandler(this.charCountLabel_Click);
             // 
             // pictureBox6
             // 
@@ -388,7 +389,7 @@ namespace WindowsFormsApp1
             this.attachBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.attachBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.attachBtn.ForeColor = System.Drawing.Color.White;
-            this.attachBtn.Location = new System.Drawing.Point(238, 436);
+            this.attachBtn.Location = new System.Drawing.Point(344, 429);
             this.attachBtn.Name = "attachBtn";
             this.attachBtn.Size = new System.Drawing.Size(116, 33);
             this.attachBtn.TabIndex = 5;
@@ -404,7 +405,7 @@ namespace WindowsFormsApp1
             this.clearAttachment.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.clearAttachment.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clearAttachment.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.clearAttachment.Location = new System.Drawing.Point(362, 436);
+            this.clearAttachment.Location = new System.Drawing.Point(468, 429);
             this.clearAttachment.Name = "clearAttachment";
             this.clearAttachment.Size = new System.Drawing.Size(80, 33);
             this.clearAttachment.TabIndex = 6;
@@ -416,7 +417,7 @@ namespace WindowsFormsApp1
             // 
             this.attachmentLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.attachmentLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.attachmentLabel.Location = new System.Drawing.Point(238, 473);
+            this.attachmentLabel.Location = new System.Drawing.Point(344, 466);
             this.attachmentLabel.Name = "attachmentLabel";
             this.attachmentLabel.Size = new System.Drawing.Size(404, 18);
             this.attachmentLabel.TabIndex = 16;
@@ -431,7 +432,7 @@ namespace WindowsFormsApp1
             this.Submit_req.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Submit_req.Font = new System.Drawing.Font("Segoe UI Semibold", 11.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Submit_req.ForeColor = System.Drawing.Color.White;
-            this.Submit_req.Location = new System.Drawing.Point(238, 510);
+            this.Submit_req.Location = new System.Drawing.Point(488, 540);
             this.Submit_req.Name = "Submit_req";
             this.Submit_req.Size = new System.Drawing.Size(260, 46);
             this.Submit_req.TabIndex = 7;
@@ -447,7 +448,7 @@ namespace WindowsFormsApp1
             this.cancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelBtn.Font = new System.Drawing.Font("Segoe UI", 11.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(99)))), ((int)(((byte)(104)))));
-            this.cancelBtn.Location = new System.Drawing.Point(508, 510);
+            this.cancelBtn.Location = new System.Drawing.Point(758, 540);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(134, 46);
             this.cancelBtn.TabIndex = 8;

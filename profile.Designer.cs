@@ -136,7 +136,7 @@ namespace WindowsFormsApp1
             this.detailsPan.Controls.Add(this.memberSinceLabel);
             this.detailsPan.Controls.Add(this.memberSinceValue);
             this.detailsPan.Controls.Add(this.statusLabel);
-            this.detailsPan.Location = new System.Drawing.Point(32, 127);
+            this.detailsPan.Location = new System.Drawing.Point(32, 146);
             this.detailsPan.Margin = new System.Windows.Forms.Padding(4);
             this.detailsPan.Name = "detailsPan";
             this.detailsPan.Size = new System.Drawing.Size(931, 286);
@@ -248,7 +248,7 @@ namespace WindowsFormsApp1
             // 
             this.statusLabel.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.statusLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(94)))), ((int)(((byte)(32)))));
-            this.statusLabel.Location = new System.Drawing.Point(27, 174);
+            this.statusLabel.Location = new System.Drawing.Point(28, 208);
             this.statusLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.statusLabel.Name = "statusLabel";
             this.statusLabel.Size = new System.Drawing.Size(760, 32);
