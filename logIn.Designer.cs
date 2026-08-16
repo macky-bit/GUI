@@ -58,7 +58,7 @@ namespace GUI
             // title_pan
             // 
             this.title_pan.BackColor = System.Drawing.Color.Transparent;
-            this.title_pan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.dmmsu1;
+            this.title_pan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.bg;
             resources.ApplyResources(this.title_pan, "title_pan");
             this.title_pan.Controls.Add(this.Title);
             this.title_pan.Controls.Add(this.logo);
@@ -68,14 +68,14 @@ namespace GUI
             // 
             // Title
             // 
-            this.Title.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._2;
+            this.Title.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.TAg;
             resources.ApplyResources(this.Title, "Title");
             this.Title.Name = "Title";
             this.Title.Paint += new System.Windows.Forms.PaintEventHandler(this.Title_Paint);
             // 
             // logo
             // 
-            this.logo.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.dmmsu_logo__1_;
+            this.logo.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.citlogo;
             resources.ApplyResources(this.logo, "logo");
             this.logo.Name = "logo";
             // 
@@ -83,7 +83,7 @@ namespace GUI
             // 
             resources.ApplyResources(this.loginpanel, "loginpanel");
             this.loginpanel.BackColor = System.Drawing.Color.Transparent;
-            this.loginpanel.BackgroundImage = global::WindowsFormsApp1.Properties.Resources._123;
+            this.loginpanel.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.bg_glow;
             this.loginpanel.Controls.Add(this.login);
             this.loginpanel.Controls.Add(this.flowLayoutPanel1);
             this.loginpanel.Name = "loginpanel";
@@ -91,7 +91,7 @@ namespace GUI
             // 
             // login
             // 
-            this.login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.login.Controls.Add(this.pass);
             this.login.Controls.Add(this.log_in);
             this.login.Controls.Add(this.username);
@@ -110,7 +110,7 @@ namespace GUI
             // 
             // pass
             // 
-            this.pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.pass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.pass, "pass");
             this.pass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -119,37 +119,35 @@ namespace GUI
             // 
             // log_in
             // 
-            this.log_in.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.log_in.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.log_in.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.log_in, "log_in");
-            this.log_in.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
+            this.log_in.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.log_in.Name = "log_in";
             this.log_in.TextChanged += new System.EventHandler(this.welcome_TextChanged);
             // 
             // username
             // 
-            this.username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.username.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.username, "username");
             this.username.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.username.MaxLength = 30;
             this.username.Name = "username";
             this.username.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
             // password
             // 
-            this.password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.password.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.password.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resources.ApplyResources(this.password, "password");
             this.password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(64)))), ((int)(((byte)(67)))));
-            this.password.MaxLength = 60;
             this.password.Name = "password";
             this.password.UseSystemPasswordChar = true;
             this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
             // 
             // user
             // 
-            this.user.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.user.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.user.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.user, "user");
             this.user.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
@@ -159,7 +157,7 @@ namespace GUI
             // 
             // Login_btn
             // 
-            this.Login_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
+            this.Login_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.Login_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Login_btn.FlatAppearance.BorderSize = 0;
             this.Login_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(70)))), ((int)(((byte)(28)))));
@@ -179,11 +177,11 @@ namespace GUI
             // 
             // signup_btn
             // 
-            this.signup_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.signup_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.signup_btn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.signup_btn.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.signup_btn, "signup_btn");
-            this.signup_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
+            this.signup_btn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.signup_btn.Name = "signup_btn";
             this.signup_btn.UseVisualStyleBackColor = false;
             this.signup_btn.Click += new System.EventHandler(this.signup_btn_Click);
@@ -192,7 +190,7 @@ namespace GUI
             // rememberme
             // 
             resources.ApplyResources(this.rememberme, "rememberme");
-            this.rememberme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.rememberme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.rememberme.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.rememberme.Name = "rememberme";
             this.rememberme.UseVisualStyleBackColor = false;
@@ -200,7 +198,7 @@ namespace GUI
             // 
             // account_question
             // 
-            this.account_question.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.account_question.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.account_question.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.account_question.Cursor = System.Windows.Forms.Cursors.Arrow;
             resources.ApplyResources(this.account_question, "account_question");
@@ -211,40 +209,36 @@ namespace GUI
             // 
             // forgot_pass
             // 
-            this.forgot_pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.forgot_pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.forgot_pass.Cursor = System.Windows.Forms.Cursors.Hand;
             this.forgot_pass.FlatAppearance.BorderSize = 0;
             resources.ApplyResources(this.forgot_pass, "forgot_pass");
-            this.forgot_pass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(90)))), ((int)(((byte)(36)))));
+            this.forgot_pass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.forgot_pass.Name = "forgot_pass";
             this.forgot_pass.UseVisualStyleBackColor = false;
             this.forgot_pass.Click += new System.EventHandler(this.forgot_pass_Click);
             // 
             // LTCTYA
             // 
-            this.LTCTYA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
+            this.LTCTYA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.LTCTYA.BorderStyle = System.Windows.Forms.BorderStyle.None;
             resources.ApplyResources(this.LTCTYA, "LTCTYA");
             this.LTCTYA.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(111)))), ((int)(((byte)(111)))));
             this.LTCTYA.Name = "LTCTYA";
             this.LTCTYA.ReadOnly = true;
             this.LTCTYA.TextChanged += new System.EventHandler(this.LTCTYA_TextChanged);
-            //
+            // 
             // statusLabel
-            //
-            this.statusLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(244)))), ((int)(((byte)(232)))));
-            this.statusLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            // 
+            this.statusLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
+            resources.ApplyResources(this.statusLabel, "statusLabel");
             this.statusLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(179)))), ((int)(((byte)(38)))), ((int)(((byte)(30)))));
-            this.statusLabel.Location = new System.Drawing.Point(35, 381);
             this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(293, 26);
-            this.statusLabel.TabIndex = 12;
-            this.statusLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            //
+            // 
             // flowLayoutPanel1
-            //
+            // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.transparent_bg;
+            this.flowLayoutPanel1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.bg_glow;
             resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             // 
