@@ -86,9 +86,9 @@ namespace WindowsFormsApp1
 
         private void ShowProblem(string message, TextBox fieldToFocus)
         {
-            statusLabel.Text = message;
-            fieldToFocus.SelectAll();
-            fieldToFocus.Focus();
+            //statusLabel.Text = message;
+            //fieldToFocus.SelectAll();
+            //fieldToFocus.Focus();
         }
     }
 }
