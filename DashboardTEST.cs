@@ -270,5 +270,325 @@ namespace WindowsFormsApp1
         {
             
         }
+
+        private void flowLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void myReqPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtMyReq_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void panel24_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void myReqCount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void myReqTxt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void canPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel25_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void canCount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void canTxt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void inProgPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtInProg_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void panel26_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void inProgCount_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtCompleted_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void panel27_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Comtxt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void myReqIcon_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void topbar_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void basePan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lastUpdateLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void allSystemOpLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bulletPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void systemLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void announPan2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void schedMainBotLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void schedMainLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reminderBotLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reminderLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void announLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void contAdmnPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void newReqBotLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newReqLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel12_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void viewHisBotLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void viewHisLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel14_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void conAdBotPan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void conAdPan_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void quickAcLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void emptyGridLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void recentReq_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void recReqLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void welcomeBabaLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void welcomeLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void studentLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void studentName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void avatarInitials_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dashBLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void announIcon2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void announIcon1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void newReqPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void viewHisPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel15_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
