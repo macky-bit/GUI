@@ -143,7 +143,7 @@
             this.basePan.Controls.Add(this.welcomeBabaLabel);
             this.basePan.Controls.Add(this.welcomeLabel);
             this.basePan.Location = new System.Drawing.Point(0, 91);
-            this.basePan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.basePan.Margin = new System.Windows.Forms.Padding(4);
             this.basePan.Name = "basePan";
             this.basePan.Size = new System.Drawing.Size(994, 748);
             this.basePan.TabIndex = 10;
@@ -1005,7 +1005,7 @@
             this.topbar.Controls.Add(this.panel1);
             this.topbar.Controls.Add(this.dashBLabel);
             this.topbar.Location = new System.Drawing.Point(0, 2);
-            this.topbar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.topbar.Margin = new System.Windows.Forms.Padding(4);
             this.topbar.Name = "topbar";
             this.topbar.Size = new System.Drawing.Size(994, 89);
             this.topbar.TabIndex = 11;

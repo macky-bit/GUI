@@ -35,17 +35,20 @@ namespace WindowsFormsApp1
 
         private void ShowRequestSummary(string username)
         {
-            var requests = MaintenanceStore.GetRequestsFor(username);
+        //    var requests = MaintenanceStore.GetRequestsFor(username);
 
-            totalValue.Text = requests.Count.ToString();
-            openValue.Text = requests.Count(r => r.Status == RequestStatus.Pending
-                                              || r.Status == RequestStatus.InProgress).ToString();
-            completedValue.Text = requests.Count(r => r.Status == RequestStatus.Completed).ToString();
+        //    totalValue.Text = requests.Count.ToString();
+        //    openValue.Text = requests.Count(r => r.Status == RequestStatus.Pending
+        //                                      || r.Status == RequestStatus.InProgress).ToString();
+        //    completedValue.Text = requests.Count(r => r.Status == RequestStatus.Completed).ToString();
 
-            lastFiledValue.Text = requests.Count == 0
-                ? "No requests filed yet"
-                : requests.First().FiledOn.ToString("MMMM d, yyyy") + "  (" + requests.First().RequestId + ")";
+        //    lastFiledValue.Text = requests.Count == 0
+        //        ? "No requests filed yet"
+        //        : requests.First().FiledOn.ToString("MMMM d, yyyy") + "  (" + requests.First().RequestId + ")";
+        //
         }
+        
+        
 
         private void saveNameBtn_Click(object sender, EventArgs e)
         {
@@ -117,6 +120,21 @@ namespace WindowsFormsApp1
         }
 
         private void statusLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void totalValue_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void activityPan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void completedValue_Click(object sender, EventArgs e)
         {
 
         }
