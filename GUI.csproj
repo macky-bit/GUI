@@ -101,6 +101,11 @@
     <Compile Include="crew.Designer.cs">
       <DependentUpon>crew.cs</DependentUpon>
     </Compile>
+    <Compile Include="crew1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crew.resx</DependentUpon>
+    </Compile>
     <Compile Include="dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="crew.resx">
       <DependentUpon>crew.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>crew1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="dashboard.resx">
       <DependentUpon>dashboard.cs</DependentUpon>
