@@ -101,11 +101,6 @@
     <Compile Include="crew.Designer.cs">
       <DependentUpon>crew.cs</DependentUpon>
     </Compile>
-    <Compile Include="crew1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>crew.resx</DependentUpon>
-    </Compile>
     <Compile Include="dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
