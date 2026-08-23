@@ -121,15 +121,18 @@
   <data name="title_pan.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
+  <data name="Title.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="Title.Location" type="System.Drawing.Point, System.Drawing">
-    <value>108, 463</value>
+    <value>17, 463</value>
   </data>
   <data name="Title.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <data name="Title.Size" type="System.Drawing.Size, System.Drawing">
-    <value>406, 63</value>
+    <value>562, 63</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Title.TabIndex" type="System.Int32, mscorlib">

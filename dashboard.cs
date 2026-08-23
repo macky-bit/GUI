@@ -40,8 +40,9 @@ namespace WindowsFormsApp1
 
             var child = factory();
             child.MdiParent = this;
+            child.WindowState = FormWindowState.Maximized;
             child.Show();
-            PinToTopLeft(child);
+            //PinToTopLeft(child);
             return child;
         }
 

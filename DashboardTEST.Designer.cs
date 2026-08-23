@@ -143,7 +143,7 @@
             this.basePan.Controls.Add(this.welcomeBabaLabel);
             this.basePan.Controls.Add(this.welcomeLabel);
             this.basePan.Location = new System.Drawing.Point(0, 112);
-            this.basePan.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.basePan.Margin = new System.Windows.Forms.Padding(5);
             this.basePan.Name = "basePan";
             this.basePan.Size = new System.Drawing.Size(1325, 921);
             this.basePan.TabIndex = 10;
@@ -156,7 +156,7 @@
             this.flowLayoutPanel4.Controls.Add(this.inProgPan);
             this.flowLayoutPanel4.Controls.Add(this.comPan);
             this.flowLayoutPanel4.Location = new System.Drawing.Point(16, 75);
-            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel4.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(1296, 231);
             this.flowLayoutPanel4.TabIndex = 0;
@@ -191,7 +191,7 @@
             // 
             this.panel24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(28)))), ((int)(((byte)(46)))));
             this.panel24.Location = new System.Drawing.Point(-15, 207);
-            this.panel24.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel24.Margin = new System.Windows.Forms.Padding(4);
             this.panel24.Name = "panel24";
             this.panel24.Size = new System.Drawing.Size(335, 12);
             this.panel24.TabIndex = 19;
@@ -265,7 +265,7 @@
             // 
             this.panel25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(223)))), ((int)(((byte)(106)))), ((int)(((byte)(25)))));
             this.panel25.Location = new System.Drawing.Point(0, 207);
-            this.panel25.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel25.Margin = new System.Windows.Forms.Padding(4);
             this.panel25.Name = "panel25";
             this.panel25.Size = new System.Drawing.Size(344, 12);
             this.panel25.TabIndex = 20;
@@ -331,15 +331,15 @@
             this.lblInProg.Font = new System.Drawing.Font("Segoe UI", 10.8F);
             this.lblInProg.Location = new System.Drawing.Point(11, 155);
             this.lblInProg.Name = "lblInProg";
-            this.lblInProg.Size = new System.Drawing.Size(296, 25);
+            this.lblInProg.Size = new System.Drawing.Size(211, 50);
             this.lblInProg.TabIndex = 23;
-            this.lblInProg.Text = "Requests currently being worked on";
+            this.lblInProg.Text = "Requests currently being \r\nworked on";
             // 
             // panel26
             // 
             this.panel26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(69)))), ((int)(((byte)(73)))), ((int)(((byte)(79)))));
             this.panel26.Location = new System.Drawing.Point(-4, 207);
-            this.panel26.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel26.Margin = new System.Windows.Forms.Padding(4);
             this.panel26.Name = "panel26";
             this.panel26.Size = new System.Drawing.Size(344, 12);
             this.panel26.TabIndex = 21;
@@ -405,15 +405,15 @@
             this.txtCompleted.Font = new System.Drawing.Font("Segoe UI", 10.8F);
             this.txtCompleted.Location = new System.Drawing.Point(11, 155);
             this.txtCompleted.Name = "txtCompleted";
-            this.txtCompleted.Size = new System.Drawing.Size(287, 25);
+            this.txtCompleted.Size = new System.Drawing.Size(202, 50);
             this.txtCompleted.TabIndex = 24;
-            this.txtCompleted.Text = "Request that have been completed";
+            this.txtCompleted.Text = "Request that have been \r\ncompleted";
             // 
             // panel27
             // 
             this.panel27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(169)))), ((int)(((byte)(34)))));
             this.panel27.Location = new System.Drawing.Point(-1, 207);
-            this.panel27.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel27.Margin = new System.Windows.Forms.Padding(4);
             this.panel27.Name = "panel27";
             this.panel27.Size = new System.Drawing.Size(344, 12);
             this.panel27.TabIndex = 22;
@@ -466,7 +466,7 @@
             this.panel11.Controls.Add(this.bulletPan);
             this.panel11.Controls.Add(this.systemLabel);
             this.panel11.Location = new System.Drawing.Point(889, 742);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4);
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(423, 175);
             this.panel11.TabIndex = 22;
@@ -502,7 +502,7 @@
             // 
             this.bulletPan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.bulletPan.Location = new System.Drawing.Point(47, 60);
-            this.bulletPan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bulletPan.Margin = new System.Windows.Forms.Padding(4);
             this.bulletPan.Name = "bulletPan";
             this.bulletPan.Size = new System.Drawing.Size(20, 18);
             this.bulletPan.TabIndex = 19;
@@ -528,7 +528,7 @@
             this.panel10.Controls.Add(this.announLabel);
             this.panel10.Controls.Add(this.contAdmnPan);
             this.panel10.Location = new System.Drawing.Point(889, 324);
-            this.panel10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(423, 407);
             this.panel10.TabIndex = 21;
@@ -541,7 +541,7 @@
             this.announPan2.Controls.Add(this.schedMainLabel);
             this.announPan2.Controls.Add(this.announIcon2);
             this.announPan2.Location = new System.Drawing.Point(13, 236);
-            this.announPan2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.announPan2.Margin = new System.Windows.Forms.Padding(4);
             this.announPan2.Name = "announPan2";
             this.announPan2.Size = new System.Drawing.Size(396, 153);
             this.announPan2.TabIndex = 22;
@@ -579,7 +579,7 @@
             this.announIcon2.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon7;
             this.announIcon2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.announIcon2.Location = new System.Drawing.Point(17, 15);
-            this.announIcon2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.announIcon2.Margin = new System.Windows.Forms.Padding(4);
             this.announIcon2.Name = "announIcon2";
             this.announIcon2.Size = new System.Drawing.Size(51, 47);
             this.announIcon2.TabIndex = 15;
@@ -592,7 +592,7 @@
             this.announPan1.Controls.Add(this.reminderLabel);
             this.announPan1.Controls.Add(this.announIcon1);
             this.announPan1.Location = new System.Drawing.Point(11, 66);
-            this.announPan1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.announPan1.Margin = new System.Windows.Forms.Padding(4);
             this.announPan1.Name = "announPan1";
             this.announPan1.Size = new System.Drawing.Size(399, 153);
             this.announPan1.TabIndex = 21;
@@ -631,7 +631,7 @@
             this.announIcon1.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon5;
             this.announIcon1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.announIcon1.Location = new System.Drawing.Point(17, 15);
-            this.announIcon1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.announIcon1.Margin = new System.Windows.Forms.Padding(4);
             this.announIcon1.Name = "announIcon1";
             this.announIcon1.Size = new System.Drawing.Size(51, 47);
             this.announIcon1.TabIndex = 15;
@@ -652,7 +652,7 @@
             // contAdmnPan
             // 
             this.contAdmnPan.Location = new System.Drawing.Point(47, 242);
-            this.contAdmnPan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.contAdmnPan.Margin = new System.Windows.Forms.Padding(4);
             this.contAdmnPan.Name = "contAdmnPan";
             this.contAdmnPan.Size = new System.Drawing.Size(0, 0);
             this.contAdmnPan.TabIndex = 19;
@@ -664,7 +664,7 @@
             this.panel9.Controls.Add(this.flowLayoutPanel2);
             this.panel9.Controls.Add(this.quickAcLabel);
             this.panel9.Location = new System.Drawing.Point(16, 667);
-            this.panel9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(844, 249);
             this.panel9.TabIndex = 20;
@@ -676,7 +676,7 @@
             this.flowLayoutPanel2.Controls.Add(this.panel12);
             this.flowLayoutPanel2.Controls.Add(this.panel14);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(4, 60);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(836, 176);
             this.flowLayoutPanel2.TabIndex = 21;
@@ -689,7 +689,7 @@
             this.panel6.Controls.Add(this.newReqLabel);
             this.panel6.Controls.Add(this.newReqPan);
             this.panel6.Location = new System.Drawing.Point(4, 4);
-            this.panel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(269, 172);
             this.panel6.TabIndex = 20;
@@ -729,7 +729,7 @@
             this.newReqPan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.request_decription;
             this.newReqPan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.newReqPan.Location = new System.Drawing.Point(20, 16);
-            this.newReqPan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.newReqPan.Margin = new System.Windows.Forms.Padding(4);
             this.newReqPan.Name = "newReqPan";
             this.newReqPan.Size = new System.Drawing.Size(60, 55);
             this.newReqPan.TabIndex = 17;
@@ -742,7 +742,7 @@
             this.panel12.Controls.Add(this.viewHisLabel);
             this.panel12.Controls.Add(this.viewHisPan);
             this.panel12.Location = new System.Drawing.Point(281, 4);
-            this.panel12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(269, 172);
             this.panel12.TabIndex = 21;
@@ -782,7 +782,7 @@
             this.viewHisPan.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.icon61;
             this.viewHisPan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.viewHisPan.Location = new System.Drawing.Point(20, 16);
-            this.viewHisPan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.viewHisPan.Margin = new System.Windows.Forms.Padding(4);
             this.viewHisPan.Name = "viewHisPan";
             this.viewHisPan.Size = new System.Drawing.Size(60, 55);
             this.viewHisPan.TabIndex = 17;
@@ -795,7 +795,7 @@
             this.panel14.Controls.Add(this.conAdPan);
             this.panel14.Controls.Add(this.panel15);
             this.panel14.Location = new System.Drawing.Point(558, 4);
-            this.panel14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(269, 172);
             this.panel14.TabIndex = 22;
@@ -835,7 +835,7 @@
             this.panel15.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.question_M;
             this.panel15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel15.Location = new System.Drawing.Point(20, 16);
-            this.panel15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(60, 55);
             this.panel15.TabIndex = 17;
@@ -861,7 +861,7 @@
             this.panel8.Controls.Add(this.viewAll);
             this.panel8.Controls.Add(this.recReqLabel);
             this.panel8.Location = new System.Drawing.Point(16, 324);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(844, 320);
             this.panel8.TabIndex = 19;
@@ -921,7 +921,7 @@
             this.recentReq.EnableHeadersVisualStyles = false;
             this.recentReq.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(230)))), ((int)(((byte)(235)))));
             this.recentReq.Location = new System.Drawing.Point(4, 66);
-            this.recentReq.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.recentReq.Margin = new System.Windows.Forms.Padding(4);
             this.recentReq.MultiSelect = false;
             this.recentReq.Name = "recentReq";
             this.recentReq.ReadOnly = true;
@@ -1053,7 +1053,7 @@
             this.topbar.Controls.Add(this.panel1);
             this.topbar.Controls.Add(this.dashBLabel);
             this.topbar.Location = new System.Drawing.Point(0, 2);
-            this.topbar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.topbar.Margin = new System.Windows.Forms.Padding(5);
             this.topbar.Name = "topbar";
             this.topbar.Size = new System.Drawing.Size(1325, 110);
             this.topbar.TabIndex = 11;
@@ -1089,7 +1089,7 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(33)))), ((int)(((byte)(45)))));
             this.panel1.Controls.Add(this.avatarInitials);
             this.panel1.Location = new System.Drawing.Point(1055, 32);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(51, 47);
             this.panel1.TabIndex = 13;
@@ -1136,7 +1136,7 @@
             this.Controls.Add(this.topbar);
             this.Controls.Add(this.basePan);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DashboardTEST";
             this.Text = "DashboardTEST";
             this.basePan.ResumeLayout(false);
